@@ -1,0 +1,13 @@
+header{
+    background-color: palevioletred;
+    padding: 1rem;
+}
+
+.main_container{
+    background-color: orangered;
+    display: flex;
+}
+
+.sidebar{
+    background-color: blue;
+}
