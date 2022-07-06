@@ -4,10 +4,14 @@ header{
 }
 
 .main_container{
-    background-color: orangered;
     display: flex;
 }
 
 .sidebar{
     background-color: blue;
+}
+
+.blog-post{
+    margin-top: 1rem;
+    background-color: grey;
 }
