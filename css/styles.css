@@ -1,17 +1,40 @@
+body{
+    margin: 0;
+}
+
 header{
     background-color: palevioletred;
     padding: 1rem;
+    width: 100%;
+    text-align: center;
+    
 }
 
-.main_container{
+.main-site-container{
     display: flex;
+    background-color: aqua;
+    justify-content: center;
 }
 
 .sidebar{
-    background-color: blue;
+    border-style: ridge;
+}
+.sidebar:hover{
+    border-style: inset;
 }
 
 .blog-post{
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: grey;
+}
+.main {
+    width: 50%;
+}
+
+.blog-post{
+    padding:1rem;
+}
+.blog-post img{
+    width: 100%;
+    height: auto;
 }
