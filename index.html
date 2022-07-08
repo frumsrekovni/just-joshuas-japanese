@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just Joshua's Japanese</title>
+    <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -29,27 +30,28 @@
             </ul>
         </aside>
         <section class="main">
-            <article class="blog-post">
+            <article id="post3" class="blog-post">
                 <h1>Mnemonics</h1>
-                <time class="date" datetime="2022-07-06">2022-07-06</time>
+                <time class="date" datetime="2022-07-08">2022-07-08</time>
                 <article>
                     <p>
                         Cram mode on Anki. The only mode that let me go through all the flashcards since it had some ancient memory of how I should study based from previous 
                         ancient sessions. During this mode it was very clear that the characters that were engraved into my gray-matter were the characters that I spent a
-                        conscious effort connecting to a mnemonics, no matter how silly. I mean just look at this one for crying out loud, I remember bursting into laughter
+                        conscious effort connecting to a mnemonics,<img id="elevatormnemonic" src="images/hiragana mnemonic elevator.PNG" alt="mnemonic for e being a person using an elevator"> no matter how silly. I mean just look at this elevator one for crying out loud.
+                        I remember bursting into laughter
                         when I saw it some years ago. But, it's seared into my brain, there are plenty of clever ways of making the mnemonic look and sound like the character 
                         e.g. Fuji-san for <i>fu</i>(ふ), <i>so</i>(そ) looking like dangling soba noodles and <i>mu</i>(む) amazingly even looking like a milk jug and a cow.
                         
                     </p>
                     <p>
                         <strong>BUT WHATEVER!</strong> Who cares about how clever a mnemonic is when it can just be the hilarious elevator man for <i>e</i>(え) and <i>tsu</i>(つ) being the floppy 
-                        frog tongue of <i>Tsuyu Asui</i> it working just as well if not better. The pattern of all the characters that were instantly conjured from a cobwebbed dormant closet in my mind was the 
+                        frog tongue of <i>Tsuyu&nbspAsui</i> and it working just as well if not better. The pattern of all the characters that were instantly conjured from a cobwebbed dormant closet in my mind was the 
                         added little layer of personal connection. I'm sure this will be important for kanji. 
                     </p>
                     
                 </article>
             </article>
-            <article class="blog-post">
+            <article id="post2" class="blog-post">
                 <h1>Hiragana and Katakana</h1>
                 <time class="date" datetime="2022-07-06">2022-07-06</time>
                 <article>
@@ -63,10 +65,14 @@
                         jaded 55 year old math teacher's university page level of bare bones just yet. 
                         I am essentially living in the house that I am simultaneously building.
                     </p>
-                    <img src="images/justjoshuasjapanesesite20220706.PNG" alt="Image of how my blog looked 2022-07-06">
+                    <img id="site20220706image" src="images/justjoshuasjapanesesite20220706.PNG" alt="Image of how my blog looked 2022-07-06" onclick="showImage()">
+
+                    <div id="post2-darken-screen" class="screen-darken" style="display: none;" onclick="closeModal()">
+                        <img src="images/justjoshuasjapanesesite20220706.PNG" alt="Early snapshot of my blog">
+                    </div>
                 </article>
             </article>
-            <article class="blog-post">
+            <article id="post1" class="blog-post">
                 <h1>Hello World!</h1>
                 <time class="date" datetime="2022-07-05">2022-07-05</time>
                 <article>

@@ -34,7 +34,42 @@ header{
 .blog-post{
     padding:1rem;
 }
-.blog-post img{
+#site20220706image{
     width: 100%;
     height: auto;
+    cursor: pointer;
+}
+#post2-darken-screen img{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    height: auto;
+}
+#elevatormnemonic{
+    float: right;
+    margin: 0.8rem;
+}
+.screen-darken {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+
+
+@media (max-width: 450px){
+    .sidebar{
+        display: none;
+    }
+    .main {
+        width: 100%;
+    }
 }
