@@ -1,13 +1,17 @@
+html{
+    scroll-behavior:smooth;
+}
 body{
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 header{
     background-color: palevioletred;
     padding: 1rem;
-    width: 100%;
     text-align: center;
-    
+    position: static;
 }
 
 .main-site-container{
@@ -15,20 +19,31 @@ header{
     background-color: aqua;
     justify-content: center;
 }
-
+.main {
+    max-width: 50%;
+}
 .sidebar{
-    border-style: ridge;
+    background-color: red;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    height:max-content;
 }
 .sidebar:hover{
-    border-style: inset;
+    
+}
+
+.sidebar li a{
+    color: aquamarine;
+    text-decoration:none;
+}
+.sidebar li:hover a{
+    text-decoration:underline;
 }
 
 .blog-post{
     margin-bottom: 1rem;
     background-color: grey;
-}
-.main {
-    width: 50%;
 }
 
 .blog-post{
