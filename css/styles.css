@@ -5,6 +5,7 @@ body{
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
+    background-color: #f8fff8;
 }
 
 header{
@@ -16,39 +17,45 @@ header{
 
 .main-site-container{
     display: flex;
-    background-color: aqua;
     justify-content: center;
 }
 .main {
-    max-width: 50%;
+    width: 50%;
 }
 .sidebar{
-    background-color: red;
     position: -webkit-sticky;
     position: sticky;
+    margin-top: 2rem;
     top:0;
     height:max-content;
-}
-.sidebar:hover{
+    border-radius: 4px;
     
+
+}
+.sidebar li{
+    padding: 0.4rem;
+    color: grey;
+    opacity: 0.5;
+    list-style:square;
 }
 
+
 .sidebar li a{
-    color: aquamarine;
     text-decoration:none;
+    color: grey;
 }
 .sidebar li:hover a{
     text-decoration:underline;
 }
 
 .blog-post{
-    margin-bottom: 1rem;
-    background-color: grey;
+    background-color: #ffffff;
+    margin: 2rem 0 2rem 1rem;
+    padding:1.5rem;
+    border-radius: 4px;
+    filter: drop-shadow(0.3rem 0.3rem 0.19rem rgba(0, 0, 0, 0.5));
 }
 
-.blog-post{
-    padding:1rem;
-}
 #site20220706image{
     width: 100%;
     height: auto;
@@ -80,7 +87,7 @@ header{
 }
 
 
-@media (max-width: 450px){
+@media (max-width: 550px){
     .sidebar{
         display: none;
     }
