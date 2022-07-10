@@ -95,3 +95,10 @@ header{
         width: 100%;
     }
 }
+
+
+
+#wip-post{
+    background-image: url(../images/bannerjustjoshuasjapanese.jpg);
+    background-size: cover;
+}
