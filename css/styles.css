@@ -2,6 +2,9 @@ html{
     scroll-behavior:smooth;
 }
 body{
+    font-family: "Yantramanav", Helvetica, Arial, sans-serif; 
+    font-weight: 305;
+    font-size: large;
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
@@ -13,6 +16,15 @@ header{
     padding: 1rem;
     text-align: center;
     position: static;
+}
+
+h1{
+    z-index: 1;
+    font-size: 40px;
+    font-weight: 255;
+    color: rgb(233, 223, 223);
+    font-size: 60px;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(0, 0, 0, 0.7));
 }
 
 .main-site-container{
@@ -99,6 +111,43 @@ header{
 
 
 #wip-post{
-    background-image: url(../images/bannerjustjoshuasjapanese.jpg);
-    background-size: cover;
+
+}
+
+
+
+.scrapped-banner {
+    height: 190px;
+    width: 100%;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+#scrapped-banner-toggle{
+    display: none;
+}
+
+#scrapped-banner-toggle:checked + .scrapped-banner .scrolling-scrapped-banner-image{
+    height: 240px;
+    position:absolute;
+    top: -222px;
+    left: -560px;
+}
+.scrolling-scrapped-banner-image {
+    height: 190px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-animation: bannerscroll-alternate 160s linear infinite alternate;
+    animation: bannerscroll-alternate 160s linear infinite alternate;
+    
+}
+ 
+/* @keyframes "bannerscroll-left" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -18048px;}
+} */
+ 
+@-webkit-keyframes bannerscroll-alternate {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -4000px;}
 }
