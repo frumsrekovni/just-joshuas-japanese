@@ -64,29 +64,22 @@ h3{
 }
 
 .blog-post{
+    position: relative;
     background-color: #ffffff;
     margin: 2rem 0 2rem 1rem;
     padding:1.5rem;
     border-radius: 4px;
     filter: drop-shadow(0.3rem 0.3rem 0.19rem rgba(0, 0, 0, 0.5));
 }
-
-#site20220706image{
+.mysite20220706-image{
     width: 100%;
-    height: auto;
-    cursor: pointer;
-}
-#post2-darken-screen img{
-    margin: auto;
-    display: flex;
-    width: 90%;
     height: auto;
 }
 #elevatormnemonic{
     float: right;
     margin: 0.8rem;
 }
-.screen-darken {
+#page-darkener{
     display: none; 
     position: fixed; 
     z-index: 1; 

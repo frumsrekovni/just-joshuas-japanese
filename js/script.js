@@ -1,7 +1,7 @@
-const modal = document.getElementById("post2-darken-screen");
-function showImage() {
-    modal.style.display = "block";
+const darkeningElement = document.getElementById("page-darkener");
+function darkenPage() {
+    darkeningElement.style.display = "block";
 }
-function closeModal() {
-    modal.style.display = "none";
+function undarkenPage() {
+    darkeningElement.style.display = "none";
 }
