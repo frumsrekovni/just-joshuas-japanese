@@ -19,12 +19,17 @@ header{
 }
 
 h1{
-    z-index: 1;
     font-size: 40px;
     font-weight: 255;
     color: rgb(233, 223, 223);
     font-size: 60px;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(0, 0, 0, 0.7));
+}
+h2{
+    margin: 0;
+}
+h3{
+   text-align: center;
 }
 
 .main-site-container{
@@ -41,14 +46,12 @@ h1{
     top:0;
     height:max-content;
     border-radius: 4px;
-    
-
 }
 .sidebar li{
     padding: 0.4rem;
     color: grey;
     opacity: 0.5;
-    list-style:square;
+    list-style-type: japanese-informal;
 }
 
 
@@ -109,7 +112,6 @@ h1{
 }
 
 
-
 #wip-post{
 
 }
@@ -128,10 +130,10 @@ h1{
 }
 
 #scrapped-banner-toggle:checked + .scrapped-banner .scrolling-scrapped-banner-image{
-    height: 240px;
-    position:absolute;
-    top: -222px;
-    left: -560px;
+    transform: scale(2);
+}
+#scrapped-banner-toggle:checked + .scrapped-banner{
+    overflow: visible;
 }
 .scrolling-scrapped-banner-image {
     height: 190px;
@@ -141,12 +143,10 @@ h1{
     animation: bannerscroll-alternate 160s linear infinite alternate;
     
 }
- 
-/* @keyframes "bannerscroll-left" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -18048px;}
-} */
- 
+@keyframes bannerscroll-alternate {
+    0% {margin-left: 0px;}
+    100% {margin-left: -4000px;}
+}
 @-webkit-keyframes bannerscroll-alternate {
  0% {margin-left: 0px;}
  100% {margin-left: -4000px;}
