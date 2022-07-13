@@ -136,6 +136,7 @@ h3{
     animation: bannerscroll-alternate 160s linear infinite alternate;
     
 }
+
 @keyframes bannerscroll-alternate {
     0% {margin-left: 0px;}
     100% {margin-left: -4000px;}
@@ -143,4 +144,16 @@ h3{
 @-webkit-keyframes bannerscroll-alternate {
  0% {margin-left: 0px;}
  100% {margin-left: -4000px;}
+}
+
+#flash-square{
+    height: 250px;
+    font-size: 175px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#flash-square-answer{
+    display: none;
 }
