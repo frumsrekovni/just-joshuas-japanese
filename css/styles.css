@@ -157,3 +157,18 @@ h3{
 #flash-square-answer{
     display: none;
 }
+
+#secret-wip-page-redirect{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-decoration: none;
+    float: left;
+    font-size: xx-large;
+    opacity: 0.05;
+}
+
+#secret-wip-page-redirect:hover{
+    color: red;
+    cursor: pointer;
+    opacity: 1;
+}
