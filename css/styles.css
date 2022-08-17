@@ -16,9 +16,14 @@ header{
     padding: 1rem;
     text-align: center;
     position: static;
+    width: 100%;
 }
 
+header a{
+    text-decoration: none;
+}
 h1{
+    
     font-size: 40px;
     font-weight: 255;
     color: rgb(233, 223, 223);
