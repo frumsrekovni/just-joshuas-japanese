@@ -89,6 +89,13 @@ h3{
     width: 100%;
     height: auto;
 }
+#post12 img{
+    width: 100%;
+    height: auto;
+}
+#post12 span{
+    color: red;
+}
 #elevatormnemonic{
     float: right;
     margin: 0.8rem;
