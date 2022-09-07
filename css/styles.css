@@ -228,6 +228,16 @@ h3{
     animation: moveX 0.7s linear 0s infinite alternate, moveY 0.95s linear 0s infinite alternate;
 }
 
+.main-countdown-container{
+    display:flex;
+    background-color: palevioletred;
+    justify-content: center;
+}
+.countdown-container{
+    padding: 1rem;
+}
+
+
 @-webkit-keyframes moveX {
   from { left: 0; } to { left: calc(100% - 46px); }
 }
