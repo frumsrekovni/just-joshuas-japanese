@@ -230,13 +230,14 @@ h3{
 
 .main-countdown-container{
     display:flex;
-    background-color: palevioletred;
     justify-content: center;
 }
 .countdown-container{
     padding: 1rem;
+    text-align: center;
+    font-size: x-large;
+    margin: 1rem;
 }
-
 
 @-webkit-keyframes moveX {
   from { left: 0; } to { left: calc(100% - 46px); }

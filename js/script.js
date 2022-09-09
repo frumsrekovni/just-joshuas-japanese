@@ -1,24 +1,32 @@
 const darkeningElement = document.getElementById("page-darkener");
 const flashSquareKanaElement = document.getElementById("flash-square-kana");
 const flashSquareAnswerElement = document.getElementById("flash-square-answer");
+const years_element = document.getElementById("years-number");
 const days_element = document.getElementById("days-number");
 const hours_element = document.getElementById("hours-number");
 const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
-const cur_date = new Date(); // The date right now
-const end_date = new Date(`2022-07-05`); // 5th of July is when I published my first post
-const cur_date_value_of = cur_date.valueOf();
-const end_date_value_of = end_date.valueOf();
-const tot_diff = (end_date.valueOf() - cur_date.valueOf()); // Total time to endDate In milliseconds
-const totseconds = tot_diff / 1000; // Total time to endDate in seconds
-const seconds = String(Math.floor(totseconds % 60)); // Timer showing seconds between    0 to 59
-const minutes = String(Math.floor(totseconds / 60) % 60); // Timer showing minutes between    0 to 59
-const hours = String(Math.floor((totseconds / 60) / 60) % 24); // Timer showing hours between      0 to 23
-const days = String(Math.floor(((totseconds / 60) / 60) / 24) % 365); // Timer showing days between       0 to 364
-seconds_element.innerHTML = seconds;
-minutes_element.innerHTML = minutes;
-hours_element.innerHTML = hours;
-days_element.innerHTML = days;
+function calculate_time_since_first_post() {
+    const cur_date = new Date(); // The date right now
+    const end_date = new Date(`2022-07-04T22:37:00`); // 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog
+    const cur_date_value_of = cur_date.valueOf();
+    console.log(cur_date);
+    const end_date_value_of = end_date.valueOf();
+    const tot_diff = (cur_date.valueOf() - end_date.valueOf()); // Total time to endDate In milliseconds
+    const totseconds = tot_diff / 1000; // Total time to endDate in seconds
+    const seconds = String(Math.floor(totseconds % 60)); // Timer showing seconds between    0 to 59
+    const minutes = String(Math.floor(totseconds / 60) % 60); // Timer showing minutes between    0 to 59
+    const hours = String(Math.floor((totseconds / 60) / 60) % 24); // Timer showing hours between      0 to 23
+    const days = String(Math.floor(((totseconds / 60) / 60) / 24) % 365); // Timer showing days between       0 to 364
+    const years = String(Math.floor((((totseconds / 60) / 60) / 24) / 365) % 100);
+    seconds_element.innerHTML = seconds;
+    minutes_element.innerHTML = minutes;
+    hours_element.innerHTML = hours;
+    days_element.innerHTML = days;
+    years_element === null || years_element === void 0 ? void 0 : years_element.innerHTML = years;
+}
+calculate_time_since_first_post();
+setInterval(calculate_time_since_first_post, 1000);
 function darkenPage() {
     darkeningElement.style.display = "block";
 }
