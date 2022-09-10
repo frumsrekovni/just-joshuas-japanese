@@ -9,10 +9,13 @@ const seconds_element = document.getElementById("seconds-number");
 
 function calculate_time_since_first_post(){
     const cur_date = new Date();                                    // The date right now
-    const end_date = new Date(`2022-07-04T22:37:00`);               // 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog
+    const end_date = new Date(`2022-07-04T22:37:00`);               // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog
 
     const tot_diff = (cur_date.valueOf() - end_date.valueOf());     // Total time to endDate In milliseconds
 
+    if(cur_date.toDateString() == end_date.toDateString()){ // Doing cur_date == end_date. doesnt actually work the way youd think it does
+        console.log("お誕生日おめでとう！");
+    }
     const totseconds = tot_diff / 1000;                             // Total time to endDate in seconds
     const seconds = String(Math.floor(totseconds % 60));            // Timer showing seconds between    0 to 59
     const minutes = String(Math.floor(totseconds / 60) % 60);       // Timer showing minutes between    0 to 59
@@ -24,6 +27,7 @@ function calculate_time_since_first_post(){
     hours_element.innerHTML=hours;
     days_element.innerHTML=days;   
     years_element?.innerHTML=years;
+
 }
 calculate_time_since_first_post();
 setInterval(calculate_time_since_first_post,1000);

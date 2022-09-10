@@ -239,6 +239,10 @@ h3{
     margin: 1rem;
 }
 
+.hanabi{
+    display:none;
+}
+
 @-webkit-keyframes moveX {
   from { left: 0; } to { left: calc(100% - 46px); }
 }
@@ -251,3 +255,6 @@ h3{
 @keyframes moveY {
   from { top: 0; } to { top: calc(100% - 62px); }
 }
+
+
+  
