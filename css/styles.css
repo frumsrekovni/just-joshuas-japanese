@@ -238,9 +238,25 @@ h3{
     font-size: x-large;
     margin: 1rem;
 }
+/* the "--" indicates a variable in CSS */
+.hanabi,.hanabi::before,.hanabi::after{
+    --initialSize: 0.5vmin;
+    --finalSize: 45vmin;
+    --particleSize: 0.2vmin;
+    --color1: palevioletred;
+    --y: -30vmin;
+    --x: -50%;
+    --initialY: 60vmin;
+    animation: hanabi-explosion 2s infinite;
+    content:"TEST FIREWORK";
+}
 
-.hanabi{
-    display:none;
+
+/* var() is a way to use variables in pure CSS */
+@keyframes hanabi-explosion {
+    0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
+    50% { width: 0.5vmin; opacity: 1; }
+    100% { width: var(--finalSize); opacity: 0; }
 }
 
 @-webkit-keyframes moveX {
