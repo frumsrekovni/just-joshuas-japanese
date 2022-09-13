@@ -7,32 +7,46 @@ const hours_element = document.getElementById("hours-number");
 const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 
+function fireFirework(){
+    let firework = document.createElement('div');
+    firework.addEventListener("animationend", deleteFirework);
+    firework.style.setProperty('--finalSize', Math.floor(Math.random() * 50) + 25 + "vmin");
+    firework.style.setProperty('--initialY', Math.floor(Math.random() * 120) + 30 + "vmin");
+    firework.style.setProperty('--particleSize', (Math.random() * 2.0)+0.1 + "vmin");
+    firework.style.setProperty('--x', Math.floor(Math.random() * 110) + - 55 + "vmin");
+    firework.style.setProperty('--y', Math.floor(Math.random() * -60) - 30 + "vmin");
+    firework.style.setProperty('--rotationY', Math.floor(Math.random() * 80) - 40 + "deg");
+    firework.style.setProperty('--rotation', Math.floor(Math.random() * 240) - 120 + "deg");
+    firework.style.setProperty('--color1', '#'+Math.floor(Math.random()*16777215).toString(16));
+    firework.style.setProperty('--color2', '#'+Math.floor(Math.random()*16777215).toString(16));
+    firework.style.setProperty('--color3', '#'+Math.floor(Math.random()*16777215).toString(16));
+    firework.style.setProperty('--color4', '#'+Math.floor(Math.random()*16777215).toString(16));
+    firework.style.setProperty('--color5', '#'+Math.floor(Math.random()*16777215).toString(16));
+    firework.style.setProperty('--color6', '#'+Math.floor(Math.random()*16777215).toString(16));
+    firework.style.left = Math.floor(Math.random() * 40)+20+"%";
+    firework.style.top = Math.floor(Math.random() * 100) + 50+"%";
+    firework.style.animationDelay = (Math.random() * 2.0)+"s";
+    
+    const fireworks = document.getElementById('firework-celebration-show');
+    fireworks?.appendChild(firework);
+}
+
+
 function deleteFirework(){
     this.remove();
 }
 
 function calculate_time_since_first_post(){
     const cur_date = new Date();                                    // The date right now
-    const end_date = new Date(`2022-09-12T22:37:00`);               // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog1 
+    const end_date = new Date(`2022-09-13T22:37:00`);               // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog1 
     //const celebration_date = new Date(`${cur_date.getFullYear()}-07-04`); 
 
     const tot_diff = (cur_date.valueOf() - end_date.valueOf());     // Total time to endDate In milliseconds
     
     if(cur_date.toDateString() == end_date.toDateString()){ // Doing cur_date == end_date doesnt actually work the way youd think it does
         console.log("お誕生日おめでとう！");
-        let firework = document.createElement('div');
-        firework.classList.add('firework'+Math.floor(Math.random() * 200)) 
-        firework.addEventListener("animationend", deleteFirework);
-        firework.style.setProperty('--finalSize', Math.floor(Math.random() * 50) + 25 + "vmin");
-        firework.style.setProperty('--initialY', Math.floor(Math.random() * 120) + 30 + "vmin");
-        firework.style.setProperty('--particleSize', (Math.random() * 1.0)+0.1 + "vmin");
-        firework.style.setProperty('--x', Math.floor(Math.random() * 20) + 40 + "%");
-        firework.style.setProperty('--y', Math.floor(Math.random() * -60) - 30 + "vmin");
-        firework.style.left = Math.floor(Math.random() * 75) + 25+"%";
-        firework.style.top = Math.floor(Math.random() * 100) + 50+"%";
+        fireFirework();
         
-        const fireworks = document.getElementById('firework-celebration-show');
-        fireworks?.appendChild(firework);
     }
     const totseconds = tot_diff / 1000;                             // Total time to endDate in seconds
     const seconds = String(Math.floor(totseconds % 60));            // Timer showing seconds between    0 to 59
