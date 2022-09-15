@@ -9,6 +9,7 @@ body{
     width: 100vw;
     overflow-x: hidden;
     background-color: #f8fff8;
+    
 }
 
 header{
@@ -69,6 +70,7 @@ h3{
 }
 
 .blog-post{
+    width: 100%;
     height: auto;
     position: relative;
     background-color: #ffffff;
@@ -76,6 +78,7 @@ h3{
     padding:1.5rem;
     border-radius: 4px;
     filter: drop-shadow(0.3rem 0.3rem 0.19rem rgba(0, 0, 0, 0.5));
+    
 }
 .mysite20220706-image{
     width: 100%;
@@ -95,6 +98,59 @@ h3{
 }
 #post12 span{
     color: red;
+    background-color: rgb(255, 255, 255);
+}
+
+#post13{
+    cursor: pointer;
+    height: 177px;
+    transition: 500ms cubic-bezier(.14,.82,.7,.92);
+    animation: post13bgAnimation 0.6s ease infinite;
+    -webkit-animation: post13bgAnimation 0.6s ease infinite;
+}
+.celebration_post{
+    background: linear-gradient(227deg, rgb(255, 251, 0), gold);
+    background-size: 400% 400%;
+    filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 2));
+}
+#countdown-toggle{
+    display: none;
+}
+#countdown-toggle:checked + #post13{
+    width: 90vw;
+    height: 90vh;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#countdown-toggle:checked + #post13 .main-countdown-container{
+    display:flex;
+    justify-content: center;
+    padding: 12vw;
+}
+#countdown-toggle:checked + #post13 .countdown-container{
+    width: 14vw;
+    padding: 1.5vw;
+    text-align: center;
+    font-size: 2.5vw;
+    
+}
+#countdown-toggle:checked + #post13 .countdown-container div{
+    font-size: 10vw;
+}
+@-webkit-keyframes post13bgAnimation {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes post13bgAnimation {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
 }
 #elevatormnemonic{
     float: right;
@@ -113,15 +169,6 @@ h3{
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.9);
     cursor: pointer;
-}
-
-@media (max-width: 550px){
-    .sidebar{
-        display: none;
-    }
-    .main {
-        width: 100vw;
-    }
 }
 
 .scrapped-banner {
@@ -233,25 +280,86 @@ h3{
     justify-content: center;
 }
 .countdown-container{
-    padding: 1rem;
+    width: 5vw;
+    padding: 0.5vw;
     text-align: center;
     font-size: x-large;
-    margin: 1rem;
 }
+.countdown-container div{
+    font-size: 50px;
+}
+
 /* the "--" indicates a variable in CSS */
-.hanabi,.hanabi::before,.hanabi::after{
+#firework-celebration-show div{
     --initialSize: 0.5vmin;
     --finalSize: 45vmin;
     --particleSize: 0.2vmin;
-    --color1: palevioletred;
-    --y: -30vmin;
+    --color1: pink;
+    --color2: pink;
+    --color3: pink;
+    --color4: pink;
+    --color5: pink;
+    --color6: pink;
+    --y: -20rem;
     --x: -50%;
     --initialY: 60vmin;
-    animation: hanabi-explosion 2s infinite;
-    content:"TEST FIREWORK";
+    --rotationY: -30deg;
+    --rotation: 0deg;
+    animation: hanabi-explosion 4s;
+    animation-delay: -0.4s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
+    
+    width: var(--initialSize);
+    aspect-ratio: 1;
+
+    /* Each radial-gradient is an individual "spark" in the the firework */
+    background: 
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 48% 0%,
+      radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 98% 48%,
+      radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 48% 98%,
+      radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 2% 52%,
+
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
+      radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,
+      radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 50% 100%,
+      radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 0% 50%,
+      
+      radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
+      radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
+      radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
+      radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
+      radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
+      
+      radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
+      radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
+      radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
+      radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
+      radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
+      radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
+      
+      radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
+      radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
+      radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
+      radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
+      radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
+      radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
+      
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
+      radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%;
+    background-size: var(--initialSize) var(--initialSize);
+    background-repeat: no-repeat;
 }
-
-
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
@@ -272,5 +380,31 @@ h3{
   from { top: 0; } to { top: calc(100% - 62px); }
 }
 
-
-  
+@media (max-width: 1244px){
+    .main-countdown-container{
+        justify-content: space-evenly; 
+    }
+    .countdown-container{
+        width: 10vw;
+        font-size: x-large;
+    }
+}
+@media (max-width: 550px){
+    header{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main {
+        width: 100vw;
+    }
+    .blog-post{
+        width: 90%;
+        margin: 2rem 0 2rem 0.25rem;
+        padding:1rem;   
+    }
+    .countdown-container{
+        width: 20vw;
+    }
+}
