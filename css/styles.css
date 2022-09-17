@@ -360,6 +360,12 @@ h3{
     background-size: var(--initialSize) var(--initialSize);
     background-repeat: no-repeat;
 }
+
+
+
+path{
+    stroke-dasharray: 10;
+}
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
