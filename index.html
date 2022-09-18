@@ -25,6 +25,9 @@
         
             <ol reversed>
                 <li>
+                    <a href="#post13">First Commit Counter</a>    
+                </li>
+                <li>
                     <a href="#post12">お天気　お届けします</a>    
                 </li>
                 <li>
@@ -63,6 +66,38 @@
             </ol>
         </aside>
         <section class="main">
+            <input type="checkbox" id="countdown-toggle">  <!--Such an ugly solution since it is outside of the main article. -->
+            <article id="post13" title="My first Git commit to the Just Joshua's Japanese blog was the 4th of July 2022 at 22:37 CEST" class="blog-post" onclick="resizeCounter()">
+                <h2>First Commit Counter —  <span id="seconds-to-anniversary" ></span></h2>
+                <time class="date" datetime="2022-09-18">2022-09-18</time>
+                <article>
+                    <div class="main-countdown-container">
+                        <div id="years-countdown" class="countdown-container">
+                            <div id="years-number"></div>
+                            <span>年</span>
+                        </div>
+                        <div id="days-countdown" class="countdown-container">
+                            <div id="days-number"></div>
+                            <span>日</span>
+                        </div>
+                        <div id="hours-countdown" class="countdown-container">
+                            <div id="hours-number"></div>
+                            <span>時間</span>
+                        </div>
+                        <div id="minutes-countdown" class="countdown-container">
+                            <div id="minutes-number"></div>
+                            <span>分</span>
+                        </div>
+                        <div id="seconds-countdown" class="countdown-container">
+                            <div id="seconds-number"></div>
+                            <span>秒</span>
+                        </div>
+                    </div>
+                    <div id="firework-celebration-show">
+                        <div class="hanabi"></div>
+                    </div>
+                </article>
+            </article>
             <article id="post12" class="blog-post">
                 <h2>お天気　お届けします</h2>
                 <time class="date" datetime="2022-09-06">2022-09-06</time>
@@ -163,7 +198,7 @@
                         Meaning that with enough of these small breakthroughs it will eventually
                         result in being able to follow the entire song, just as long as these small things happen periodically enough.
                     </p>
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Yw1yTceEQ9nvvbyYruGTg?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Yw1yTceEQ9nvvbyYruGTg?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
                     <p>
                         The same way the Polynesian explorers can be confident that they can reach the speck of an 
                         island at the horizon simply because they got the island that they're standing on, 

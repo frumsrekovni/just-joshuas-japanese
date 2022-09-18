@@ -1,3 +1,4 @@
+const first_commit_date = new Date(`2022-07-04T22:37:00`); // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog 
 const darkeningElement = document.getElementById("page-darkener");
 const flashSquareKanaElement = document.getElementById("flash-square-kana");
 const flashSquareAnswerElement = document.getElementById("flash-square-answer");
@@ -7,6 +8,7 @@ const hours_element = document.getElementById("hours-number");
 const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
+const seconds_counter_element = document.getElementById("seconds-to-anniversary");
 const allHiragana = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん";
 const allKatakana = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
 const allHiraganaDiacritics = "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ";
@@ -156,36 +158,42 @@ function deleteFirework() {
 }
 function calculate_time_since_first_post() {
     const cur_date = new Date(); // The date right now
-    const end_date = new Date(`2022-07-04T22:37:00`); // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog1 
-    //const celebration_date = new Date(`${cur_date.getFullYear()}-07-04`); 
-    const tot_diff = (cur_date.valueOf() - end_date.valueOf()); // Total time to endDate In milliseconds
+    const anniversary_date = new Date(`${cur_date.getFullYear()}-07-04T22:37:00`); // 2022-07-04T22:37:00 was the initial commit time
+    // If the anniversary has passed on the current calender year, the anniversary date should be the next year's
+    if (cur_date.valueOf() > anniversary_date.valueOf()) {
+        anniversary_date.setFullYear(cur_date.getFullYear() + 1);
+    }
+    const time_to_anniversary_date_in_seconds = (anniversary_date.valueOf() - cur_date.valueOf()) / 1000; //in seconds
+    const tot_diff = (cur_date.valueOf() - first_commit_date.valueOf()); // Total time to endDate In milliseconds
     const totseconds = tot_diff / 1000; // Total time to endDate in seconds
     const seconds = String(Math.floor(totseconds % 60)); // Timer showing seconds between    0 to 59
     const minutes = String(Math.floor(totseconds / 60) % 60); // Timer showing minutes between    0 to 59
     const hours = String(Math.floor((totseconds / 60) / 60) % 24); // Timer showing hours between      0 to 23
     const days = String(Math.floor(((totseconds / 60) / 60) / 24) % 365); // Timer showing days between       0 to 364
-    const years = String(Math.floor((((totseconds / 60) / 60) / 24) / 365) % 100);
+    const years = String(Math.floor((((totseconds / 60) / 60) / 24) / 365) % 100); // Timer showing years between       0 to 99
     seconds_element === null || seconds_element === void 0 ? void 0 : seconds_element.innerHTML = seconds;
     minutes_element === null || minutes_element === void 0 ? void 0 : minutes_element.innerHTML = minutes;
     hours_element === null || hours_element === void 0 ? void 0 : hours_element.innerHTML = hours;
     days_element === null || days_element === void 0 ? void 0 : days_element.innerHTML = days;
     years_element === null || years_element === void 0 ? void 0 : years_element.innerHTML = years;
-    // seconds_element?.innerHTML= "123";
-    // minutes_element?.innerHTML="123";
-    // hours_element?.innerHTML="123";
-    // days_element?.innerHTML="123";   
-    // years_element?.innerHTML="123";
-    if (days == "0") { // Doing cur_date == end_date doesnt actually work the way youd think it does
-        // console.log("お誕生日おめでとう！");
-        console.log(cur_date.toDateString());
+    // Doing cur_date == end_date doesnt actually work the way youd think it does
+    // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :)
+    if (time_to_anniversary_date_in_seconds > 31449600) {
         countdown_post === null || countdown_post === void 0 ? void 0 : countdown_post.classList.add("celebration_post");
         for (let index = 0; index < 4; index++) {
             fireFirework();
         }
+        if (Math.floor(time_to_anniversary_date_in_seconds % 2) == 0) {
+            seconds_counter_element === null || seconds_counter_element === void 0 ? void 0 : seconds_counter_element.innerHTML = "HAPPY COMMIT ANNIVERSARY!";
+        }
+        else {
+            seconds_counter_element === null || seconds_counter_element === void 0 ? void 0 : seconds_counter_element.innerHTML = "コミット記念日おめでとう！";
+        }
+    }
+    else {
+        seconds_counter_element === null || seconds_counter_element === void 0 ? void 0 : seconds_counter_element.innerHTML = String(Math.floor((time_to_anniversary_date_in_seconds)));
     }
 }
-calculate_time_since_first_post();
-setInterval(calculate_time_since_first_post, 1000);
 function darkenPage() {
     darkeningElement.style.display = "block";
 }
@@ -203,3 +211,5 @@ function flashSquareAnswerClick() {
     flashSquareAnswerElement.style.display = "none";
     flashSquareKanaElement.style.display = "block";
 }
+calculate_time_since_first_post();
+setInterval(calculate_time_since_first_post, 1000);

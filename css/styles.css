@@ -108,6 +108,9 @@ h3{
     animation: post13bgAnimation 0.6s ease infinite;
     -webkit-animation: post13bgAnimation 0.6s ease infinite;
 }
+#post13 span{
+    line-height: 0.1rem; 
+}
 .celebration_post{
     background: linear-gradient(227deg, rgb(255, 251, 0), gold);
     background-size: 400% 400%;
@@ -412,5 +415,26 @@ path{
     }
     .countdown-container{
         width: 20vw;
+    }
+    #countdown-toggle:checked + #post13 .main-countdown-container{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        display: block;
+    }
+    #countdown-toggle:checked + #post13 .countdown-container{
+        width: 100%;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        font-size: 4vw;
+    }
+    #countdown-toggle:checked + #post13 .countdown-container div{
+        font-size: 12.5vw;
+    }
+}
+@media (max-width: 390px){
+    #countdown-toggle:checked + #post13 .countdown-container{
+        padding-top: 1vh;
+        padding-bottom: 1vh;
     }
 }
