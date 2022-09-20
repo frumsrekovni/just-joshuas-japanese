@@ -100,6 +100,11 @@ h3{
     color: red;
     background-color: rgb(255, 255, 255);
 }
+#post14 img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
 
 #post13{
     cursor: pointer;
