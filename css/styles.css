@@ -442,4 +442,7 @@ path{
         padding-top: 1vh;
         padding-bottom: 1vh;
     }
+    #flash-square div{
+        font-size: 10rem;
+    }
 }
