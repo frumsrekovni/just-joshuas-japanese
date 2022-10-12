@@ -369,10 +369,15 @@ h3{
     background-repeat: no-repeat;
 }
 
-
-
 path{
     stroke-dasharray: 10;
+}
+
+ruby{
+    margin: 0;
+    padding: 0;
+    ruby-merge:collapse;
+    word-spacing: 0;
 }
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
