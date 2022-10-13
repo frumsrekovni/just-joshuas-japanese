@@ -376,8 +376,7 @@ path{
 ruby{
     margin: 0;
     padding: 0;
-    ruby-merge:collapse;
-    word-spacing: 0;
+    white-space: pre-line;
 }
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
