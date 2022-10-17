@@ -372,6 +372,29 @@ h3{
 path{
     stroke-dasharray: 10;
 }
+.news-article-translation-title:hover{
+    cursor: pointer;
+    background-color: grey;
+    transition-timing-function: cubic-bezier(0.2, 1, 0.32, 1);
+    transition-duration: 500ms;
+}
+#news-article-translation-1{
+    transition-timing-function: cubic-bezier(0.2, 1, 0.32, 1);
+    transition-duration: 500ms;
+    display:none;
+}
+#news-article-translation-1 p{
+    display:none;
+}
+#tempsss input{
+    display:none;
+}
+#news-article-translation-1-toggle:checked + #news-article-translation-1{
+    display:block;
+}
+#news-article-translation-1-toggle:checked + #news-article-translation-1 p{
+    display:block;
+}
 
 ruby{
     margin: 0;
