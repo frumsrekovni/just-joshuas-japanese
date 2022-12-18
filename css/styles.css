@@ -100,7 +100,7 @@ h3{
     color: red;
     background-color: rgb(255, 255, 255);
 }
-#post14 img{
+#my-copy-of-game{
     width: 100%;
     height: auto;
     border-radius: 5px;
@@ -400,6 +400,12 @@ ruby{
     margin: 0;
     padding: 0;
     white-space: pre-line;
+}
+.joke-comparison-in-dragonball{
+    display: flex;
+}
+.joke-comparison-in-dragonball img{
+    width: 50%;
 }
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
