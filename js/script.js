@@ -127,11 +127,15 @@ const allKanaTriples = [
     ["しぇ", "シェ", "she"],
     ["しょ", "ショ", "sho"]
 ];
+const allN5Kanji = [
+    ["国", "Onyomi: koku\nKunyomi: kuni"],
+    ["人", "Onyomi: jin,nin\nKunyomi: hito\n"],
+];
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");
     countdown_toggle.checked = !countdown_toggle.checked;
 }
-function fireFirework() {
+function fireFirework(elementId) {
     let firework = document.createElement('div');
     firework.addEventListener("animationend", deleteFirework);
     firework.style.setProperty('--finalSize', Math.floor(Math.random() * 50) + 25 + "vmin");
@@ -150,11 +154,24 @@ function fireFirework() {
     firework.style.left = Math.floor(Math.random() * 50) + 25 + "%";
     firework.style.top = Math.floor(Math.random() * 50) + 50 + "%";
     firework.style.animationDelay = (Math.random() * 2.0) + "s";
-    const fireworks = document.getElementById('firework-celebration-show');
+    const fireworks = document.getElementById(elementId);
     fireworks === null || fireworks === void 0 ? void 0 : fireworks.appendChild(firework);
 }
 function deleteFirework() {
     this.remove();
+}
+function isItTimeToCelebrateNewYears() {
+    const cur_date = new Date();
+    console.log(cur_date);
+    // if((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`)) ) && 
+    // (cur_date > (new Date(`${cur_date.getFullYear()}-01-01T00:00:00`))))
+    // {
+    //     console.log("GOTT NYTT ÅR! HAPPY NEW YEAR!");
+    //     fireFirework('blog-header-title');
+    // }
+    for (let index = 0; index < 4; index++) {
+        fireFirework('header-celebration-new-years');
+    }
 }
 function calculate_time_since_first_post() {
     const cur_date = new Date(); // The date right now
@@ -181,7 +198,7 @@ function calculate_time_since_first_post() {
     if (time_to_anniversary_date_in_seconds > 31449600) {
         countdown_post === null || countdown_post === void 0 ? void 0 : countdown_post.classList.add("celebration_post");
         for (let index = 0; index < 4; index++) {
-            fireFirework();
+            fireFirework('firework-celebration-show');
         }
         if (Math.floor(time_to_anniversary_date_in_seconds % 2) == 0) {
             seconds_counter_element === null || seconds_counter_element === void 0 ? void 0 : seconds_counter_element.innerHTML = "HAPPY COMMIT ANNIVERSARY!";
@@ -213,3 +230,5 @@ function flashSquareAnswerClick() {
 }
 calculate_time_since_first_post();
 setInterval(calculate_time_since_first_post, 1000);
+setInterval(isItTimeToCelebrateNewYears, 1100);
+//tsc --target es2015 .\js\script.ts
