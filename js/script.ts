@@ -9,6 +9,8 @@ const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const seconds_counter_element = document.getElementById("seconds-to-anniversary");
+const blog_title_element = document.getElementsByTagName("title");
+var alternatingValue = 0;
 
 const allHiragana:string = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
 const allKatakana:string = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
@@ -175,16 +177,23 @@ function deleteFirework(){
 
 function isItTimeToCelebrateNewYears(){
     const cur_date = new Date();   
-    console.log(cur_date);
     // if((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`)) ) && 
     // (cur_date > (new Date(`${cur_date.getFullYear()}-01-01T00:00:00`))))
     // {
     //     console.log("GOTT NYTT ÅR! HAPPY NEW YEAR!");
     //     fireFirework('blog-header-title');
     // }
-    for (let index = 0; index < 4; index++) {
+    console.log("GOTT NYTT ÅR! HAPPY NEW YEAR! あけましておめでとう！");
+    for (let index = 0; index < 10; index++) {
         fireFirework('header-celebration-new-years');
     }
+    if(Math.floor(alternatingValue % 2) == 0){
+        blog_title_element?.innerHTML = "HAPPY NEW YEAR!";
+    }
+    else{
+        blog_title_element?.innerHTML = "あけましておめでとう！";
+    }
+    alternatingValue += 1;
 }
 
 function calculate_time_since_first_post(){
@@ -209,7 +218,7 @@ function calculate_time_since_first_post(){
     seconds_element?.innerHTML= seconds;
     minutes_element?.innerHTML= minutes;
     hours_element?.innerHTML=   hours;
-    days_element?.innerHTML=    days;   
+    days_element?.innerHTML=    days;
     years_element?.innerHTML=   years;
 
     // Doing cur_date == end_date doesnt actually work the way youd think it does
