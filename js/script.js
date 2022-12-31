@@ -8,6 +8,7 @@ const hours_element = document.getElementById("hours-number");
 const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
+const all_blogposts = document.getElementsByClassName("blog-post");
 const seconds_counter_element = document.getElementById("seconds-to-anniversary");
 const blog_title_element = document.getElementsByTagName("title")[0];
 const main_container = document.getElementsByClassName("main-site-container")[0];
@@ -164,28 +165,35 @@ function fireFirework(elementId) {
 function deleteFirework() {
     this.remove();
 }
+const blog_title = document.querySelector("body > header > h1");
+let addedClassToCelebrate = false;
 function isItTimeToCelebrateNewYears() {
     const cur_date = new Date();
-    // if((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`)) ) && 
-    // (cur_date > (new Date(`${cur_date.getFullYear()}-01-01T00:00:00`))))
-    // {
-    //     console.log("GOTT NYTT ÅR! HAPPY NEW YEAR!");
-    //     fireFirework('blog-header-title');
-    // }
-    console.log("GOTT NYTT ÅR! HAPPY NEW YEAR! あけましておめでとう！");
-    console.log(blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML);
-    for (let index = 0; index < 10; index++) {
-        fireFirework('header-celebration-new-years');
+    if ((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`))) &&
+        (cur_date > (new Date(`${cur_date.getFullYear()}-01-01T00:00:00`)))) {
+        console.log("GOTT NYTT ÅR! HAPPY NEW YEAR! あけましておめでとう！");
+        for (let index = 0; index < 10; index++) {
+            fireFirework('header-celebration-new-years');
+        }
+        if (Math.floor(alternatingValue % 2) == 0) {
+            blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML = "HAPPY NEW YEAR!";
+            blog_title.innerHTML = "HAPPY NEW YEAR!";
+        }
+        else {
+            blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML = "あけましておめでとう！";
+            blog_title.innerHTML = "あけましておめでとう！";
+        }
+        alternatingValue += 1;
+        if (!addedClassToCelebrate) {
+            the_body.style.background = "#003366";
+            blog_title.style.color = "gold";
+            document.querySelector("body > header").style.background = "#003366";
+            for (let i = 0; i < all_blogposts.length; i++) {
+                all_blogposts[i].classList.add("celebration_post");
+            }
+            addedClassToCelebrate = true;
+        }
     }
-    if (Math.floor(alternatingValue % 2) == 0) {
-        blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML = "HAPPY NEW YEAR!";
-    }
-    else {
-        blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML = "あけましておめでとう！";
-    }
-    alternatingValue += 1;
-    the_body.style.background = "#320549";
-    document.querySelector("body > header > h1").style.color = "gold";
 }
 function calculate_time_since_first_post() {
     const cur_date = new Date(); // The date right now

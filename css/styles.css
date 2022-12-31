@@ -18,6 +18,7 @@ header{
     text-align: center;
     position: static;
     width: 100%;
+    line-height: 7rem; 
 }
 
 header a{
@@ -109,6 +110,12 @@ h3{
 #post13{
     cursor: pointer;
     height: 177px;
+    transition: 500ms cubic-bezier(.14,.82,.7,.92);
+    animation: post13bgAnimation 0.6s ease infinite;
+    -webkit-animation: post13bgAnimation 0.6s ease infinite;
+}
+
+.blog-post{
     transition: 500ms cubic-bezier(.14,.82,.7,.92);
     animation: post13bgAnimation 0.6s ease infinite;
     -webkit-animation: post13bgAnimation 0.6s ease infinite;
