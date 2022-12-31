@@ -9,7 +9,9 @@ const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const seconds_counter_element = document.getElementById("seconds-to-anniversary");
-const blog_title_element = document.getElementsByTagName("title");
+const blog_title_element = document.getElementsByTagName("title")[0];
+const main_container = document.getElementsByClassName("main-site-container")[0];
+const the_body = document.querySelector("body")
 var alternatingValue = 0;
 
 const allHiragana:string = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
@@ -184,6 +186,7 @@ function isItTimeToCelebrateNewYears(){
     //     fireFirework('blog-header-title');
     // }
     console.log("GOTT NYTT ÅR! HAPPY NEW YEAR! あけましておめでとう！");
+    console.log(blog_title_element?.innerHTML);
     for (let index = 0; index < 10; index++) {
         fireFirework('header-celebration-new-years');
     }
@@ -194,6 +197,9 @@ function isItTimeToCelebrateNewYears(){
         blog_title_element?.innerHTML = "あけましておめでとう！";
     }
     alternatingValue += 1;
+    the_body.style.background = "#320549"
+    document.querySelector("body > header > h1").style.color = "gold";
+    
 }
 
 function calculate_time_since_first_post(){

@@ -9,6 +9,10 @@ const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const seconds_counter_element = document.getElementById("seconds-to-anniversary");
+const blog_title_element = document.getElementsByTagName("title")[0];
+const main_container = document.getElementsByClassName("main-site-container")[0];
+const the_body = document.querySelector("body");
+var alternatingValue = 0;
 const allHiragana = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん";
 const allKatakana = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
 const allHiraganaDiacritics = "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ";
@@ -162,16 +166,26 @@ function deleteFirework() {
 }
 function isItTimeToCelebrateNewYears() {
     const cur_date = new Date();
-    console.log(cur_date);
     // if((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`)) ) && 
     // (cur_date > (new Date(`${cur_date.getFullYear()}-01-01T00:00:00`))))
     // {
     //     console.log("GOTT NYTT ÅR! HAPPY NEW YEAR!");
     //     fireFirework('blog-header-title');
     // }
-    for (let index = 0; index < 4; index++) {
+    console.log("GOTT NYTT ÅR! HAPPY NEW YEAR! あけましておめでとう！");
+    console.log(blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML);
+    for (let index = 0; index < 10; index++) {
         fireFirework('header-celebration-new-years');
     }
+    if (Math.floor(alternatingValue % 2) == 0) {
+        blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML = "HAPPY NEW YEAR!";
+    }
+    else {
+        blog_title_element === null || blog_title_element === void 0 ? void 0 : blog_title_element.innerHTML = "あけましておめでとう！";
+    }
+    alternatingValue += 1;
+    the_body.style.background = "#320549";
+    document.querySelector("body > header > h1").style.color = "gold";
 }
 function calculate_time_since_first_post() {
     const cur_date = new Date(); // The date right now
