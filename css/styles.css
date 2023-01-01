@@ -18,7 +18,9 @@ header{
     text-align: center;
     position: static;
     width: 100%;
-    line-height: 7rem; 
+    line-height: 5rem;
+    padding: 1rem;
+    cursor:default;
 }
 
 header a{

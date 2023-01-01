@@ -14,6 +14,9 @@ const blog_title_element = document.getElementsByTagName("title")[0];
 const main_container = document.getElementsByClassName("main-site-container")[0];
 const the_body = document.querySelector("body")
 var alternatingValue = 0;
+const blog_title = document.querySelector("body > header > h1");
+let addedClassToCelebrate = false;
+let addedTheFirework = false;
 
 const allHiragana:string = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
 const allKatakana:string = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
@@ -24,6 +27,8 @@ const allKatakanaDigraphs:string ="";
 
 type kanaTriple = [string,string,string];
 type kanjiCard = [string,string];
+
+const date_today = new Date();
 
 const allKanaTriples:kanaTriple[] = [
     ["あ","ア","a"],
@@ -178,8 +183,6 @@ function deleteFirework(){
     this.remove();
 }
 
-const blog_title = document.querySelector("body > header > h1");
-let addedClassToCelebrate = false;
 function isItTimeToCelebrateNewYears(){
     const cur_date = new Date();   
     if((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`)) ) && 
@@ -200,7 +203,9 @@ function isItTimeToCelebrateNewYears(){
         }
         alternatingValue += 1;
 
+        //Stuff I only want to run once during the celebrations
         if(!addedClassToCelebrate){
+            document.getElementById("header-celebration-new-years")?.innerHTML += `<div id="hanabi"></div>`;
             the_body.style.background = "#003366"
             blog_title.style.color = "gold";
             document.querySelector("body > header").style.background ="#003366";
@@ -241,7 +246,13 @@ function calculate_time_since_first_post(){
 
     // Doing cur_date == end_date doesnt actually work the way youd think it does
     // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :)
+
     if(time_to_anniversary_date_in_seconds > 31449600){
+
+        if(!addedTheFirework){
+            addedTheFirework = true;
+            document.getElementById("firework-celebration-show")?.innerHTML += `<div id="hanabi"></div>`;
+        }
         countdown_post?.classList.add("celebration_post");
         for (let index = 0; index < 4; index++) {
             fireFirework('firework-celebration-show');
@@ -281,9 +292,8 @@ function flashSquareAnswerClick(){
     flashSquareKanaElement.style.display = "block";
 }
 
-calculate_time_since_first_post();
+if(date_today == new Date(`${date_today.getFullYear()}-12-31`)){
+    setInterval(isItTimeToCelebrateNewYears,1100);
+}
 setInterval(calculate_time_since_first_post,1000);
-setInterval(isItTimeToCelebrateNewYears,1100);
-
-
 //tsc --target es2015 .\js\script.ts

@@ -14,12 +14,16 @@ const blog_title_element = document.getElementsByTagName("title")[0];
 const main_container = document.getElementsByClassName("main-site-container")[0];
 const the_body = document.querySelector("body");
 var alternatingValue = 0;
+const blog_title = document.querySelector("body > header > h1");
+let addedClassToCelebrate = false;
+let addedTheFirework = false;
 const allHiragana = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん";
 const allKatakana = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
 const allHiraganaDiacritics = "がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ";
 const allKatakanaDiacritics = "ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポ";
 const allHiraganaDigraphs = "";
 const allKatakanaDigraphs = "";
+const date_today = new Date();
 const allKanaTriples = [
     ["あ", "ア", "a"],
     ["い", "イ", "i"],
@@ -165,9 +169,8 @@ function fireFirework(elementId) {
 function deleteFirework() {
     this.remove();
 }
-const blog_title = document.querySelector("body > header > h1");
-let addedClassToCelebrate = false;
 function isItTimeToCelebrateNewYears() {
+    var _a;
     const cur_date = new Date();
     if ((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`))) &&
         (cur_date > (new Date(`${cur_date.getFullYear()}-01-01T00:00:00`)))) {
@@ -184,7 +187,9 @@ function isItTimeToCelebrateNewYears() {
             blog_title.innerHTML = "あけましておめでとう！";
         }
         alternatingValue += 1;
+        //Stuff I only want to run once during the celebrations
         if (!addedClassToCelebrate) {
+            (_a = document.getElementById("header-celebration-new-years")) === null || _a === void 0 ? void 0 : _a.innerHTML += `<div id="hanabi"></div>`;
             the_body.style.background = "#003366";
             blog_title.style.color = "gold";
             document.querySelector("body > header").style.background = "#003366";
@@ -196,6 +201,7 @@ function isItTimeToCelebrateNewYears() {
     }
 }
 function calculate_time_since_first_post() {
+    var _a;
     const cur_date = new Date(); // The date right now
     const anniversary_date = new Date(`${cur_date.getFullYear()}-07-04T22:37:00`); // 2022-07-04T22:37:00 was the initial commit time
     // If the anniversary has passed on the current calender year, the anniversary date should be the next year's
@@ -218,6 +224,10 @@ function calculate_time_since_first_post() {
     // Doing cur_date == end_date doesnt actually work the way youd think it does
     // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :)
     if (time_to_anniversary_date_in_seconds > 31449600) {
+        if (!addedTheFirework) {
+            addedTheFirework = true;
+            (_a = document.getElementById("firework-celebration-show")) === null || _a === void 0 ? void 0 : _a.innerHTML += `<div id="hanabi"></div>`;
+        }
         countdown_post === null || countdown_post === void 0 ? void 0 : countdown_post.classList.add("celebration_post");
         for (let index = 0; index < 4; index++) {
             fireFirework('firework-celebration-show');
@@ -250,7 +260,8 @@ function flashSquareAnswerClick() {
     flashSquareAnswerElement.style.display = "none";
     flashSquareKanaElement.style.display = "block";
 }
-calculate_time_since_first_post();
+if (date_today == new Date(`${date_today.getFullYear()}-12-31`)) {
+    setInterval(isItTimeToCelebrateNewYears, 1100);
+}
 setInterval(calculate_time_since_first_post, 1000);
-setInterval(isItTimeToCelebrateNewYears, 1100);
 //tsc --target es2015 .\js\script.ts
