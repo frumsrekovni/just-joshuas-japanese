@@ -292,6 +292,15 @@ function flashSquareAnswerClick(){
     flashSquareKanaElement.style.display = "block";
 }
 
+function flashSquareN5Click(){
+    document.getElementById("flash-square-N5")?.style.display = "none";
+    document.getElementById("flash-square-N5-answer")?.style.display = "block";
+}
+
+function flashSquareN5AnswerClick(){
+
+}
+
 if(date_today == new Date(`${date_today.getFullYear()}-12-31`)){
     setInterval(isItTimeToCelebrateNewYears,1100);
 }
