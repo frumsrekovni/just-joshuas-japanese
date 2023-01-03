@@ -30,6 +30,8 @@ type kanjiCard = [string,string];
 
 const date_today = new Date();
 
+
+
 const allKanaTriples:kanaTriple[] = [
     ["あ","ア","a"],
     ["い","イ","i"],
@@ -143,6 +145,7 @@ const allKanaTriples:kanaTriple[] = [
     ["しょ","ショ", "sho"]
     
 ];
+
 
 const allN5Kanji:kanjiCard[] = [
     ["国","Onyomi: koku\nKunyomi: kuni"],
@@ -298,7 +301,7 @@ function flashSquareN5Click(){
 }
 
 function flashSquareN5AnswerClick(){
-
+    const rndAllN5KanjiPosition = Math.floor(Math.random() * (allN5Kanji.length));                       // Any random element from allN5kanji array
 }
 
 if(date_today == new Date(`${date_today.getFullYear()}-12-31`)){
