@@ -302,6 +302,8 @@ function flashSquareN5Click(){
 
 function flashSquareN5AnswerClick(){
     const rndAllN5KanjiPosition = Math.floor(Math.random() * (allN5Kanji.length));                       // Any random element from allN5kanji array
+    document.getElementById("flash-square-N5").innerText = allN5Kanji[rndAllN5KanjiPosition][Math.floor(Math.random() * 2)];
+    document.getElementById("flash-square-N5-answer").innerText = allN5Kanji[rndAllN5KanjiPosition][2];                         
 }
 
 if(date_today == new Date(`${date_today.getFullYear()}-12-31`)){
