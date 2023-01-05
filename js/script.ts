@@ -146,10 +146,30 @@ const allKanaTriples:kanaTriple[] = [
     
 ];
 
-
+// based on this http://jlptstudy.net/N5/?kanji-list
 const allN5Kanji:kanjiCard[] = [
     ["国","Onyomi: koku\nKunyomi: kuni"],
-    ["人","Onyomi: jin,nin\nKunyomi: hito\n"],
+    ["一",""],
+    ["七",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["人","Onyomi: jin,nin\nKunyomi: hito\n"]
 ];
 
 function resizeCounter(){
