@@ -451,6 +451,12 @@ h3{
 path{
     stroke-dasharray: 10;
 }
+.news-article-translation p{
+   display: none;
+}
+.news-article-translation:hover .first-paragraph-in-translation{
+    display: block;
+}
 .news-article-translation-title:hover{
     cursor: pointer;
     background-color: grey;
