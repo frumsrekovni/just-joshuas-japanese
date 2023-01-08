@@ -447,7 +447,9 @@ h3{
     background-size: var(--initialSize) var(--initialSize);
     background-repeat: no-repeat;
 }
+/* 
 
+*/
 path{
     stroke-dasharray: 10;
 }
@@ -479,6 +481,13 @@ path{
 }
 #news-article-translation-1-toggle:checked + #news-article-translation-1 p{
     display:block;
+}
+.article-title-header{
+    border-radius: 4px;
+}
+#news-article-translation-2 .article-title-header{
+    background-color: green;
+    
 }
 
 ruby{
