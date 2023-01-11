@@ -489,6 +489,14 @@ path{
     background-color: green;
     
 }
+#news-article-translation-3 .article-title-header{
+    background-color: burlywood;
+    
+}
+.article-title-header img{
+    float: right;
+    padding: 3px;
+}
 
 ruby{
     margin: 0;
