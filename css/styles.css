@@ -497,7 +497,9 @@ path{
     float: right;
     padding: 3px;
 }
-
+.article-title-header img:hover{
+    opacity: 60%;
+}
 ruby{
     margin: 0;
     padding: 0;
