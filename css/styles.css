@@ -485,12 +485,16 @@ path{
 .article-title-header{
     border-radius: 4px;
 }
+#news-article-translation-1 .article-title-header{
+    background-color: rgb(65, 0, 65);
+    
+}
 #news-article-translation-2 .article-title-header{
-    background-color: green;
+    background-color: rgb(143, 0, 143);
     
 }
 #news-article-translation-3 .article-title-header{
-    background-color: burlywood;
+    background-color: rgb(218, 0, 218);
     
 }
 .article-title-header img{
