@@ -447,41 +447,21 @@ h3{
     background-size: var(--initialSize) var(--initialSize);
     background-repeat: no-repeat;
 }
-/* 
 
-*/
 path{
     stroke-dasharray: 10;
 }
+
+#news-article-translation-test{
+    background-color: violet;
+    cursor: pointer;
+}
+
 .news-article-translation p{
    display: none;
 }
-.news-article-translation:hover .first-paragraph-in-translation{
-    display: block;
-}
-.news-article-translation-title:hover{
-    cursor: pointer;
-    background-color: grey;
-    transition-timing-function: cubic-bezier(0.2, 1, 0.32, 1);
-    transition-duration: 500ms;
-}
-#news-article-translation-1{
-    transition-timing-function: cubic-bezier(0.2, 1, 0.32, 1);
-    transition-duration: 500ms;
-    display:none;
-}
-#news-article-translation-1 p{
-    display:none;
-}
-#tempsss input{
-    display:none;
-}
-#news-article-translation-1-toggle:checked + #news-article-translation-1{
-    display:block;
-}
-#news-article-translation-1-toggle:checked + #news-article-translation-1 p{
-    display:block;
-}
+
+
 .article-title-header{
     border-radius: 4px;
 }
