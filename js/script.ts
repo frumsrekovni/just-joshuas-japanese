@@ -331,3 +331,9 @@ if(date_today == new Date(`${date_today.getFullYear()}-12-31`)){
 }
 setInterval(calculate_time_since_first_post,1000);
 //tsc --target es2015 .\js\script.ts
+
+
+function toggleArticlePost(activeExpandArticle){
+
+    activeExpandArticle.style.color = "yellow";
+}
