@@ -136,9 +136,30 @@ const allKanaTriples = [
     ["しぇ", "シェ", "she"],
     ["しょ", "ショ", "sho"]
 ];
+// based on this http://jlptstudy.net/N5/?kanji-list
 const allN5Kanji = [
     ["国", "Onyomi: koku\nKunyomi: kuni"],
-    ["人", "Onyomi: jin,nin\nKunyomi: hito\n"],
+    ["一", ""],
+    ["七", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["", ""],
+    ["人", "Onyomi: jin,nin\nKunyomi: hito\n"]
 ];
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");
@@ -260,8 +281,26 @@ function flashSquareAnswerClick() {
     flashSquareAnswerElement.style.display = "none";
     flashSquareKanaElement.style.display = "block";
 }
+function flashSquareN5Click() {
+    var _a, _b;
+    (_a = document.getElementById("flash-square-N5")) === null || _a === void 0 ? void 0 : _a.style.display = "none";
+    (_b = document.getElementById("flash-square-N5-answer")) === null || _b === void 0 ? void 0 : _b.style.display = "block";
+}
+function flashSquareN5AnswerClick() {
+    const rndAllN5KanjiPosition = Math.floor(Math.random() * (allN5Kanji.length)); // Any random element from allN5kanji array
+    document.getElementById("flash-square-N5").innerText = allN5Kanji[rndAllN5KanjiPosition][Math.floor(Math.random() * 2)];
+    document.getElementById("flash-square-N5-answer").innerText = allN5Kanji[rndAllN5KanjiPosition][2];
+}
 if (date_today == new Date(`${date_today.getFullYear()}-12-31`)) {
     setInterval(isItTimeToCelebrateNewYears, 1100);
 }
 setInterval(calculate_time_since_first_post, 1000);
 //tsc --target es2015 .\js\script.ts
+function toggleArticlePost(activeExpandArticle) {
+    let all_paragraphs = activeExpandArticle.getElementsByTagName("p");
+    console.log(all_paragraphs);
+    // all_paragraphs.forEach(element => {
+    //     element.style.display = "block";
+    // });
+    activeExpandArticle.style.color = "yellow";
+}

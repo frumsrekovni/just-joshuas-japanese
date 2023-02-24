@@ -334,6 +334,10 @@ setInterval(calculate_time_since_first_post,1000);
 
 
 function toggleArticlePost(activeExpandArticle){
-
+    let all_paragraphs = activeExpandArticle.getElementsByTagName("p");
+    console.log(all_paragraphs);
+    // all_paragraphs.forEach(element => {
+    //     element.style.display = "block";
+    // });
     activeExpandArticle.style.color = "yellow";
 }
