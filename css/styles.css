@@ -491,6 +491,15 @@ ruby{
     padding: 0;
     white-space: pre-line;
 }
+#obvious-answer-censored{
+    background-color: black;
+    border-radius: 3px;
+    transition: 400ms cubic-bezier(.14,.82,.7,.92);
+}
+#obvious-answer-censored:hover{
+    background-color: rgba(0, 0, 0, 0);
+    transition: 3000ms cubic-bezier(0.99, 0, 0.1, 1);
+}
 .joke-comparison-in-dragonball{
     display: flex;
 }
