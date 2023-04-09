@@ -506,6 +506,12 @@ ruby{
 .joke-comparison-in-dragonball img{
     width: 50%;
 }
+
+
+.gothic-div{
+    font-family: "MS PGothic", sans-serif;
+}
+
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
