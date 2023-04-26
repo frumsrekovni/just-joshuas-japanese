@@ -341,3 +341,8 @@ function toggleArticlePost(activeExpandArticle){
     // });
     activeExpandArticle.style.color = "yellow";
 }
+
+function updateSliderPoliteness(x){
+    // const sliderPoliteness = document.getElementById("politeness-input-slider") as HTMLInputElement;
+    x.innerText = x.value;
+}
