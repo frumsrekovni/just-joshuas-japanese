@@ -342,7 +342,22 @@ function toggleArticlePost(activeExpandArticle){
     activeExpandArticle.style.color = "yellow";
 }
 
-function updateSliderPoliteness(x){
-    // const sliderPoliteness = document.getElementById("politeness-input-slider") as HTMLInputElement;
-    x.innerText = x.value;
-}
+const sliderPoliteness = document.getElementById("politeness-input-slider") as HTMLInputElement;
+const dynamicText = document.getElementById("dynamic-politeness-div") as HTMLDivElement;
+sliderPoliteness.addEventListener("input", function(){
+    if (sliderPoliteness.value == "0") {
+        dynamicText.innerText = "ます";
+    }
+    else if (sliderPoliteness.value == "1") {
+        dynamicText.innerText = "します";
+    } 
+    else if (sliderPoliteness.value == "2") {
+        dynamicText.innerText = "せします";
+    }
+    else if (sliderPoliteness.value == "3") {
+        dynamicText.innerText = "まえせえします";
+    }
+    else if (sliderPoliteness.value == "4") {
+        dynamicText.innerText = "まえしつれいします";
+    }
+});
