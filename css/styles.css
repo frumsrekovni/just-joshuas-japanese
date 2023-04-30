@@ -506,7 +506,10 @@ ruby{
 .joke-comparison-in-dragonball img{
     width: 50%;
 }
-
+#all-jp-dajare-manzai{
+    color: rgb(54, 46, 8);
+    cursor: default;
+}
 
 .gothic-div{
     font-family: "MS PGothic", sans-serif;
