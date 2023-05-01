@@ -26,12 +26,46 @@ header{
 header a{
     text-decoration: none;
 }
+header .redirects{
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+}
+.redirect{
+    width: 20px;
+}
+header .redirect img{
+    width: 100%;
+}
+
+header .github-redirect a img:last-child {
+    display:none;  
+}
+header .github-redirect a:hover img:first-child {
+    display:none;
+}
+header .github-redirect a:hover img:last-child {
+    display:inherit;  
+}
+header .portfolio-redirect a img:last-child {
+    display:none;  
+}
+header .portfolio-redirect a:hover img:first-child {
+    display:none;
+}
+header .portfolio-redirect a:hover img:last-child {
+    display:inherit;  
+}
+.redirect{
+    padding: 6px;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.5));
+}
 h1{
-    
     font-size: 40px;
     font-weight: 255;
     color: rgb(233, 223, 223);
     font-size: 60px;
+    margin-bottom: 0;
     filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(0, 0, 0, 0.7));
 }
 h2{
@@ -581,6 +615,10 @@ ruby{
         width: 100%;
         float: none;
         margin: 0;
+    }
+    .redirect{
+        width: 32px;
+        padding: 10px;
     }
 }
 @media (max-width: 390px){
