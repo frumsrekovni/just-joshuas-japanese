@@ -549,6 +549,21 @@ ruby{
     font-family: "MS PGothic", sans-serif;
 }
 
+#politeness-input-slider{
+    width: 100px;
+}
+
+.politeness-slider-buttons{
+    display: flex;
+}
+
+.politeness-slider-buttons button{
+    margin: 4px;
+    background-color: #e9dfdf;
+    border-color: palevioletred;
+    border-radius: 4px;
+}
+
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }

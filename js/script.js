@@ -306,20 +306,42 @@ function toggleArticlePost(activeExpandArticle) {
 }
 const sliderPoliteness = document.getElementById("politeness-input-slider");
 const dynamicText = document.getElementById("dynamic-politeness-div");
+let wordsForPoliteness = [
+    ["ます", "します", "せえします", "まえせえします", "まえしつれいします"],
+    ["帰れ", "帰って", "帰ってください", "お帰れください"],
+    ["わりぃ", "ごめん", "すみません", "申し訳ございません", "大変申し訳ございません"],
+    ["写真撮って", "写真撮ってください", "写真撮っていただけますか", "すみませんが写真撮っていただけますか", "申し訳ございませんが写真撮って頂けますでしょうか", "大変申し訳ございませんが写真撮って頂けますでしょうか"]
+];
+dynamicText.innerText = wordsForPoliteness[0][0];
+let currentArray = 0;
+const sliderCurrentIndex = document.getElementById("politeness-slider-index-current");
+sliderCurrentIndex.innerText = String(currentArray);
+document.getElementById("politeness-slider-index-total").innerText = String(wordsForPoliteness.length - 1);
+const nextBtn = document.getElementById("politeness-slider-button-next");
+const prevBtn = document.getElementById("politeness-slider-button-prev");
+function updatePolitenessSlider() {
+    sliderPoliteness.max = String(wordsForPoliteness[currentArray].length - 1);
+    if (Number(sliderPoliteness.value) > Number(sliderPoliteness.max)) {
+        sliderPoliteness.value = sliderPoliteness.max;
+    }
+    dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];
+    sliderCurrentIndex.innerText = String(currentArray);
+}
+nextBtn.addEventListener("click", function () {
+    currentArray++;
+    if (currentArray >= wordsForPoliteness.length - 1) {
+        currentArray = wordsForPoliteness.length - 1;
+    }
+    console.log(currentArray, wordsForPoliteness.length);
+    updatePolitenessSlider();
+});
+prevBtn.addEventListener("click", function () {
+    currentArray--;
+    if (currentArray < 0) {
+        currentArray = 0;
+    }
+    updatePolitenessSlider();
+});
 sliderPoliteness.addEventListener("input", function () {
-    if (sliderPoliteness.value == "0") {
-        dynamicText.innerText = "ます";
-    }
-    else if (sliderPoliteness.value == "1") {
-        dynamicText.innerText = "します";
-    }
-    else if (sliderPoliteness.value == "2") {
-        dynamicText.innerText = "せします";
-    }
-    else if (sliderPoliteness.value == "3") {
-        dynamicText.innerText = "まえせえします";
-    }
-    else if (sliderPoliteness.value == "4") {
-        dynamicText.innerText = "まえしつれいします";
-    }
+    dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];
 });
