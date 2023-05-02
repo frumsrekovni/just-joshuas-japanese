@@ -241,6 +241,19 @@ function isItTimeToCelebrateNewYears(){
     }
     
 }
+const sidebarAllPosts = document.getElementById("sidebar-option-all-posts") as HTMLElement;
+const sidebarContUpdated = document.getElementById("sidebar-option-continuously-updated") as HTMLElement;
+
+sidebarAllPosts.addEventListener("click", function(){
+    sidebarAllPosts.classList.add("sidebar-option-selected");
+    sidebarContUpdated.classList.remove("sidebar-option-selected");
+});
+sidebarContUpdated.addEventListener("click", function(){
+    console.log("clicked")
+    sidebarContUpdated.classList.add("sidebar-option-selected");
+    sidebarAllPosts.classList.remove("sidebar-option-selected");
+});
+
 
 function calculate_time_since_first_post(){
     const cur_date = new Date();                                    // The date right now
@@ -349,6 +362,10 @@ let wordsForPoliteness:string[][] = [
     ["帰れ","帰って","帰ってください","お帰れください"],
     ["わりぃ","ごめん","すみません","申し訳ございません","大変申し訳ございません"],
     ["写真撮って","写真撮ってください","写真撮っていただけますか","すみませんが写真撮っていただけますか","申し訳ございませんが写真撮って頂けますでしょうか","大変申し訳ございませんが写真撮って頂けますでしょうか"]];
+
+// Set dynamicText and currentArray when getElementById is done loading the page
+
+
 dynamicText.innerText = wordsForPoliteness[0][0];
 let currentArray:number = 0;
 

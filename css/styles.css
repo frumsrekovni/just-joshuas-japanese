@@ -71,6 +71,7 @@ h1{
 h2{
     margin: 0;
 }
+
 h3{
    text-align: center;
 }
@@ -90,6 +91,31 @@ h3{
     height:max-content;
     border-radius: 4px;
 }
+.sidebar-options{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sidebar h3{
+    display: flex;
+    padding: 5px;
+    border-radius: 0.5em;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 2px rgba(219, 112, 147, 1);
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sidebar-option-selected{
+    top: 13x !important;
+    margin-left: 3px !important;
+    box-shadow: none !important;
+    background-color: #f8fff8 !important;
+}
+/* .sidebar-options h3:first-child {
+    background-color: red;
+}
+.sidebar-options h3:last-child {
+    
+} */
 .sidebar li{
     padding: 0.4rem;
     color: grey;
@@ -563,6 +589,8 @@ ruby{
     border-color: palevioletred;
     border-radius: 4px;
 }
+
+
 
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {

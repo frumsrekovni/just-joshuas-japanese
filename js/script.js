@@ -221,6 +221,17 @@ function isItTimeToCelebrateNewYears() {
         }
     }
 }
+const sidebarAllPosts = document.getElementById("sidebar-option-all-posts");
+const sidebarContUpdated = document.getElementById("sidebar-option-continuously-updated");
+sidebarAllPosts.addEventListener("click", function () {
+    sidebarAllPosts.classList.add("sidebar-option-selected");
+    sidebarContUpdated.classList.remove("sidebar-option-selected");
+});
+sidebarContUpdated.addEventListener("click", function () {
+    console.log("clicked");
+    sidebarContUpdated.classList.add("sidebar-option-selected");
+    sidebarAllPosts.classList.remove("sidebar-option-selected");
+});
 function calculate_time_since_first_post() {
     var _a;
     const cur_date = new Date(); // The date right now
