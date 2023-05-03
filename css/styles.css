@@ -8,7 +8,7 @@ body{
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
-    background-color: #f8fff8;
+    background-color: #FDFAF1;
     
 }
 
@@ -96,7 +96,11 @@ h3{
     justify-content: space-evenly;
 }
 .sidebar h3{
+    position: relative;
+    margin: 0;
     display: flex;
+    top: 0px;
+    left: 0px;
     padding: 5px;
     border-radius: 0.5em;
     background-color: #ffffff;
@@ -105,10 +109,11 @@ h3{
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .sidebar-option-selected{
-    top: 13x !important;
-    margin-left: 3px !important;
+    
+    top: 5px !important;
+    left: 5px !important;
     box-shadow: none !important;
-    background-color: #f8fff8 !important;
+    background-color: #FDFAF1 !important;
 }
 /* .sidebar-options h3:first-child {
     background-color: red;
