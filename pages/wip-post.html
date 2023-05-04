@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300&display=swap" rel="stylesheet">
-    <script src="../js/script.js" defer></script>
+    <script src="../js/scriptprototyping.js" defer></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -150,6 +150,33 @@
                         erferendis nesciunt nobis sequi, consectetur assumenda odit dolore ipsum, quaerat non, debitis ex vitae officiis. Laboriosam, odio excepturi veniam sint velit ea?
                     </p>
                 
+                </article>
+            </article>
+            <article id="wip-post" class="blog-post continuously-updated">
+                <h2>Politeness Slider</h2>
+                <time class="date" datetime="yyyy-mm-dd">yyyy-mm-dd</time>
+                <article>
+                    <!-- This idea is that a sentence will expand/shrink depending on how the politeness slider setting.
+                        For example です evolving into でございます
+                    -->
+                    <div>
+                        <!-- print the value currently of the politeness-input-slider -->
+                        <div class="politeness-slider-buttons">
+                            <button id="politeness-slider-button-prev">戻る</button>
+                            <button id="politeness-slider-button-next">次へ</button>
+                        </div>
+                        <div class="politeness-slider-index">
+                            <span id="politeness-slider-index-current">-</span>
+                            /
+                            <span id="politeness-slider-index-total">-</span>
+                        </div>
+                        <input type="range" id="politeness-input-slider" name="politeness slider"
+                               min="0" max="4" value="0" step="1">
+                        <label for="volume">Politeness</label>
+                        <div id="dynamic-politeness-div">
+                           
+                        </div>
+                    </div>
                 </article>
             </article>
             <article id="wip-post" class="blog-post">
@@ -1644,33 +1671,6 @@
                     Even if I every single reading of every single kanji I would still not be able to read Japanese.
                     <div>
                         Learn Common Words and try to put them into different contexts.
-                    </div>
-                </article>
-            </article>
-            <article id="wip-post" class="blog-post">
-                <h2>Politeness Slider</h2>
-                <time class="date" datetime="yyyy-mm-dd">yyyy-mm-dd</time>
-                <article>
-                    <!-- This idea is that a sentence will expand/shrink depending on how the politeness slider setting.
-                        For example です evolving into でございます
-                    -->
-                    <div>
-                        <!-- print the value currently of the politeness-input-slider -->
-                        <div class="politeness-slider-buttons">
-                            <button id="politeness-slider-button-prev">戻る</button>
-                            <button id="politeness-slider-button-next">次へ</button>
-                        </div>
-                        <div class="politeness-slider-index">
-                            <span id="politeness-slider-index-current">-</span>
-                            /
-                            <span id="politeness-slider-index-total">-</span>
-                        </div>
-                        <input type="range" id="politeness-input-slider" name="politeness slider"
-                               min="0" max="4" value="0" step="1">
-                        <label for="volume">Politeness</label>
-                        <div id="dynamic-politeness-div">
-                           
-                        </div>
                     </div>
                 </article>
             </article>
