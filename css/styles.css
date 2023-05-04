@@ -34,6 +34,9 @@ header .redirects{
 .redirect{
     width: 20px;
 }
+.redirect:active{
+    transform: scale(0.9);
+}
 header .redirect img{
     width: 100%;
 }
