@@ -226,11 +226,22 @@ const sidebarContUpdated = document.getElementById("sidebar-option-continuously-
 sidebarAllPosts.addEventListener("click", function () {
     sidebarAllPosts.classList.add("sidebar-option-selected");
     sidebarContUpdated.classList.remove("sidebar-option-selected");
+    for (let i = 0; i < all_blogposts.length; i++) {
+        all_blogposts[i].style.display = "inherit";
+    }
 });
 sidebarContUpdated.addEventListener("click", function () {
-    console.log("clicked");
     sidebarContUpdated.classList.add("sidebar-option-selected");
     sidebarAllPosts.classList.remove("sidebar-option-selected");
+    // If the user clicks on the continuously updated option hide all blog-posts that are not continuously updated
+    for (let i = 0; i < all_blogposts.length; i++) {
+        if (all_blogposts[i].classList.contains("continuously-updated")) {
+            all_blogposts[i].style.display = "inherit";
+        }
+        else {
+            all_blogposts[i].style.display = "none";
+        }
+    }
 });
 function calculate_time_since_first_post() {
     var _a;

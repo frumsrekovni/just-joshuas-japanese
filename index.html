@@ -107,6 +107,34 @@
                 </article>
             </article> 
         -->
+            <article id="post15" class="blog-post continuously-updated">
+                <h2>Politeness Slider</h2>
+                <time class="date" datetime="2023-05-05">2023-05-05</time>
+                <time class="date date-last-updated" datetime="2023-05-05">Last updated 2023-05-05</time>
+                <article>
+                    <!-- This idea is that a sentence will expand/shrink depending on how the politeness slider setting.
+                        For example です evolving into でございます
+                    -->
+                    <div>
+                        <!-- print the value currently of the politeness-input-slider -->
+                        <div class="politeness-slider-buttons">
+                            <button id="politeness-slider-button-prev">戻る</button>
+                            <button id="politeness-slider-button-next">次へ</button>
+                        </div>
+                        <div class="politeness-slider-index">
+                            <span id="politeness-slider-index-current">-</span>
+                            /
+                            <span id="politeness-slider-index-total">-</span>
+                        </div>
+                        <input type="range" id="politeness-input-slider" name="politeness slider"
+                            min="0" max="4" value="0" step="1">
+                        <label for="volume">Politeness</label>
+                        <div id="dynamic-politeness-div">
+                        
+                        </div>
+                    </div>
+                </article>
+            </article>
             <article id="post14" class="blog-post write-up">
                 <h2>Manzai Birds</h2>
                 <time class="date" datetime="2023-04-30">2023-04-30</time>

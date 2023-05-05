@@ -597,7 +597,9 @@ ruby{
     border-color: palevioletred;
     border-radius: 4px;
 }
-
+.date-last-updated{
+    opacity: 50%;
+}
 
 
 /* var() is a way to use variables in pure CSS */
