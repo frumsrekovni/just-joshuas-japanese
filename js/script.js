@@ -9,6 +9,7 @@ const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const all_blogposts = document.getElementsByClassName("blog-post");
+const all_sidebar_redirects = document.getElementsByClassName("sidebar-redirect");
 const seconds_counter_element = document.getElementById("seconds-to-anniversary");
 const blog_title_element = document.getElementsByTagName("title")[0];
 const main_container = document.getElementsByClassName("main-site-container")[0];
@@ -229,17 +230,23 @@ sidebarAllPosts.addEventListener("click", function () {
     for (let i = 0; i < all_blogposts.length; i++) {
         all_blogposts[i].style.display = "inherit";
     }
+    for (let i = 0; i < all_sidebar_redirects.length; i++) {
+        if (all_sidebar_redirects[i].classList.contains("continuously-updated-sidebar-redirect") == false) {
+            all_sidebar_redirects[i].style.display = "list-item";
+        }
+    }
 });
 sidebarContUpdated.addEventListener("click", function () {
     sidebarContUpdated.classList.add("sidebar-option-selected");
     sidebarAllPosts.classList.remove("sidebar-option-selected");
-    // If the user clicks on the continuously updated option hide all blog-posts that are not continuously updated
     for (let i = 0; i < all_blogposts.length; i++) {
-        if (all_blogposts[i].classList.contains("continuously-updated")) {
-            all_blogposts[i].style.display = "inherit";
-        }
-        else {
+        if (all_blogposts[i].classList.contains("continuously-updated") == false) {
             all_blogposts[i].style.display = "none";
+        }
+    }
+    for (let i = 0; i < all_sidebar_redirects.length; i++) {
+        if (all_sidebar_redirects[i].classList.contains("continuously-updated-sidebar-redirect") == false) {
+            all_sidebar_redirects[i].style.display = "none";
         }
     }
 });

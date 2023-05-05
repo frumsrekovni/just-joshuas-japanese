@@ -87,6 +87,7 @@ h3{
     width: 50vw;
 }
 .sidebar{
+    width: 325px;
     position: -webkit-sticky;
     position: sticky;
     margin-top: 2rem;

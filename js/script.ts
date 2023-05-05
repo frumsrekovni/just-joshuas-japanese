@@ -9,6 +9,7 @@ const minutes_element = document.getElementById("minutes-number");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const all_blogposts = document.getElementsByClassName("blog-post") as HTMLCollectionOf<HTMLElement>;
+const all_sidebar_redirects = document.getElementsByClassName("sidebar-redirect") as HTMLCollectionOf<HTMLElement>;
 const seconds_counter_element = document.getElementById("seconds-to-anniversary");
 const blog_title_element = document.getElementsByTagName("title")[0];
 const main_container = document.getElementsByClassName("main-site-container")[0];
@@ -251,16 +252,24 @@ sidebarAllPosts.addEventListener("click", function(){
     for (let i = 0; i < all_blogposts.length; i++) {
         (all_blogposts[i] as HTMLElement).style.display = "inherit";
     }
+    for (let i = 0; i < all_sidebar_redirects.length; i++) {
+        if((all_sidebar_redirects[i] as HTMLElement).classList.contains("continuously-updated-sidebar-redirect") == false){
+            (all_sidebar_redirects[i] as HTMLElement).style.display = "list-item";
+        }
+    }
 });
 sidebarContUpdated.addEventListener("click", function(){
     sidebarContUpdated.classList.add("sidebar-option-selected");
     sidebarAllPosts.classList.remove("sidebar-option-selected");
     for (let i = 0; i < all_blogposts.length; i++) {
-        if((all_blogposts[i] as HTMLElement).classList.contains("continuously-updated")){
-            (all_blogposts[i] as HTMLElement).style.display = "inherit";
-        }
-        else{
+        if((all_blogposts[i] as HTMLElement).classList.contains("continuously-updated") == false){
             (all_blogposts[i] as HTMLElement).style.display = "none";
+        }
+
+    }
+    for (let i = 0; i < all_sidebar_redirects.length; i++) {
+        if((all_sidebar_redirects[i] as HTMLElement).classList.contains("continuously-updated-sidebar-redirect") == false){
+            (all_sidebar_redirects[i] as HTMLElement).style.display = "none";
         }
     }
 });
