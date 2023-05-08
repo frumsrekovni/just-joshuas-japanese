@@ -425,3 +425,13 @@ sliderPoliteness.addEventListener("input", function(){
 
     dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];   
 });
+const post16post = document.getElementById("post16") as HTMLDivElement;
+
+post16post.addEventListener("dragover", async (event) => {
+    event.preventDefault();
+});
+
+post16post.addEventListener("drop", (event) => {
+    event.preventDefault();
+    const textFile = event.dataTransfer?.files[0];
+});

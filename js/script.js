@@ -1,3 +1,12 @@
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 const first_commit_date = new Date(`2022-07-04T22:37:00`); // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog 
 const darkeningElement = document.getElementById("page-darkener");
 const flashSquareKanaElement = document.getElementById("flash-square-kana");
@@ -375,4 +384,13 @@ prevBtn.addEventListener("click", function () {
 });
 sliderPoliteness.addEventListener("input", function () {
     dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];
+});
+const post16post = document.getElementById("post16");
+post16post.addEventListener("dragover", (event) => __awaiter(this, void 0, void 0, function* () {
+    event.preventDefault();
+}));
+post16post.addEventListener("drop", (event) => {
+    var _a;
+    event.preventDefault();
+    const textFile = (_a = event.dataTransfer) === null || _a === void 0 ? void 0 : _a.files[0];
 });
