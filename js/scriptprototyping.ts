@@ -392,3 +392,26 @@ sliderPoliteness.addEventListener("input", function(){
 
     dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];   
 });
+
+const post16post = document.getElementById("post16");
+
+// post16post.addEventListener("drop", (event) => {
+//     event.preventDefault();
+//     const textFile = event.dataTransfer?.files[0];
+// });
+
+
+function acceptFile(event){
+    event.preventDefault();
+    document.getElementById("post16")?.style.backgroundColor = "green";
+}
+function readFile(event){
+    event.preventDefault();
+    post16post.style.backgroundColor = "blue";
+}
+
+function leftPostDrag(event){
+    event.preventDefault();
+    document.getElementById("post16")?.style.backgroundColor = "white";
+
+}

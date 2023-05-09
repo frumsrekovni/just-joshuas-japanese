@@ -1782,7 +1782,13 @@
                     </p>
                 </article>
             </article>
-            <article id="post16" class="blog-post">
+            <article id="wip-post" class="blog-post" draggable="true">
+                <h2>What a drag</h2>
+                <time class="date" datetime="yyyy-mm-dd">yyyy-mm-dd</time>
+                <article>
+                </article>
+            </article>
+            <article id="post16" class="blog-post" ondragover="acceptFile(event)" ondrop="readFile(event)" ondragleave="leftPostDrag(event)">
                 <h2>Kanji Counter</h2>
                 <time class="date" datetime="yyyy-mm-dd">yyyy-mm-dd</time>
                 <article>
@@ -1794,6 +1800,7 @@
                     </p>
                 </article>
             </article>
+
             <article id="wip-post" class="blog-post">
                 <h2>ポケットモンスタープラチナ筆記 </h2>
                 <time class="date" datetime="yyyy-mm-dd">yyyy-mm-dd</time>

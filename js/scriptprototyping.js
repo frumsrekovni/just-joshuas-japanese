@@ -346,3 +346,22 @@ prevBtn.addEventListener("click", function () {
 sliderPoliteness.addEventListener("input", function () {
     dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];
 });
+const post16post = document.getElementById("post16");
+// post16post.addEventListener("drop", (event) => {
+//     event.preventDefault();
+//     const textFile = event.dataTransfer?.files[0];
+// });
+function acceptFile(event) {
+    var _a;
+    event.preventDefault();
+    (_a = document.getElementById("post16")) === null || _a === void 0 ? void 0 : _a.style.backgroundColor = "green";
+}
+function readFile(event) {
+    event.preventDefault();
+    post16post.style.backgroundColor = "blue";
+}
+function leftPostDrag(event) {
+    var _a;
+    event.preventDefault();
+    (_a = document.getElementById("post16")) === null || _a === void 0 ? void 0 : _a.style.backgroundColor = "white";
+}
