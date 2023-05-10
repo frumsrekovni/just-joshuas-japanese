@@ -268,9 +268,9 @@ const running_stick = document.getElementById("running-stick-gif");
 // getComputedStyle(document.documentElement).getPropertyValue('--running-length')
 running_stick.onanimationend = () => {
     running_stick.classList.remove('start_running');
-    let current_running_time = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--running-time')) - 0.3;
+    let current_running_time = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--running-time')) - 0.5;
     if (current_running_time < 0) {
-        current_running_time = 0.1;
+        current_running_time = 0.5;
     }
     document.documentElement.style.setProperty('--running-time', current_running_time + 's');
     void running_stick.offsetWidth; // trigger reflow
