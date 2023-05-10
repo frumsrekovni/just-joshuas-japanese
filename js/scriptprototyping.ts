@@ -294,7 +294,18 @@ function calculate_time_since_first_post(){
     }
     
 }
-
+const running_stick = document.getElementById("running-stick-gif") as HTMLImageElement;
+// getComputedStyle(document.documentElement).getPropertyValue('--running-length')
+running_stick.onanimationend = () => {
+    running_stick.classList.remove('start_running');
+    let current_running_time = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--running-time'))-0.3;
+    if(current_running_time < 0){
+        current_running_time = 0.1;
+    }
+    document.documentElement.style.setProperty('--running-time', current_running_time +'s');
+    void running_stick.offsetWidth; // trigger reflow
+    running_stick.classList.add('start_running');
+};
 function darkenPage(){
     darkeningElement.style.display = "block";
 }
@@ -342,56 +353,6 @@ function toggleArticlePost(activeExpandArticle){
     // });
     activeExpandArticle.style.color = "yellow";
 }
-
-// ### THE POLITENESS SLIDER CODE ###
-
-const sliderPoliteness = document.getElementById("politeness-input-slider") as HTMLInputElement;
-const dynamicText = document.getElementById("dynamic-politeness-div") as HTMLDivElement;
-let wordsForPoliteness:string[][] = [
-    ["ます","します","せえします","まえせえします","まえしつれいします"],
-    ["帰れ","帰って","帰ってください","お帰れください"],
-    ["わりぃ","ごめん","すみません","申し訳ございません","大変申し訳ございません"],
-    ["写真撮って","写真撮ってください","写真撮っていただけますか","すみませんが写真撮っていただけますか","申し訳ございませんが写真撮って頂けますでしょうか","大変申し訳ございませんが写真撮って頂けますでしょうか"]];
-
-
-dynamicText.innerText = wordsForPoliteness[0][0];
-let currentArray:number = 0;
-
-const sliderCurrentIndex = document.getElementById("politeness-slider-index-current") as HTMLSpanElement;
-sliderCurrentIndex.innerText = String(currentArray);
-(document.getElementById("politeness-slider-index-total") as HTMLSpanElement).innerText = String(wordsForPoliteness.length-1);
-const nextBtn = document.getElementById("politeness-slider-button-next") as HTMLButtonElement;
-const prevBtn = document.getElementById("politeness-slider-button-prev") as HTMLButtonElement;
-function updatePolitenessSlider(){
-    sliderPoliteness.max = String(wordsForPoliteness[currentArray].length - 1);
-    if(Number(sliderPoliteness.value) > Number(sliderPoliteness.max)){
-        sliderPoliteness.value = sliderPoliteness.max;
-    }
-    dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];
-    sliderCurrentIndex.innerText = String(currentArray);
-}
-
-nextBtn.addEventListener("click", function(){
-    currentArray++;
-    if(currentArray >= wordsForPoliteness.length-1){
-        currentArray = wordsForPoliteness.length-1;
-    }
-    console.log(currentArray, wordsForPoliteness.length)
-    updatePolitenessSlider();
-});
-
-prevBtn.addEventListener("click", function(){
-    currentArray--;
-    if(currentArray < 0){
-        currentArray = 0;
-    }
-    updatePolitenessSlider();
-});
-
-sliderPoliteness.addEventListener("input", function(){
-
-    dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];   
-});
 
 const post16post = document.getElementById("post16");
 

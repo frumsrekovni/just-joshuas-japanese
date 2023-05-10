@@ -602,7 +602,30 @@ ruby{
     opacity: 50%;
 }
 
+.fast-runner{
+    overflow: hidden;
+}
+.fast-runner img{
+    position: relative;
+    opacity: 1;
+    left: -5vw;
+}
+:root {
+    --running-length: 2000%;
+    --running-time: 4s;
+}
+.start_running{
+    animation: slide var(--running-time);
+}
 
+@keyframes slide{
+0%{
+transform: translateX(0);
+}
+100%{
+ transform: translateX(var(--running-length));
+}
+}
 /* var() is a way to use variables in pure CSS */
 @keyframes hanabi-explosion {
     0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
