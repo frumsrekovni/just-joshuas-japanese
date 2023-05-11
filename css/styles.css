@@ -32,13 +32,27 @@ header .redirects{
     justify-content: center;
 }
 .redirect{
+    padding: 6px;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.5));
     width: 20px;
+    height: 20px;
+    pointer-events: none;
 }
 .redirect:active{
     transform: scale(0.9);
 }
 header .redirect img{
     width: 100%;
+    height: 100%;
+}
+header .redirect:hover{
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.65));
+}
+header .redirect img{
+    pointer-events: auto;
+}
+header .redirect img:active{
+    transform: scale(0.95);
 }
 
 header .github-redirect a img:last-child {
@@ -58,10 +72,6 @@ header .portfolio-redirect a:hover img:first-child {
 }
 header .portfolio-redirect a:hover img:last-child {
     display:inherit;  
-}
-.redirect{
-    padding: 6px;
-    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.5));
 }
 h1{
     font-size: 40px;
