@@ -315,21 +315,64 @@ h3{
 #flash-square-answer{
     display: none;
 }
-
 #secret-wip-page-redirect{
     color: rgb(255, 255, 255);
     position: absolute;
     text-decoration: none;
     float: left;
     font-size: xx-large;
-    opacity: 0.05;
+    opacity: 0.075;
+    line-height: normal;
 }
 
 #secret-wip-page-redirect:hover{
-    color: red;
+    color: rgba(200,1,2,1);
     cursor: pointer;
     opacity: 1;
+
+    background: -webkit-gradient(linear, left bottom, right top, from(#222), to(#222), color-stop(0, #fff));
+    background: gradient(linear, left bottom, right top, from(#222), to(#222), color-stop(0, #fff));
+    -webkit-background-size: 10vw 100%;
+    background-size: 10vw 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: secret-beat;
+    animation-name: secret-beat;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    background-position: 0 0;
 }
+@-webkit-keyframes secret-beat {
+    
+    30% {
+            background-position: top left;
+    }
+    40% {
+            background-position: top right;
+    }
+    60% {
+            background-position: top left;
+    }
+    70% {
+            background-position: top right;
+    }
+}
+@keyframes secret-beat {
+    30% {
+            background-position: top left;
+    }
+    40% {
+            background-position: top right;
+    }
+    60% {
+            background-position: top left;
+    }
+    70% {
+            background-position: top right;
+    }
+}
+
 
 #post7{
     height: 25vh;
