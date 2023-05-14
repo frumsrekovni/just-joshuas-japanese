@@ -28,6 +28,7 @@ const allKatakanaDigraphs:string ="";
 
 type kanaTriple = [string,string,string];
 type kanjiCard = [string,string];
+type wordCard = [string,string];
 
 const date_today = new Date();
 
@@ -171,6 +172,28 @@ const allN5Kanji:kanjiCard[] = [
     ["",""],
     ["",""],
     ["人","Onyomi: jin,nin\nKunyomi: hito\n"]
+];
+
+const commonJapaneseWords:wordCard[] = [
+    ["行く","(Go　いく) どこ行くの？"],
+    ["見る",""],
+    ["多い",""],
+    ["家",""],
+    ["これ",""],
+    ["それ",""],
+    ["私",""],
+    ["仕事",""],
+    ["いつ",""],
+    ["する",""],
+    ["出る",""],
+    ["使う",""],
+    ["所",""],
+    ["誰","(Who だれ) あれ誰？"],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""]
 ];
 
 function resizeCounter(){
