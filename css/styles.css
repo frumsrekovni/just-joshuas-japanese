@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: >0.3%,last 4 version
+*/
+
 html{
     scroll-behavior:smooth;
 }
@@ -28,31 +35,41 @@ header a{
 }
 header .redirects{
     line-height: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .redirect{
     padding: 6px;
-    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.5));
+            filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.5));
     width: 20px;
     height: 20px;
     pointer-events: none;
 }
 .redirect:active{
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
 }
 header .redirect img{
     width: 100%;
     height: 100%;
 }
 header .redirect:hover{
-    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.65));
+    -webkit-filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.65));
+            filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 0.65));
 }
 header .redirect img{
     pointer-events: auto;
 }
 header .redirect img:active{
-    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+            transform: scale(0.95);
 }
 
 header .github-redirect a img:last-child {
@@ -79,7 +96,8 @@ h1{
     color: rgb(233, 223, 223);
     font-size: 60px;
     margin-bottom: 0;
-    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(0, 0, 0, 0.7));
+    -webkit-filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(0, 0, 0, 0.7));
+            filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(0, 0, 0, 0.7));
 }
 h2{
     margin: 0;
@@ -90,8 +108,12 @@ h3{
 }
 
 .main-site-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .main {
     width: 50vw;
@@ -102,31 +124,43 @@ h3{
     position: sticky;
     margin-top: 2rem;
     top:0;
+    height:-webkit-max-content;
+    height:-moz-max-content;
     height:max-content;
     border-radius: 4px;
 }
 .sidebar-options{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 .sidebar h3{
     position: relative;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     top: 0px;
     left: 0px;
     padding: 5px;
     border-radius: 0.5em;
     background-color: #ffffff;
-    box-shadow: 6px 6px 2px rgba(219, 112, 147, 1);
+    -webkit-box-shadow: 6px 6px 2px rgba(219, 112, 147, 1);
+            box-shadow: 6px 6px 2px rgba(219, 112, 147, 1);
     cursor: pointer;
+    -webkit-transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    -o-transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .sidebar-option-selected{
     
     top: 5px !important;
     left: 5px !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     background-color: #FDFAF1 !important;
 }
 /* .sidebar-options h3:first-child {
@@ -159,7 +193,8 @@ h3{
     margin: 2rem 0 2rem 1rem;
     padding:1.5rem;
     border-radius: 4px;
-    filter: drop-shadow(0.3rem 0.3rem 0.19rem rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(0.3rem 0.3rem 0.19rem rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(0.3rem 0.3rem 0.19rem rgba(0, 0, 0, 0.5));
     
 }
 .mysite20220706-image{
@@ -193,12 +228,16 @@ h3{
 #post13{
     cursor: pointer;
     height: 177px;
+    -webkit-transition: 500ms cubic-bezier(.14,.82,.7,.92);
+    -o-transition: 500ms cubic-bezier(.14,.82,.7,.92);
     transition: 500ms cubic-bezier(.14,.82,.7,.92);
     animation: post13bgAnimation 0.6s ease infinite;
     -webkit-animation: post13bgAnimation 0.6s ease infinite;
 }
 
 .blog-post{
+    -webkit-transition: 500ms cubic-bezier(.14,.82,.7,.92);
+    -o-transition: 500ms cubic-bezier(.14,.82,.7,.92);
     transition: 500ms cubic-bezier(.14,.82,.7,.92);
     animation: post13bgAnimation 0.6s ease infinite;
     -webkit-animation: post13bgAnimation 0.6s ease infinite;
@@ -207,9 +246,11 @@ h3{
     line-height: 0.1rem; 
 }
 .celebration_post{
+    background: -o-linear-gradient(223deg, rgb(255, 251, 0), gold);
     background: linear-gradient(227deg, rgb(255, 251, 0), gold);
     background-size: 400% 400%;
-    filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 2));
+    -webkit-filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 2));
+            filter: drop-shadow(0rem 0rem 0.5rem rgba(0, 0, 0, 2));
 }
 #countdown-toggle{
     display: none;
@@ -222,12 +263,18 @@ h3{
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     z-index: 1;
 }
 #countdown-toggle:checked + #post13 .main-countdown-container{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 12vw;
 }
 #countdown-toggle:checked + #post13 .countdown-container{
@@ -281,7 +328,9 @@ h3{
 }
 
 #scrapped-banner-toggle:checked + .scrapped-banner .scrolling-scrapped-banner-image{
-    transform: scale(2);
+    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+            transform: scale(2);
 }
 #scrapped-banner-toggle:checked + .scrapped-banner{
     overflow: visible;
@@ -289,6 +338,7 @@ h3{
 .scrolling-scrapped-banner-image {
     height: 190px;
     -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     -webkit-animation: bannerscroll-alternate 160s linear infinite alternate;
     animation: bannerscroll-alternate 160s linear infinite alternate;
@@ -309,7 +359,10 @@ h3{
     font-size: 175px;
     text-align: center;
     cursor: pointer;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 #flash-square-answer{
@@ -332,7 +385,6 @@ h3{
 
     background: -webkit-gradient(linear, left bottom, right top, from(#222), to(#222), color-stop(0, #fff));
     background: gradient(linear, left bottom, right top, from(#222), to(#222), color-stop(0, #fff));
-    -webkit-background-size: 10vw 100%;
     background-size: 10vw 100%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -417,8 +469,12 @@ h3{
 }
 
 .main-countdown-container{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .countdown-container{
     width: 5vw;
@@ -446,17 +502,61 @@ h3{
     --initialY: 60vmin;
     --rotationY: -30deg;
     --rotation: 0deg;
-    animation: hanabi-explosion 4s;
-    animation-delay: -0.4s;
+    -webkit-animation: hanabi-explosion 4s;
+            animation: hanabi-explosion 4s;
+    -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
+    -webkit-transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
+            transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
     
     width: var(--initialSize);
     aspect-ratio: 1;
 
     /* Each radial-gradient is an individual "spark" in the the firework */
+    background: 
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 48% 0%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 98% 48%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 48% 98%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 2% 52%,
+
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 50% 100%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 0% 50%,
+      
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
+      
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
+      
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
+      
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%;
     background: 
       radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 48% 0%,
       radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 98% 48%,
@@ -516,17 +616,61 @@ h3{
     --initialY: 60vmin;
     --rotationY: -30deg;
     --rotation: 0deg;
-    animation: hanabi-explosion 4s;
-    animation-delay: -0.4s;
+    -webkit-animation: hanabi-explosion 4s;
+            animation: hanabi-explosion 4s;
+    -webkit-animation-delay: -0.4s;
+            animation-delay: -0.4s;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
+    -webkit-transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
+            transform: translate(-50%, var(--y)) rotate(var(--rotation))  rotateY(var(--rotationY));
     
     width: var(--initialSize);
     aspect-ratio: 1;
 
     /* Each radial-gradient is an individual "spark" in the the firework */
+    background: 
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 48% 0%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 98% 48%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 48% 98%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 2% 52%,
+
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 50% 100%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 0% 50%,
+      
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
+      
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
+      
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
+      -o-radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
+      -o-radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
+      -o-radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
+      -o-radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
+      -o-radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
+      
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
+      -o-radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%;
     background: 
       radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 48% 0%,
       radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 98% 48%,
@@ -616,13 +760,19 @@ ruby{
 #obvious-answer-censored{
     background-color: black;
     border-radius: 3px;
+    -webkit-transition: 400ms cubic-bezier(.14,.82,.7,.92);
+    -o-transition: 400ms cubic-bezier(.14,.82,.7,.92);
     transition: 400ms cubic-bezier(.14,.82,.7,.92);
 }
 #obvious-answer-censored:hover{
     background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: 3000ms cubic-bezier(0.99, 0, 0.1, 1);
+    -o-transition: 3000ms cubic-bezier(0.99, 0, 0.1, 1);
     transition: 3000ms cubic-bezier(0.99, 0, 0.1, 1);
 }
 .joke-comparison-in-dragonball{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .joke-comparison-in-dragonball img{
@@ -642,6 +792,8 @@ ruby{
 }
 
 .politeness-slider-buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -662,25 +814,42 @@ ruby{
     position: relative;
     opacity: 1;
     left: 0;
-    animation-timing-function: linear;
-    transform: translateX(-10vw);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-transform: translateX(-10vw);
+        -ms-transform: translateX(-10vw);
+            transform: translateX(-10vw);
 }
 :root {
     --running-length: 50vw;
     --running-time: 5s;
 }
 .start_running{
-    animation: slide var(--running-time);
+    -webkit-animation: slide var(--running-time);
+            animation: slide var(--running-time);
+}
+
+@-webkit-keyframes slide{
+100%{
+-webkit-transform: translateX(var(--running-length));
+        transform: translateX(var(--running-length));
+}
 }
 
 @keyframes slide{
 100%{
-transform: translateX(var(--running-length));
+-webkit-transform: translateX(var(--running-length));
+        transform: translateX(var(--running-length));
 }
 }
 /* var() is a way to use variables in pure CSS */
+@-webkit-keyframes hanabi-explosion {
+    0% { -webkit-transform: translate(var(--x), var(--initialY)); transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
+    50% { width: 0.5vmin; opacity: 1; }
+    100% { width: var(--finalSize); opacity: 0; }
+}
 @keyframes hanabi-explosion {
-    0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
+    0% { -webkit-transform: translate(var(--x), var(--initialY)); transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
     50% { width: 0.5vmin; opacity: 1; }
     100% { width: var(--finalSize); opacity: 0; }
 }
@@ -700,7 +869,9 @@ transform: translateX(var(--running-length));
 
 @media (max-width: 1244px){
     .main-countdown-container{
-        justify-content: space-evenly; 
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly; 
     }
     .countdown-container{
         width: 10vw;
@@ -747,6 +918,7 @@ transform: translateX(var(--running-length));
     }
     .redirect{
         width: 32px;
+        height: 32px;
         padding: 10px;
     }
 }
