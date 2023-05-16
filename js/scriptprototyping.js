@@ -276,6 +276,12 @@ running_stick.onanimationend = () => {
     void running_stick.offsetWidth; // trigger reflow
     running_stick.classList.add('start_running');
 };
+const pop_post = document.getElementById("ppoppost");
+pop_post.onanimationend = () => {
+    pop_post.classList.remove('pop-post');
+    void pop_post.offsetWidth; // trigger reflow
+    pop_post.classList.add('pop-post');
+};
 function darkenPage() {
     darkeningElement.style.display = "block";
 }
