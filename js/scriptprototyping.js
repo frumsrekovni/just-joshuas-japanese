@@ -161,6 +161,27 @@ const allN5Kanji = [
     ["", ""],
     ["人", "Onyomi: jin,nin\nKunyomi: hito\n"]
 ];
+const commonJapaneseWords = [
+    ["行く", "(Go　いく) どこ行くの？"],
+    ["見る", ""],
+    ["多い", ""],
+    ["家", ""],
+    ["これ", ""],
+    ["それ", ""],
+    ["私", ""],
+    ["仕事", ""],
+    ["いつ", ""],
+    ["する", ""],
+    ["出る", "Leave でる、いつ出る？"],
+    ["使う", ""],
+    ["所", ""],
+    ["誰", "Who だれ、 あれ誰？"],
+    ["始める", "Start はじめる、いつ始めるつもりですか"],
+    ["学校", "School がっこう、"],
+    ["", ""],
+    ["", ""],
+    ["", ""]
+];
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");
     countdown_toggle.checked = !countdown_toggle.checked;
@@ -292,12 +313,25 @@ function flashSquareKanaClick() {
     flashSquareKanaElement.style.display = "none";
     flashSquareAnswerElement.style.display = "block";
 }
+const flashSquareCommonWord = document.getElementById("flash-square-common-word");
+const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
+function flashSquareCommonWordClick() {
+    flashSquareCommonWord.style.display = "none";
+    flashSquareCommonWordAnswerElement.style.display = "block";
+}
 function flashSquareAnswerClick() {
     const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length)); // Any random element from allkana array
     flashSquareKanaElement.innerText = allKanaTriples[randomKanaElementPosition][Math.floor(Math.random() * 2)]; // Between 0 - 1. Hiragana or katakana is a coinflip
     flashSquareAnswerElement.innerText = allKanaTriples[randomKanaElementPosition][2]; // The answer
     flashSquareAnswerElement.style.display = "none";
     flashSquareKanaElement.style.display = "block";
+}
+function flashSquareCommonWordAnswerClick() {
+    // const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length));                       
+    // flashSquareKanaElement.innerText = allKanaTriples[randomKanaElementPosition][Math.floor(Math.random() * 2)]; 
+    // flashSquareAnswerElement.innerText = allKanaTriples[randomKanaElementPosition][2];                       
+    // flashSquareAnswerElement.style.display = "none";
+    // flashSquareKanaElement.style.display = "block";
 }
 function flashSquareN5Click() {
     var _a, _b;

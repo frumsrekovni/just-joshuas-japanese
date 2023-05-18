@@ -357,9 +357,22 @@ h3{
         -ms-user-select: none;
             user-select: none;
 }
-
+#flash-square-common-words{
+    height: 250px;
+    font-size: 175px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
 #flash-square-answer{
     display: none;
+}
+#flash-square-common-word-answer{
+    display: none;
+    font-size: 2rem;
 }
 #secret-wip-page-redirect{
     color: rgb(255, 255, 255);
