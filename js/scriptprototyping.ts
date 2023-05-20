@@ -173,26 +173,23 @@ const allN5Kanji:kanjiCard[] = [
 ];
 // <ruby> KANJI <rp>(</rp><rt> FURIGANA </rt><rp>)</rp></ruby>
 const commonJapaneseWords:wordCard[] = [
-    ["行く","(Go　いく) どこ行くの？"],
-    ["見る","Watch 見る みる、 テレビはよく見るの？"],
-    ["多い","A lot 多い おおい、 山の多い国です。日本は地震が多い。"],
-    ["家","House <ruby>家<rp>(</rp><rt>いえ</rt><rp>)</rp></ruby>、 家にいる。家に帰るの？ Family House <ruby>家<rp>(</rp><rt>か</rt><rp>)</rp></ruby><ruby>族<rp>(</rp><rt>ぞく</rt><rp>)</rp></ruby>、 大家族なの？"],
-    ["今日","Today <ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>、今日は暑い"],
-    ["明日","Tomorrow <ruby>明日<rp>(</rp><rt>あした</rt><rp>)</rp></ruby>、また明日。明日何するの？ 明日は雨が降る"],
-    ["昨日","Yesterday <ruby>昨日<rp>(</rp><rt>きのう</rt><rp>)</rp></ruby>、昨日は暑かった"],
-    ["私","I <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>、 私はスウェーデンじんです。One's own plan <ruby>私<rp>(</rp><rt>し</rt><rp>)</rp></ruby><ruby>案<rp>(</rp><rt>あん</rt><rp>)</rp></ruby> 私案をワシントンでぶち上げている"],
-    ["仕事",""],
-    ["いつ",""],
-    ["する",""],
-    ["出る","Leave でる、いつ出る？"],
-    ["使う",""],
-    ["所",""],
+    ["行く","行く いく Go<br> どこ行くの？ Where are you going?"],
+    ["見る","見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
+    ["多い","多い おおい A lot<br> 山の多い国です。It's a very mountainous country. 山の多い国です。日本は地震が多い。There are many earthquakes in Japan."],
+    ["家","家 いえ House<br> 家に帰るの？ Are you going home?.<br>家族 かぞく Family<br> 大家族なの？ Do you have a big family?"],
+    ["今日","今日 きょう Today<br>今日は暑い It is hot today"],
+    ["明日","明日 あした Tomorrow<br> 明日何するの？ What are you doing tomorrow"],
+    ["昨日","昨日 きのう Yesterday<br>昨日は暑かった It was hot yesterday"],
+    ["私","私 わたし I<br>私はスウェーデンじんです。I am Swedish.<br>私案 しあん One's own plan<br>私案をワシントンでぶち上げている I'm pitching my proposal in Washington"],
+    ["仕事","仕事 しごと Work<br>仕事はどう？ How's work?"],
+    ["何時","What time <ruby>何時<rp>(</rp><rt>なんじ</rt><rp>)</rp></ruby>、What time is it? 何時ですか"],
+    ["出る","Leave  <ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>る、何時に出る？"],
+    ["使う","<ruby> KANJI <rp>(</rp><rt> FURIGANA </rt><rp>)</rp></ruby>"],
+    ["所","Place <ruby>所<rp>(</rp><rt>ところ</rt><rp>)</rp></ruby>、It's in the kitchen　<ruby>台所<rp>(</rp><rt>だいところ</rt><rp>)</rp></ruby>にあります"],
     ["誰","Who 誰 だれ、 あれ誰？"],
-    ["始める","Start 始める はじめる、いつ始めるつもりですか"],
-    ["学校","School がっこう、"],
-    ["",""],
-    ["",""],
-    ["",""]
+    ["始める","始める はじめる Start<br>When do you plan on beginning?　いつ始めるつもりですか"],
+    ["学校","School <ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>、Do you like school?　学校は<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き？"],
+    ["一","One <ruby>一<rp>(</rp><rt>いち</rt><rp>)</rp></ruby>、One more time? もう<ruby>一度<rp>(</rp><rt>いちど</rt><rp>)</rp></ruby>？、Im by myself <ruby>一人<rp>(</rp><rt>ひとり</rt><rp>)</rp></ruby>だ"]
 ];
 function resizeCounter(){
     const countdown_toggle = document.getElementById("countdown-toggle") as HTMLInputElement;
@@ -352,7 +349,7 @@ const flashSquareCommonWordAnswerElement = document.getElementById("flash-square
 
 function flashSquareCommonWordClick(){
     flashSquareCommonWord.style.display = "none";
-    flashSquareCommonWordAnswerElement.style.display = "block";
+    flashSquareCommonWordAnswerElement.style.display = "flex";
 }
 
 function flashSquareAnswerClick(){
@@ -364,12 +361,12 @@ function flashSquareAnswerClick(){
     flashSquareKanaElement.style.display = "block";
 }
 function flashSquareCommonWordAnswerClick(){
-    // const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length));                       
-    // flashSquareKanaElement.innerText = allKanaTriples[randomKanaElementPosition][Math.floor(Math.random() * 2)]; 
-    // flashSquareAnswerElement.innerText = allKanaTriples[randomKanaElementPosition][2];                       
+    const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));                       
+    flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0]; 
+    flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];                       
 
-    // flashSquareAnswerElement.style.display = "none";
-    // flashSquareKanaElement.style.display = "block";
+    flashSquareCommonWordAnswerElement.style.display = "none";
+    flashSquareCommonWord.style.display = "block";
 }
 
 function flashSquareN5Click(){

@@ -371,8 +371,11 @@ h3{
     display: none;
 }
 #flash-square-common-word-answer{
+    justify-content: center;
+    text-align: center;
     display: none;
-    font-size: 2rem;
+    padding: 2rem;
+    font-size: 1rem;
 }
 #secret-wip-page-redirect{
     color: rgb(255, 255, 255);
