@@ -209,12 +209,19 @@ const commonJapaneseWords:wordCard[] = [
     ["(verb)飲む","(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?"],
     ["持つ","持つ もつ Have<br>それ持つよ I'll hold that."],
     ["一","一 いち One<br> 一度 いちど Once<br>もう一度？ もういちど？ Come again?<br>一人 ひとり　Alone.<br> 俺が一人じゃない　I'm not alone.<br>一分 いっぷん a minute"],
+    ["不味い","不味い まずい unpalatable<br>魚は不味い The fish doesn't taste good.<br>"],
+    ["高い","高い たかい High/Expensive<br>高いですね High/Expensive, Isn't it?<br>高校 こうこう High school<br>高校生 こうこうせい High school student"],
+    ["駅","駅 えき Station<br>駅はどこ？ Where is the station?"],
+    ["電車","電車 でんしゃ Train<br>電車は何時ですか What time is the train?<br>電車が来るよ！ The train is coming!<br>電車に乗った I got on the train."],
+    ["雨","雨 あめ Rain<br>雨やんだ？ Has it stopped raining?<br>雨季 うき Rainy season<br>雨季に入った The rainy season has started."],
+    ["水","水 みず Water<br>水を飲む Drink water<br>水曜日 すいようび Wednesday"],
     ["二","二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?"],
     // Nouns
     ["人","人 ひと Person<br>いけない人 Failure"],
     ["人口","人口 じんこう Population<br>人口は、５６８人です The population is 568<br>(counter)人 -にん -people"],
     ["ご飯","ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
-    ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"],
+    ["魚","魚 さかな Fish<br>魚を食べる I eat fish"],
+    ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"]
 ];
 function resizeCounter(){
     const countdown_toggle = document.getElementById("countdown-toggle") as HTMLInputElement;
@@ -386,7 +393,10 @@ function flashSquareAnswerClick(){
     flashSquareKanaElement.style.display = "block";
 }
 function flashSquareCommonWordAnswerClick(){
-    const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));                       
+    const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));
+    for (let index = 0; index < 99; index++) {
+        console.log(Math.floor(Math.random() * (commonJapaneseWords.length)))
+    }                       
     flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0]; 
     flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];                       
 

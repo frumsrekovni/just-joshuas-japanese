@@ -162,16 +162,21 @@ const allN5Kanji = [
     ["人", "Onyomi: jin,nin\nKunyomi: hito\n"]
 ];
 // <ruby> KANJI <rp>(</rp><rt> FURIGANA </rt><rp>)</rp></ruby>
+// 手持ち
 const commonJapaneseWords = [
     ["行く", "行く いく Go<br> どこ行くの？ Where are you going?"],
     ["見る", "見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
-    ["多い", "多い おおい A lot<br> 山の多い国です。It's a very mountainous country. 山の多い国です。日本は地震が多い。There are many earthquakes in Japan."],
+    ["多い", "多い おおい A lot<br>山の多い国です。It's a very mountainous country."],
+    ["少ない", "少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo."],
+    ["少し", "少し すこし A little<br>少コーヒー少しどう？ How about a little coffee?"],
+    ["食べる", "食べる たべる Eat<br>みんなで食べる eat together"],
     ["家", "家 いえ House<br> 家に帰るの？ Are you going home?.<br>家族 かぞく Family<br> 大家族なの？ Do you have a big family?"],
     ["今日", "今日 きょう Today<br>今日は暑い It is hot today"],
     ["明日", "明日 あした Tomorrow<br> 明日何するの？ What are you doing tomorrow"],
     ["昨日", "昨日 きのう Yesterday<br>昨日は暑かった It was hot yesterday"],
     ["私", "私 わたし I<br>私はスウェーデンじんです。I am Swedish.<br>私案 しあん One's own plan<br>私案をワシントンでぶち上げている I'm pitching my proposal in Washington"],
     ["俺", "俺 おれ I<br>俺はデブだ。I am Fat."],
+    ["僕", "僕 ぼく I<br>僕が持つよ Let me carry it for you."],
     ["仕事", "仕事 しごと Work<br>仕事はどう？ How's work?"],
     ["何時", "何時 なんじ What time<br> What time is it? 何時ですか"],
     ["出る", "出る でる Leave<br>何時に出る？ "],
@@ -182,8 +187,31 @@ const commonJapaneseWords = [
     ["学校", "学校 がっこう School<br>Do you like school?　学校は好き？"],
     ["好", "好 すき Like<br>ピアノは好き？ Do you like the piano?"],
     ["友達", "友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
+    ["思う", "思う おもう Think<br>どう思う？ What do you think?"],
+    ["同じ", "同じ おなじ Same<br>同じ意見です I agree."],
+    ["意見", "意見 いけん Opinion<br>同じ意見です I agree."],
+    ["君", "君 きみ You<br>君は誰？ Who are you?"],
+    ["作る", "作る つくる Make<br>コーヒー作るわ I'll make some coffee."],
+    ["朝", "朝 あさ Morning<br>もう朝なの？ Is it morning already?<br>(idiom)朝飯前だ あさめしまえだ Piece of cake / As easy as pie"],
+    ["昼", "昼 ひる Daytime<br>昼は、食事にショッピング。During the day, it's about eating and shopping.<br> 昼ご飯は何？ What's for lunch?<br>お昼寝の時間よ It's time for your afternoon nap."],
+    ["夜", "夜 よる Night<br>夜は何をする？ What do you do at night?"],
+    ["食事", "食事 しょくじ Meal<br>食事に行く？ Want to go out to eat?"],
+    ["(verb)飲む", "(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?"],
+    ["持つ", "持つ もつ Have<br>それ持つよ I'll hold that."],
     ["一", "一 いち One<br> 一度 いちど Once<br>もう一度？ もういちど？ Come again?<br>一人 ひとり　Alone.<br> 俺が一人じゃない　I'm not alone.<br>一分 いっぷん a minute"],
-    ["二", "二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?"]
+    ["不味い", "不味い まずい unpalatable<br>魚は不味い The fish doesn't taste good.<br>"],
+    ["高い", "高い たかい High/Expensive<br>高いですね High/Expensive, Isn't it?<br>高校 こうこう High school<br>高校生 こうこうせい High school student"],
+    ["駅", "駅 えき Station<br>駅はどこ？ Where is the station?"],
+    ["電車", "電車 でんしゃ Train<br>電車は何時ですか What time is the train?<br>電車が来るよ！ The train is coming!<br>電車に乗った I got on the train."],
+    ["雨", "雨 あめ Rain<br>雨やんだ？ Has it stopped raining?<br>雨季 うき Rainy season<br>雨季に入った The rainy season has started."],
+    ["水", "水 みず Water<br>水を飲む Drink water<br>水曜日 すいようび Wednesday"],
+    ["二", "二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?"],
+    // Nouns
+    ["人", "人 ひと Person<br>いけない人 Failure"],
+    ["人口", "人口 じんこう Population<br>人口は、５６８人です The population is 568<br>(counter)人 -にん -people"],
+    ["ご飯", "ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
+    ["魚", "魚 さかな Fish<br>魚を食べる I eat fish"],
+    ["飲み物", "飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"]
 ];
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");
@@ -331,6 +359,9 @@ function flashSquareAnswerClick() {
 }
 function flashSquareCommonWordAnswerClick() {
     const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));
+    for (let index = 0; index < 99; index++) {
+        console.log(Math.floor(Math.random() * (commonJapaneseWords.length)));
+    }
     flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0];
     flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];
     flashSquareCommonWordAnswerElement.style.display = "none";
