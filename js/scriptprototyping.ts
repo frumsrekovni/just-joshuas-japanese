@@ -216,11 +216,29 @@ const commonJapaneseWords:wordCard[] = [
     ["雨","雨 あめ Rain<br>雨やんだ？ Has it stopped raining?<br>雨季 うき Rainy season<br>雨季に入った The rainy season has started."],
     ["水","水 みず Water<br>水を飲む Drink water<br>水曜日 すいようび Wednesday"],
     ["二","二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?"],
+    // These need to be fixed
+    ["三","三 さん Three<br>三人 さんにん Three people<br>三日 みっか Three days<br>三日間 みっかかん Three days"],
+    ["四","四 よん Four<br>四人 よにん Four people<br>四日 よっか Four days<br>四日間 よっかかん Four days"],
+    ["五","五 ご Five<br>五人 ごにん Five people<br>五日 いつか Five days<br>五日間 いつかかん Five days"],
+    ["六","六 ろく Six<br>六人 ろくにん Six people<br>六日 むいか Six days<br>六日間 むいかかん Six days"],
+    ["七","七 なな Seven<br>七人 しちにん Seven people<br>七日 なのか Seven days<br>七日間 なのかかん Seven days"],
+    ["八","八 はち Eight<br>八人 はちにん Eight people<br>八日 ようか Eight days<br>八日間 ようかかん Eight days"],
+    ["九","九 きゅう Nine<br>九人 きゅうにん Nine people<br>九日 ここのか Nine days<br>九日間 ここのかかん Nine days"],
+    ["十","十 じゅう Ten<br>十人 じゅうにん Ten people<br>十日 とおか Ten days<br>十日間 とおかかん Ten days"],
+    ["百","百 ひゃく Hundred<br>百人 ひゃくにん Hundred people<br>百日 ひゃくにち Hundred days<br>百日間 ひゃくにちかん Hundred days"],
+    ["千","千 せん Thousand<br>千人 せんにん Thousand people<br>千日 せんにち Thousand days<br>千日間 せんにちかん Thousand days"],
+    ["万","万 まん Ten thousand<br>万人 まんにん Ten thousand people<br>万日 まんにち Ten thousand days<br>万日間 まんにちかん Ten thousand days"],
+    ["何","何 なん What<br>何時 なんじ What time<br>何日 なんにち What day<br>何日間 なんにちかん What day"],
+    ["木","木 き Tree<br>レモンの木だ That's a lemon tree<br>木曜日 もくようび Thursday<br>木曜日に行く Going on Thursday"],
+    ["本","本 ほん Book<br>本はどこ？ Where is the book?"],
+    ["毎日","毎日 まいにち Every day<br>毎日行く？ Do you go every day?"],
+    ["金","金 きん Gold<br>金 かね Money<br>金曜日 きんようび Friday<br>金持ち かねもち Rich person<br>金出せよ かねだせよ！ Give me your money!<br>金出せよ きんだせよ！ Give me your gold!"],
     // Nouns
     ["人","人 ひと Person<br>いけない人 Failure"],
     ["人口","人口 じんこう Population<br>人口は、５６８人です The population is 568<br>(counter)人 -にん -people"],
     ["ご飯","ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
     ["魚","魚 さかな Fish<br>魚を食べる I eat fish"],
+    ["鳥","鳥 とり Bird<br>鳥が飛んでいる A bird is flying<br>一石二鳥 いっせきにちょう (idiom)Kill two birds with one stone"],
     ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"]
 ];
 function resizeCounter(){
