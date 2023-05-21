@@ -171,15 +171,19 @@ const commonJapaneseWords = [
     ["明日", "明日 あした Tomorrow<br> 明日何するの？ What are you doing tomorrow"],
     ["昨日", "昨日 きのう Yesterday<br>昨日は暑かった It was hot yesterday"],
     ["私", "私 わたし I<br>私はスウェーデンじんです。I am Swedish.<br>私案 しあん One's own plan<br>私案をワシントンでぶち上げている I'm pitching my proposal in Washington"],
+    ["俺", "俺 おれ I<br>俺はデブだ。I am Fat."],
     ["仕事", "仕事 しごと Work<br>仕事はどう？ How's work?"],
-    ["何時", "What time <ruby>何時<rp>(</rp><rt>なんじ</rt><rp>)</rp></ruby>、What time is it? 何時ですか"],
-    ["出る", "Leave  <ruby>出<rp>(</rp><rt>で</rt><rp>)</rp></ruby>る、何時に出る？"],
-    ["使う", "<ruby> KANJI <rp>(</rp><rt> FURIGANA </rt><rp>)</rp></ruby>"],
-    ["所", "Place <ruby>所<rp>(</rp><rt>ところ</rt><rp>)</rp></ruby>、It's in the kitchen　<ruby>台所<rp>(</rp><rt>だいところ</rt><rp>)</rp></ruby>にあります"],
-    ["誰", "Who 誰 だれ、 あれ誰？"],
+    ["何時", "何時 なんじ What time<br> What time is it? 何時ですか"],
+    ["出る", "出る でる Leave<br>何時に出る？ "],
+    ["使う", "使う つかう to use<br>これ使う？ Are you going to use this?"],
+    ["所", "所 ところ Place<br>ストックホルムそんなにいい所？ Is Stockholm really that great a place?<br>台所 だいどころ Kitchen<br>台所で何を見たの？ What did you see in the kitchen?"],
+    ["誰", "誰 だれ Who<br> あれ誰？ Who is that?"],
     ["始める", "始める はじめる Start<br>When do you plan on beginning?　いつ始めるつもりですか"],
-    ["学校", "School <ruby>学校<rp>(</rp><rt>がっこう</rt><rp>)</rp></ruby>、Do you like school?　学校は<ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>き？"],
-    ["一", "One <ruby>一<rp>(</rp><rt>いち</rt><rp>)</rp></ruby>、One more time? もう<ruby>一度<rp>(</rp><rt>いちど</rt><rp>)</rp></ruby>？、Im by myself <ruby>一人<rp>(</rp><rt>ひとり</rt><rp>)</rp></ruby>だ"]
+    ["学校", "学校 がっこう School<br>Do you like school?　学校は好き？"],
+    ["好", "好 すき Like<br>ピアノは好き？ Do you like the piano?"],
+    ["友達", "友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
+    ["一", "一 いち One<br> 一度 いちど Once<br>もう一度？ もういちど？ Come again?<br>一人 ひとり　Alone.<br> 俺が一人じゃない　I'm not alone.<br>一分 いっぷん a minute"],
+    ["二", "二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?"]
 ];
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");
