@@ -239,7 +239,18 @@ const commonJapaneseWords:wordCard[] = [
     ["長い","長い ながい Long(distance,time)<br>このニンジンはめっちゃ長い This carrot is so long<br>きっと長い間伸びたんでしょうね I bet it grew for a long time"],
     ["長子","長子 ちょうし Eldest/First child<br> 長子です ちょうしです I'm the oldest son"],
     ["道","道 みち Road<br>道はどこ？ Where is the road?<br>道義 どうぎ Morality"],
+//     Use 週 when you specify a week. e.g. 第5週 = the fifth week
+// Use 週間 when you refer to a time span. e.g. 5週間 = five weeks.
+    ["週","週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
+    ["週間","週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
+    ["買う","買う かう Buy<br>それ買うよ I'll buy it"],
+    ["買い物","買い物 かいもの Shopping<br>買い物に行く Going shopping<br>毎朝買い物をします まいあさ買い物をｓじます I go shopping every morning"],
     // Nouns
+    ["車","車 くるま Car<br>車が青い The car is blue"],
+    ["自転車","自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
+    ["足","足 あし Foot/Leg<br>足が痛い あしがいたい My foot hurts"],
+    ["足りる","足りる たりる Enough/Sufficient<br>足りない たりない Not enough"],
+    ["満足","満足 まんぞく Satisfied/Content<br>満足です I'm satisfied/That hit the spot"],
     ["人","人 ひと Person<br>いけない人 Failure"],
     ["人口","人口 じんこう Population<br>人口は、５６８人です The population is 568<br>(counter)人 -にん -people"],
     ["ご飯","ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
