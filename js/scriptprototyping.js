@@ -381,9 +381,19 @@ function flashSquareKanaClick() {
 }
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
+const flashSquarePostElement = document.getElementById("flash-square-common-words");
 function flashSquareCommonWordClick() {
-    flashSquareCommonWord.style.display = "none";
-    flashSquareCommonWordAnswerElement.style.display = "flex";
+    if (flashSquareCommonWord.style.display != "none") {
+        flashSquareCommonWord.style.display = "none";
+        flashSquareCommonWordAnswerElement.style.display = "flex";
+    }
+    else if (flashSquareCommonWord.style.display == "none") {
+        const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));
+        flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0];
+        flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];
+        flashSquareCommonWordAnswerElement.style.display = "none";
+        flashSquareCommonWord.style.display = "block";
+    }
 }
 function flashSquareAnswerClick() {
     const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length)); // Any random element from allkana array
@@ -391,16 +401,6 @@ function flashSquareAnswerClick() {
     flashSquareAnswerElement.innerText = allKanaTriples[randomKanaElementPosition][2]; // The answer
     flashSquareAnswerElement.style.display = "none";
     flashSquareKanaElement.style.display = "block";
-}
-function flashSquareCommonWordAnswerClick() {
-    const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));
-    for (let index = 0; index < 99; index++) {
-        console.log(Math.floor(Math.random() * (commonJapaneseWords.length)));
-    }
-    flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0];
-    flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];
-    flashSquareCommonWordAnswerElement.style.display = "none";
-    flashSquareCommonWord.style.display = "block";
 }
 function flashSquareN5Click() {
     var _a, _b;

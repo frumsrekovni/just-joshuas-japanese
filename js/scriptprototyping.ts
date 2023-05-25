@@ -413,10 +413,21 @@ function flashSquareKanaClick(){
 
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
+const flashSquarePostElement = document.getElementById("flash-square-common-words") as HTMLDivElement;
 
 function flashSquareCommonWordClick(){
-    flashSquareCommonWord.style.display = "none";
-    flashSquareCommonWordAnswerElement.style.display = "flex";
+    if(flashSquareCommonWord.style.display != "none"){
+        flashSquareCommonWord.style.display = "none";
+        flashSquareCommonWordAnswerElement.style.display = "flex";
+    }
+    else if(flashSquareCommonWord.style.display == "none"){
+        const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));                       
+        flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0]; 
+        flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];                       
+    
+        flashSquareCommonWordAnswerElement.style.display = "none";
+        flashSquareCommonWord.style.display = "block";
+    }
 }
 
 function flashSquareAnswerClick(){
@@ -427,18 +438,6 @@ function flashSquareAnswerClick(){
     flashSquareAnswerElement.style.display = "none";
     flashSquareKanaElement.style.display = "block";
 }
-function flashSquareCommonWordAnswerClick(){
-    const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));
-    for (let index = 0; index < 99; index++) {
-        console.log(Math.floor(Math.random() * (commonJapaneseWords.length)))
-    }                       
-    flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0]; 
-    flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];                       
-
-    flashSquareCommonWordAnswerElement.style.display = "none";
-    flashSquareCommonWord.style.display = "block";
-}
-
 function flashSquareN5Click(){
     document.getElementById("flash-square-N5")?.style.display = "none";
     document.getElementById("flash-square-N5-answer")?.style.display = "block";

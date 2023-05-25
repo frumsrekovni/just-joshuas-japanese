@@ -1,5 +1,6 @@
 html{
     scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 body{
     font-family: "Yantramanav", Helvetica, Arial, sans-serif; 
@@ -360,6 +361,9 @@ h3{
 #flash-square-common-words{
     height: 250px;
     font-size: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     cursor: pointer;
     -webkit-user-select: none;
@@ -1199,6 +1203,9 @@ ruby{
         width: 32px;
         height: 32px;
         padding: 10px;
+    }
+    #flash-square-common-words{
+        font-size: 5rem;
     }
 }
 @media (max-width: 390px){
