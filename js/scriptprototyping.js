@@ -235,6 +235,11 @@ const commonJapaneseWords = [
     ["週間", "週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
     ["買う", "買う かう Buy<br>それ買うよ I'll buy it"],
     ["買い物", "買い物 かいもの Shopping<br>買い物に行く Going shopping<br>毎朝買い物をします まいあさ買い物をｓじます I go shopping every morning"],
+    ["読", "読 よむ Read<br>何読んでるの？ なによんでるの？ What are you reading?<br>(idiom)空気読み くうきよみ Read the room"],
+    ["読書", "読書 どくしょ Reading(books)<br>読書を続けた とくしょをつづけた I continued reading<br>読書が好きです どくしょがすきです I like reading books"],
+    ["書く", "書く かく Write<br>書くものをくれ Give me something to write on"],
+    ["語る", "語る かたる talk/speak<br>夢は真実を語る ゆめはしんじつをかたる Dreams tell the truth"],
+    ["語", "語 ご Language<br>日本語 にほんご Japanese language<br>英語 えいご English language<br>日本語を勉強する にほんごをべんきょうする Study Japanese<br>母語は何ですか ぼごはなんですか What is your native language?<br>それって、何語？ それって、なんご？ What language is that?"],
     // Nouns
     ["車", "車 くるま Car<br>車が青い The car is blue"],
     ["自転車", "自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
