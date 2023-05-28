@@ -197,7 +197,7 @@ const commonJapaneseWords:wordCard[] = [
     ["学校","学校 がっこう School<br>学校は好き？ Do you like school?"],
     ["好","好 すき Like<br>ピアノは好き？ Do you like the piano?"],
     ["友達","友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
-    ["思う","思う おもう Think<br>どう思う？ What do you think?"],
+    ["思う","思う おもう Think<br>どう思う？ What do you think?<br>本当だと思うよ I think it's true"],
     ["同じ","同じ おなじ Same<br>同じ意見です I agree."],
     ["意見","意見 いけん Opinion<br>同じ意見です I agree."],
     ["君","君 きみ You<br>君は誰？ Who are you?"],
@@ -250,6 +250,9 @@ const commonJapaneseWords:wordCard[] = [
     ["書く","書く かく Write<br>書くものをくれ Give me something to write on"],
     ["語る","語る かたる talk/speak<br>夢は真実を語る ゆめはしんじつをかたる Dreams tell the truth"],
     ["語","語 ご Language<br>日本語 にほんご Japanese language<br>英語 えいご English language<br>日本語を勉強する にほんごをべんきょうする Study Japanese<br>母語は何ですか ぼごはなんですか What is your native language?<br>それって、何語？ それって、なんご？ What language is that?"],
+    ["ぐらい","ぐらい approximately/about<br>何時ぐらい？ Around what time?<br>五時ぐらいだよ Around 5 o'clock<br>それは１万円ぐらい That's about 10,000 yen.<br>この市の人口は何人ぐらいですか Approximately what's the population of this city?"],
+    ["多分","多分 たぶん probably/maybe<br>たぶんこれも、私の間違いよ Maybe I'm wrong about this too.<br>マルテは多分寝ている Malte is probably sleeping"],
+    ["本当","本当 ほんとう truth/authentic/real<br>本当に Really?/For real?<br>本当だと思うよ I think it's true"]
     // Nouns
     ["車","車 くるま Car<br>車が青い The car is blue"],
     ["自転車","自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
