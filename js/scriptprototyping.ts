@@ -184,7 +184,7 @@ const commonJapaneseWords:wordCard[] = [
     ["今日","今日 きょう Today<br>今日は暑い It is hot today"],
     ["明日","明日 あした Tomorrow<br> 明日何するの？ What are you doing tomorrow"],
     ["昨日","昨日 きのう Yesterday<br>昨日は暑かった It was hot yesterday"],
-    ["私","私 わたし I<br>私はスウェーデンじんです。I am Swedish.<br>私案 しあん One's own plan<br>私案をワシントンでぶち上げている I'm pitching my proposal in Washington"],
+    ["私","私 わたし I<br>私はスウェーデンじんです。I am Swedish.<br>私案 しあん One's own plan<br>私もそうです I'm like that too<br>私案をワシントンでぶち上げている I'm pitching my proposal in Washington"],
     ["俺","俺 おれ I<br>俺はデブだ。I am Fat."],
     ["僕","僕 ぼく I<br>僕が持つよ Let me carry it for you."],
     ["仕事","仕事 しごと Work<br>仕事はどう？ How's work?"],
@@ -252,7 +252,9 @@ const commonJapaneseWords:wordCard[] = [
     ["語","語 ご Language<br>日本語 にほんご Japanese language<br>英語 えいご English language<br>日本語を勉強する にほんごをべんきょうする Study Japanese<br>母語は何ですか ぼごはなんですか What is your native language?<br>それって、何語？ それって、なんご？ What language is that?"],
     ["ぐらい","ぐらい approximately/about<br>何時ぐらい？ Around what time?<br>五時ぐらいだよ Around 5 o'clock<br>それは１万円ぐらい That's about 10,000 yen.<br>この市の人口は何人ぐらいですか Approximately what's the population of this city?"],
     ["多分","多分 たぶん probably/maybe<br>たぶんこれも、私の間違いよ Maybe I'm wrong about this too.<br>マルテは多分寝ている Malte is probably sleeping"],
-    ["本当","本当 ほんとう truth/authentic/real<br>本当に Really?/For real?<br>本当だと思うよ I think it's true"]
+    ["本当","本当 ほんとう truth/authentic/real<br>本当に Really?/For real?<br>本当だと思うよ I think it's true"],
+    ["とても","とても Very/Exceedingly<br>とてもいいね It's very good"],
+    ["だから","だから Consequently/Therefore/So<br>だから何？ So what?"],
     // Nouns
     ["車","車 くるま Car<br>車が青い The car is blue"],
     ["自転車","自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
