@@ -255,6 +255,9 @@ const commonJapaneseWords:wordCard[] = [
     ["本当","本当 ほんとう truth/authentic/real<br>本当に Really?/For real?<br>本当だと思うよ I think it's true"],
     ["とても","とても Very/Exceedingly<br>とてもいいね It's very good"],
     ["だから","だから Consequently/Therefore/So<br>だから何？ So what?"],
+    ["珍しい","珍しい めずらしい Rare/Unusual<br>珍しいですね It's rare, isn't it?<br>珍しいパターン It's a rare pattern."],
+    ["厳しい","厳しい きびしい Strict/Relentless/Difficult<br>厳しいですね It's strict, isn't it?"],
+    ["例えば","例えば たとえば For example<br>例えば、これはペンです For example, this is a pen"],
     // Nouns
     ["車","車 くるま Car<br>車が青い The car is blue"],
     ["自転車","自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
