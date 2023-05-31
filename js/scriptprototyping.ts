@@ -239,6 +239,11 @@ const commonJapaneseWords:wordCard[] = [
     ["長い","長い ながい Long(distance,time)<br>このニンジンはめっちゃ長い This carrot is so long<br>きっと長い間伸びたんでしょうね I bet it grew for a long time"],
     ["長子","長子 ちょうし Eldest/First child<br> 長子です ちょうしです I'm the oldest son"],
     ["道","道 みち Road<br>道はどこ？ Where is the road?<br>道義 どうぎ Morality"],
+    ["話す","話す はなす Speak<br>話すの？ Are you going to speak?<br>話すの遅いね You're a slow talker"],
+    ["電話","電話 でんわ Phone<br>電話はどこ？ Where is the telephone?<br>電話するよ I'll call you"],
+    ["言う","言う いう Say<br>何と言うの？ What did you say?<br>ジョシュアが「私から警察に電話をします」と言うと Joshua says, I'll call the police."],
+    ["言語","言語 げんご Language<br>言語が好きです I like languages<br>言語学 げんごがく Linguistics"],
+    ["西","西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
 //     Use 週 when you specify a week. e.g. 第5週 = the fifth week
 // Use 週間 when you refer to a time span. e.g. 5週間 = five weeks.
     ["週","週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
@@ -269,7 +274,8 @@ const commonJapaneseWords:wordCard[] = [
     ["ご飯","ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
     ["魚","魚 さかな Fish<br>魚を食べる I eat fish"],
     ["鳥","鳥 とり Bird<br>鳥が飛んでいる A bird is flying<br>一石二鳥 いっせきにちょう (idiom)Kill two birds with one stone"],
-    ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"]
+    ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"],
+    ["花","花 はな Flower<br>きれいな花ね! What beautiful flowers!<br>花火を見た？ はなびをみるた？ Did you see the fireworks?<br>(idiom)言わぬが花 いわぬがはな Speech is silver, silence is golden"]
 ];
 function resizeCounter(){
     const countdown_toggle = document.getElementById("countdown-toggle") as HTMLInputElement;
