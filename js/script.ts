@@ -174,8 +174,128 @@ const allN5Kanji:kanjiCard[] = [
     ["人","Onyomi: jin,nin\nKunyomi: hito\n"]
 ];
 
+const commonJapaneseWords:wordCard[] = [
+    ["行く","行く いく Go<br> どこ行くの？ Where are you going?"],
+    ["見る","見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
+    ["多い","多い おおい A lot<br>山の多い国です。It's a very mountainous country."],
+    ["少ない","少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo."],
+    ["少し","少し すこし A little<br>少コーヒー少しどう？ How about a little coffee?"],
+    ["食べる","食べる たべる Eat<br>みんなで食べる eat together"],
+    ["家","家 いえ House<br> 家に帰るの？ Are you going home?.<br>家族 かぞく Family<br> 大家族なの？ Do you have a big family?"],
+    ["今日","今日 きょう Today<br>今日は暑い It is hot today"],
+    ["明日","明日 あした Tomorrow<br> 明日何するの？ What are you doing tomorrow"],
+    ["昨日","昨日 きのう Yesterday<br>昨日は暑かった It was hot yesterday"],
+    ["私","私 わたし I<br>私はスウェーデンじんです。I am Swedish.<br>私案 しあん One's own plan<br>私もそうです I'm like that too<br>私案をワシントンでぶち上げている I'm pitching my proposal in Washington"],
+    ["俺","俺 おれ I<br>俺はデブだ。I am Fat."],
+    ["僕","僕 ぼく I<br>僕が持つよ Let me carry it for you."],
+    ["仕事","仕事 しごと Work<br>仕事はどう？ How's work?"],
+    ["何時","何時 なんじ What time<br>何時ですか What time is it"],
+    ["出る","出る でる Leave<br>何時に出る？ "],
+    ["使う","使う つかう to use<br>これ使う？ Are you going to use this?"],
+    ["所","所 ところ Place<br>ストックホルムそんなにいい所？ Is Stockholm really that great a place?<br>台所 だいどころ Kitchen<br>台所で何を見たの？ What did you see in the kitchen?"],
+    ["誰","誰 だれ Who<br> あれ誰？ Who is that?"],
+    ["始める","始める はじめる Start<br>When do you plan on beginning?　いつ始めるつもりですか"],
+    ["学校","学校 がっこう School<br>学校は好き？ Do you like school?"],
+    ["好","好 すき Like<br>ピアノは好き？ Do you like the piano?"],
+    ["友達","友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
+    ["思う","思う おもう Think<br>どう思う？ What do you think?<br>本当だと思うよ I think it's true"],
+    ["同じ","同じ おなじ Same<br>同じ意見です I agree."],
+    ["意見","意見 いけん Opinion<br>同じ意見です I agree."],
+    ["君","君 きみ You<br>君は誰？ Who are you?"],
+    ["作る","作る つくる Make<br>コーヒー作るわ I'll make some coffee."],
+    ["朝","朝 あさ Morning<br>もう朝なの？ Is it morning already?<br>(idiom)朝飯前だ あさめしまえだ Piece of cake / As easy as pie"],
+    ["昼","昼 ひる Daytime<br>昼は、食事にショッピング。During the day, it's about eating and shopping.<br> 昼ご飯は何？ What's for lunch?<br>お昼寝の時間よ It's time for your afternoon nap."],
+    ["夜","夜 よる Night<br>夜は何をする？ What do you do at night?"],
+    ["食事","食事 しょくじ Meal<br>食事に行く？ Want to go out to eat?"],
+    ["(verb)飲む","(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?"],
+    ["持つ","持つ もつ Have<br>それ持つよ I'll hold that."],
+    ["一","一 いち One<br> 一度 いちど Once<br>もう一度？ もういちど？ Come again?<br>一人 ひとり　Alone.<br> 俺が一人じゃない　I'm not alone.<br>一分 いっぷん a minute"],
+    ["不味い","不味い まずい unpalatable<br>魚は不味い The fish doesn't taste good.<br>"],
+    ["高い","高い たかい High/Expensive<br>高いですね High/Expensive, Isn't it?<br>高校 こうこう High school<br>高校生 こうこうせい High school student"],
+    ["駅","駅 えき Station<br>駅はどこ？ Where is the station?"],
+    ["電車","電車 でんしゃ Train<br>電車は何時ですか What time is the train?<br>電車が来るよ！ The train is coming!<br>電車に乗った I got on the train."],
+    ["雨","雨 あめ Rain<br>雨やんだ？ Has it stopped raining?<br>雨季 うき Rainy season<br>雨季に入った The rainy season has started."],
+    ["水","水 みず Water<br>水を飲む Drink water<br>水曜日 すいようび Wednesday"],
+    ["二","二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?"],
+    // These need to be fixed
+    ["三","三 さん Three<br>三時十分です さんじじゅっぷんです It's 3:10<br>三日 みっか Three days"],
+    // ["四","四 よん Four<br>四人 よにん Four people<br>四日 よっか Four days<br>四日間 よっかかん Four days"],
+    // ["五","五 ご Five<br>五人 ごにん Five people<br>五日 いつか Five days<br>五日間 いつかかん Five days"],
+    // ["六","六 ろく Six<br>六人 ろくにん Six people<br>六日 むいか Six days<br>六日間 むいかかん Six days"],
+    // ["七","七 なな Seven<br>七人 しちにん Seven people<br>七日 なのか Seven days<br>七日間 なのかかん Seven days"],
+    // ["八","八 はち Eight<br>八人 はちにん Eight people<br>八日 ようか Eight days<br>八日間 ようかかん Eight days"],
+    // ["九","九 きゅう Nine<br>九人 きゅうにん Nine people<br>九日 ここのか Nine days<br>九日間 ここのかかん Nine days"],
+    // ["十","十 じゅう Ten<br>十人 じゅうにん Ten people<br>十日 とおか Ten days<br>十日間 とおかかん Ten days"],
+    ["百","百 ひゃく Hundred<br>百円じゃなくて ひゃくえんじゃなくた It wasn't a 100 yen coin."],
+    ["千","千 せん Thousand<br>千人 せんにん Thousand people"],
+    ["万","万 まん Ten thousand<br>万人 まんにん Ten thousand people<br>１万円でたりる？ いちまんえんでたりる？ Is ten thousand yen enough?<br>万歳！ ばんざい！ Hooray!"],
+    ["何","何 なん What<br>何時 なんじ What time<br>何日 なんにち What day<br>何日間 なんにちかん What day"],
+    ["木","木 き Tree<br>レモンの木だ That's a lemon tree<br>木曜日 もくようび Thursday<br>木曜日に行く Going on Thursday"],
+    ["本","本 ほん Book<br>本はどこ？ Where is the book?"],
+    ["毎日","毎日 まいにち Every day<br>毎日行く？ Do you go every day?"],
+    ["金","金 きん Gold<br>金 かね Money<br>金曜日 きんようび Friday<br>金持ち かねもち Rich person<br>金出せよ かねだせよ！ Give me your money!<br>金出せよ きんだせよ！ Give me your gold!"],
+    ["間","間 あいだ Gap/Interval/Between<br>川と丘の間に村がある 川とおかのあいだに村がある There is a village between the river and the hill<br>間 ま Time/Space<br>間に合う？ まにあう？ Will you make it in time?"],
+    ["時間","時間 じかん Time<br>時間です It's time"],
+    ["合","合 あう Meet<br>間に合う？ Will you make it in time?"],
+    ["長い","長い ながい Long(distance,time)<br>このニンジンはめっちゃ長い This carrot is so long<br>きっと長い間伸びたんでしょうね I bet it grew for a long time"],
+    ["長子","長子 ちょうし Eldest/First child<br> 長子です ちょうしです I'm the oldest son"],
+    ["道","道 みち Road<br>道はどこ？ Where is the road?<br>道義 どうぎ Morality"],
+    ["話す","話す はなす Speak<br>話すの？ Are you going to speak?<br>話すの遅いね You're a slow talker"],
+    ["電話","電話 でんわ Phone<br>電話はどこ？ Where is the telephone?<br>電話するよ I'll call you"],
+    ["言う","言う いう Say<br>何と言うの？ What did you say?<br>ジョシュアが「私から警察に電話をします」と言うと Joshua says, I'll call the police."],
+    ["言語","言語 げんご Language<br>言語が好きです I like languages<br>言語学 げんごがく Linguistics"],
+    ["西","西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
+//     Use 週 when you specify a week. e.g. 第5週 = the fifth week
+// Use 週間 when you refer to a time span. e.g. 5週間 = five weeks.
+    ["週","週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
+    ["週間","週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
+    ["買う","買う かう Buy<br>それ買うよ I'll buy it"],
+    ["買い物","買い物 かいもの Shopping<br>買い物に行く Going shopping<br>毎朝買い物をします まいあさ買い物をｓじます I go shopping every morning"],
+    ["読","読 よむ Read<br>何読んでるの？ なによんでるの？ What are you reading?<br>(idiom)空気読み くうきよみ Read the room"],
+    ["読書","読書 どくしょ Reading(books)<br>読書を続けた とくしょをつづけた I continued reading<br>読書が好きです どくしょがすきです I like reading books"],
+    ["書く","書く かく Write<br>書くものをくれ Give me something to write on"],
+    ["語る","語る かたる talk/speak<br>夢は真実を語る ゆめはしんじつをかたる Dreams tell the truth"],
+    ["語","語 ご Language<br>日本語 にほんご Japanese language<br>英語 えいご English language<br>日本語を勉強する にほんごをべんきょうする Study Japanese<br>母語は何ですか ぼごはなんですか What is your native language?<br>それって、何語？ それって、なんご？ What language is that?"],
+    ["ぐらい","ぐらい approximately/about<br>何時ぐらい？ Around what time?<br>五時ぐらいだよ Around 5 o'clock<br>それは１万円ぐらい That's about 10,000 yen.<br>この市の人口は何人ぐらいですか Approximately what's the population of this city?"],
+    ["多分","多分 たぶん probably/maybe<br>たぶんこれも、私の間違いよ Maybe I'm wrong about this too.<br>マルテは多分寝ている Malte is probably sleeping"],
+    ["本当","本当 ほんとう truth/authentic/real<br>本当に Really?/For real?<br>本当だと思うよ I think it's true"],
+    ["とても","とても Very/Exceedingly<br>とてもいいね It's very good"],
+    ["だから","だから Consequently/Therefore/So<br>だから何？ So what?"],
+    ["珍しい","珍しい めずらしい Rare/Unusual<br>珍しいですね It's rare, isn't it?<br>珍しいパターン It's a rare pattern."],
+    ["厳しい","厳しい きびしい Strict/Relentless/Difficult<br>厳しいですね It's strict, isn't it?"],
+    ["例えば","例えば たとえば For example<br>例えば、これはペンです For example, this is a pen"],
+    // Nouns
+    ["車","車 くるま Car<br>車が青い The car is blue"],
+    ["自転車","自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
+    ["足","足 あし Foot/Leg<br>足が痛い あしがいたい My foot hurts"],
+    ["足りる","足りる たりる Enough/Sufficient<br>足りない たりない Not enough"],
+    ["満足","満足 まんぞく Satisfied/Content<br>満足です I'm satisfied/That hit the spot"],
+    ["人","人 ひと Person<br>いけない人 Failure"],
+    ["人口","人口 じんこう Population<br>人口は、５６８人です The population is 568<br>(counter)人 -にん -people"],
+    ["ご飯","ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
+    ["魚","魚 さかな Fish<br>魚を食べる I eat fish"],
+    ["鳥","鳥 とり Bird<br>鳥が飛んでいる A bird is flying<br>一石二鳥 いっせきにちょう (idiom)Kill two birds with one stone"],
+    ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"],
+    ["花","花 はな Flower<br>きれいな花ね! What beautiful flowers!<br>花火を見た？ はなびをみるた？ Did you see the fireworks?<br>(idiom)言わぬが花 いわぬがはな Speech is silver, silence is golden"]
+];
+const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
+const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
+const flashSquarePostElement = document.getElementById("flash-square-common-words") as HTMLDivElement;
 
-
+function flashSquareCommonWordClick(){
+    if(flashSquareCommonWord.style.display != "none"){
+        flashSquareCommonWord.style.display = "none";
+        flashSquareCommonWordAnswerElement.style.display = "flex";
+    }
+    else if(flashSquareCommonWord.style.display == "none"){
+        const randomCommonWordElementPosition = Math.floor(Math.random() * (commonJapaneseWords.length));                       
+        flashSquareCommonWord.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][0]; 
+        flashSquareCommonWordAnswerElement.innerHTML = commonJapaneseWords[randomCommonWordElementPosition][1];                       
+    
+        flashSquareCommonWordAnswerElement.style.display = "none";
+        flashSquareCommonWord.style.display = "block";
+    }
+}
 function resizeCounter(){
     const countdown_toggle = document.getElementById("countdown-toggle") as HTMLInputElement;
     countdown_toggle.checked = !countdown_toggle.checked;

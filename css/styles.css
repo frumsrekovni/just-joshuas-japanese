@@ -1,6 +1,6 @@
 html{
     scroll-behavior:smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body{
     font-family: "Yantramanav", Helvetica, Arial, sans-serif; 
