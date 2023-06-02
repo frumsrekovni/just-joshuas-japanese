@@ -173,10 +173,15 @@ const allN5Kanji:kanjiCard[] = [
     ["",""],
     ["人","Onyomi: jin,nin\nKunyomi: hito\n"]
 ];
-
+// based on this http://jlptstudy.net/N5/?kanji-list
+// Why does the Jisho 初 page have 始め?
 const commonJapaneseWords:wordCard[] = [
     ["行く","行く いく Go<br> どこ行くの？ Where are you going?"],
     ["見る","見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
+    ["聞く","聞く きく Listen<br> 聞くの？ Are you listening?<br>聞こえる? Can you hear me?<br>新聞 しんぶん Newspaper"],
+    ["耳","耳 みみ Ear/Hearing<br>私の耳、赤い？ わたしのみみ、あかい？ Are my ears red?<br>それは初耳だ それははつみみだ It's news to me."],
+    ["新聞","新聞 しんぶん Newspaper<br>新聞はどこ？ Where is the newspaper?<br>今日の新聞ある？ Do you have today's newspaper?"],
+    ["新しい","新しい あたらしい New<br>新しいの？ Is it new?"],
     ["多い","多い おおい A lot<br>山の多い国です。It's a very mountainous country."],
     ["少ない","少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo."],
     ["少し","少し すこし A little<br>少コーヒー少しどう？ How about a little coffee?"],
@@ -203,7 +208,8 @@ const commonJapaneseWords:wordCard[] = [
     ["意見","意見 いけん Opinion<br>同じ意見です I agree."],
     ["君","君 きみ You<br>君は誰？ Who are you?"],
     ["作る","作る つくる Make<br>コーヒー作るわ I'll make some coffee."],
-    ["朝","朝 あさ Morning<br>もう朝なの？ Is it morning already?<br>(idiom)朝飯前だ あさめしまえだ Piece of cake / As easy as pie"],
+    ["朝","朝 あさ Morning<br>もう朝なの？ Is it morning already?<br>(idiom)朝飯前だ あさめしまえだ Piece of cake / As easy as pie<br>今朝 けさ This morning"],
+    ["今朝","今朝 けさ This morning<br>今朝は何を食べた？ What did you eat this morning?<br>今朝の新聞読んだ？ Did you read this morning's newspaper?"],
     ["昼","昼 ひる Daytime<br>昼は、食事にショッピング。During the day, it's about eating and shopping.<br> 昼ご飯は何？ What's for lunch?<br>お昼寝の時間よ It's time for your afternoon nap."],
     ["夜","夜 よる Night<br>夜は何をする？ What do you do at night?"],
     ["食事","食事 しょくじ Meal<br>食事に行く？ Want to go out to eat?"],
