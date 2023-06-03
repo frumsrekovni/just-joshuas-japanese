@@ -242,11 +242,15 @@ const commonJapaneseWords = [
     ["西", "西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
     //     Use 週 when you specify a week. e.g. 第5週 = the fifth week
     // Use 週間 when you refer to a time span. e.g. 5週間 = five weeks.
+    // 空 has so many common words with different readings. 
     ["週", "週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
     ["週間", "週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
     ["買う", "買う かう Buy<br>それ買うよ I'll buy it"],
     ["買い物", "買い物 かいもの Shopping<br>買い物に行く Going shopping<br>毎朝買い物をします まいあさ買い物をｓじます I go shopping every morning"],
     ["読", "読 よむ Read<br>何読んでるの？ なによんでるの？ What are you reading?<br>(idiom)空気読み くうきよみ Read the room"],
+    ["会社", "会社 かいしゃ Company<br>ジョシュアは会社にいる Is Joshua at the Office?<br>会社員です かいしゃいんです I'm an employee"],
+    ["手", "手 て Hand<br>手はどこ？ Where is your hand?<br>手、空いてる？ Are you free?"],
+    ["空", "空 そら Sky<br>空は青い The sky is blue<br>空耳ですよ 空耳ですよ You are hearing things.<br>空 から emptiness <br>袋は空っぽだ ふくろはからぱっだ The bag is empty.<br>手、空いてる て、あいてる Are you free?"],
     ["読書", "読書 どくしょ Reading(books)<br>読書を続けた とくしょをつづけた I continued reading<br>読書が好きです どくしょがすきです I like reading books"],
     ["書く", "書く かく Write<br>書くものをくれ Give me something to write on"],
     ["語る", "語る かたる talk/speak<br>夢は真実を語る ゆめはしんじつをかたる Dreams tell the truth"],
