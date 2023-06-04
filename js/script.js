@@ -249,6 +249,7 @@ const commonJapaneseWords = [
     ["買い物", "買い物 かいもの Shopping<br>買い物に行く Going shopping<br>毎朝買い物をします まいあさ買い物をｓじます I go shopping every morning"],
     ["読", "読 よむ Read<br>何読んでるの？ なによんでるの？ What are you reading?<br>(idiom)空気読み くうきよみ Read the room"],
     ["会社", "会社 かいしゃ Company<br>ジョシュアは会社にいる Is Joshua at the Office?<br>会社員です かいしゃいんです I'm an employee"],
+    ["社長", "社長 しゃちょう Company president<br>社長は外出中です しゃちょうはがいしゅちゅうです The president is out of office"],
     ["手", "手 て Hand<br>手はどこ？ Where is your hand?<br>手、空いてる？ Are you free?"],
     ["空", "空 そら Sky<br>空は青い The sky is blue<br>空耳ですよ 空耳ですよ You are hearing things.<br>空 から emptiness <br>袋は空っぽだ ふくろはからぱっだ The bag is empty.<br>手、空いてる て、あいてる Are you free?"],
     ["読書", "読書 どくしょ Reading(books)<br>読書を続けた とくしょをつづけた I continued reading<br>読書が好きです どくしょがすきです I like reading books"],
