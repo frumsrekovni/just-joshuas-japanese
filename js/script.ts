@@ -175,10 +175,15 @@ const allN5Kanji:kanjiCard[] = [
 ];
 // based on this http://jlptstudy.net/N5/?kanji-list
 // Why does the Jisho 初 page have 始め?
+// Oni Giri Rendaku?? Rendaku rendaku rendakuuuu
 const commonJapaneseWords:wordCard[] = [
     ["行く","行く いく Go<br> どこ行くの？ Where are you going?"],
     ["見る","見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
     ["聞く","聞く きく Listen<br> 聞くの？ Are you listening?<br>聞こえる? Can you hear me?<br>新聞 しんぶん Newspaper"],
+    ["生","生 なま Life/Genuine/Birth/Raw<br>生の魚はありますか？ なまのさかなはありますか？ Do you have raw fish?<br>生ビールをもう一杯ください なまビールをもういっぱいください One more draft beer please<br>(idiom)一生懸命働 いっしょけんめい Work hard/Try their best<br>生きたい いきたい I want to live"],
+    ["先生","先生 せんせい Teacher<br>先生なの？ Are you a teacher?"],
+    ["いつ","いつ When<br>いつ行くの？ When are you going?<br>誕生日はいつですか？ When is your birthday?"],
+    ["誕生日","誕生日 たんじょうび Birthday<br>誕生日はいつですか？ When is your birthday?"],
     ["耳","耳 みみ Ear/Hearing<br>私の耳、赤い？ わたしのみみ、あかい？ Are my ears red?<br>それは初耳だ それははつみみだ It's news to me."],
     ["新聞","新聞 しんぶん Newspaper<br>新聞はどこ？ Where is the newspaper?<br>今日の新聞ある？ Do you have today's newspaper?"],
     ["新しい","新しい あたらしい New<br>新しいの？ Is it new?"],
@@ -240,6 +245,8 @@ const commonJapaneseWords:wordCard[] = [
     ["万","万 まん Ten thousand<br>万人 まんにん Ten thousand people<br>１万円でたりる？ いちまんえんでたりる？ Is ten thousand yen enough?<br>万歳！ ばんざい！ Hooray!"],
     ["何","何 なん What<br>何時 なんじ What time<br>何日 なんにち What day<br>何日間 なんにちかん What day"],
     ["木","木 き Tree<br>レモンの木だ That's a lemon tree<br>木曜日 もくようび Thursday<br>木曜日に行く Going on Thursday"],
+    ["火","火 ひ Fire<br>火は治まった ひはおさまった The fire has been put out<br>火曜日 かようび Tuesday<br>火曜日に行く Going on Tuesday<br>"],
+    ["花火","花火 はなび Fireworks<br>花火は見えない はなびはみえない I can't see the fireworks"],
     ["本","本 ほん Book<br>本はどこ？ Where is the book?"],
     ["毎日","毎日 まいにち Every day<br>毎日行く？ Do you go every day?"],
     ["金","金 きん Gold<br>金 かね Money<br>金曜日 きんようび Friday<br>金持ち かねもち Rich person<br>金出せよ かねだせよ！ Give me your money!<br>金出せよ きんだせよ！ Give me your gold!"],
@@ -284,6 +291,7 @@ const commonJapaneseWords:wordCard[] = [
     ["悪","悪 わるい Bad/Inferior/Evil<br>目が悪いの？ めがわるいの？ Are your eyes bad?"],
     // Nouns
     ["車","車 くるま Car<br>車が青い The car is blue"],
+    ["父","父 ちち Father<br>父は家にいる ちちはいえにいる My father is home<br>叔父 おじ Uncle"],
     ["男","男 おとこ Man<br>私は男だ わたしはおとこだ I am a man<br>男の子 おとこのこ Young man"],
     ["目","目 め Eye<br>目が悪いの？ めがわるいの？ Are your eyes bad?"],
     ["自転車","自転車 じてんしゃ Bicycle<br>自転車はどこですか Where is your bicycle?"],
@@ -293,7 +301,7 @@ const commonJapaneseWords:wordCard[] = [
     ["人","人 ひと Person<br>いけない人 Failure"],
     ["人口","人口 じんこう Population<br>人口は、５６８人です The population is 568<br>(counter)人 -にん -people"],
     ["ご飯","ご飯 ごはん Cooked Rice / Meal<br>ご飯にする？ Do you want rice/a meal?<br>朝ご飯は何？ What's for breakfast?"],
-    ["魚","魚 さかな Fish<br>魚を食べる I eat fish"],
+    ["魚","魚 さかな Fish<br>魚を食べる I eat fish<br>生の魚はありますか？ なまのさかなはありますか？ Do you have raw fish?"],
     ["鳥","鳥 とり Bird<br>鳥が飛んでいる A bird is flying<br>一石二鳥 いっせきにちょう (idiom)Kill two birds with one stone"],
     ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"],
     ["花","花 はな Flower<br>きれいな花ね! What beautiful flowers!<br>花火を見た？ はなびをみるた？ Did you see the fireworks?<br>(idiom)言わぬが花 いわぬがはな Speech is silver, silence is golden"]
