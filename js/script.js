@@ -177,6 +177,7 @@ const commonJapaneseWords = [
     ["新聞", "新聞 しんぶん Newspaper<br>新聞はどこ？ Where is the newspaper?<br>今日の新聞ある？ Do you have today's newspaper?"],
     ["新しい", "新しい あたらしい New<br>新しいの？ Is it new?"],
     ["多い", "多い おおい A lot<br>山の多い国です。It's a very mountainous country."],
+    ["東", "東 ひがし East<br>東はどの方向なの？　ひがしはどのほうこうなの？ What direction is east?<br>東京 とうきょう Tokyo"],
     ["少ない", "少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo."],
     ["少し", "少し すこし A little<br>少コーヒー少しどう？ How about a little coffee?"],
     ["食べる", "食べる たべる Eat<br>みんなで食べる eat together"],
@@ -199,6 +200,8 @@ const commonJapaneseWords = [
     ["学校", "学校 がっこう School<br>学校は好き？ Do you like school?"],
     ["好", "好 すき Like<br>ピアノは好き？ Do you like the piano?"],
     ["友達", "友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
+    ["来る", "来る くる Come/Next<br>来るの？ Are you coming?<br>また来週 またらいしゅう See you next week<br>早く来い はやくこい Come quickly"],
+    ["週", "週 しゅう Week<br>来週 らいしゅう Next week<br>今週 こんしゅう This week"],
     ["思う", "思う おもう Think<br>どう思う？ What do you think?<br>本当だと思うよ I think it's true"],
     ["同じ", "同じ おなじ Same<br>同じ意見です I agree."],
     ["意見", "意見 いけん Opinion<br>同じ意見です I agree."],
@@ -233,10 +236,10 @@ const commonJapaneseWords = [
     ["千", "千 せん Thousand<br>千人 せんにん Thousand people"],
     ["万", "万 まん Ten thousand<br>万人 まんにん Ten thousand people<br>１万円でたりる？ いちまんえんでたりる？ Is ten thousand yen enough?<br>万歳！ ばんざい！ Hooray!"],
     ["何", "何 なん What<br>何時 なんじ What time<br>何日 なんにち What day<br>何日間 なんにちかん What day"],
-    ["木", "木 き Tree<br>レモンの木だ That's a lemon tree<br>木曜日 もくようび Thursday<br>木曜日に行く Going on Thursday"],
+    ["木", "木 き Tree<br>レモンの木だ That's a lemon tree<br>木曜日 もくようび Thursday<br>木曜日に行く Going on Thursday<br>木人はいちばんの鉄拳キャラクター もくじんはいちばんのてっけんキャラクター Mokujin is my favorite Tekken character"],
     ["火", "火 ひ Fire<br>火は治まった ひはおさまった The fire has been put out<br>火曜日 かようび Tuesday<br>火曜日に行く Going on Tuesday<br>"],
     ["花火", "花火 はなび Fireworks<br>花火は見えない はなびはみえない I can't see the fireworks"],
-    ["本", "本 ほん Book<br>本はどこ？ Where is the book?"],
+    ["本", "本 ほん Book/Real/True<br>本はどこ？ Where is the book?<br>本当？ ほんとう？ For real?<br>本気だった？ ほんきだった？  Were you serious?<br>日本 にほん Japan"],
     ["毎日", "毎日 まいにち Every day<br>毎日行く？ Do you go every day?"],
     ["金", "金 きん Gold<br>金 かね Money<br>金曜日 きんようび Friday<br>金持ち かねもち Rich person<br>金出せよ かねだせよ！ Give me your money!<br>金出せよ きんだせよ！ Give me your gold!"],
     ["間", "間 あいだ Gap/Interval/Between<br>川と丘の間に村がある 川とおかのあいだに村がある There is a village between the river and the hill<br>間 ま Time/Space<br>間に合う？ まにあう？ Will you make it in time?"],
@@ -250,6 +253,7 @@ const commonJapaneseWords = [
     ["言う", "言う いう Say<br>何と言うの？ What did you say?<br>ジョシュアが「私から警察に電話をします」と言うと Joshua says, I'll call the police."],
     ["言語", "言語 げんご Language<br>言語が好きです I like languages<br>言語学 げんごがく Linguistics"],
     ["西", "西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
+    ["気", "気 き spirit/feeling<br>本気？ ほんき Seriously?<br>元気 げんき Well/Fine<br>変な天気！ へんなてんき！ What strange weather!"],
     //     Use 週 when you specify a week. e.g. 第5週 = the fifth week
     // Use 週間 when you refer to a time span. e.g. 5週間 = five weeks.
     // 空 has so many common words with different readings. 
@@ -280,6 +284,7 @@ const commonJapaneseWords = [
     ["悪", "悪 わるい Bad/Inferior/Evil<br>目が悪いの？ めがわるいの？ Are your eyes bad?"],
     // Nouns
     ["車", "車 くるま Car<br>車が青い The car is blue"],
+    ["母", "母 はは Mother<br>母は泣いていた はははないていた My mother was crying<br>お母さん おかあさん Mother<br>お母さんはどこですか おかあさんはどこですか Where's mom"],
     ["父", "父 ちち Father<br>父は家にいる ちちはいえにいる My father is home<br>叔父 おじ Uncle"],
     ["男", "男 おとこ Man<br>私は男だ わたしはおとこだ I am a man<br>男の子 おとこのこ Young man"],
     ["目", "目 め Eye<br>目が悪いの？ めがわるいの？ Are your eyes bad?"],
