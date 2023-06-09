@@ -265,9 +265,6 @@ const commonJapaneseWords:wordCard[] = [
     ["言語","言語 げんご Language<br>言語が好きです I like languages<br>言語学 げんごがく Linguistics"],
     ["西","西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
     ["気","気 き spirit/feeling<br>本気？ ほんき Seriously?<br>元気 げんき Well/Fine<br>変な天気！ へんなてんき！ What strange weather!"],
-//     Use 週 when you specify a week. e.g. 第5週 = the fifth week
-// Use 週間 when you refer to a time span. e.g. 5週間 = five weeks.
-// 空 has so many common words with different readings. 
     ["週","週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
     ["週間","週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
     ["買う","買う かう Buy<br>それ買うよ I'll buy it"],
@@ -309,7 +306,16 @@ const commonJapaneseWords:wordCard[] = [
     ["魚","魚 さかな Fish<br>魚を食べる I eat fish<br>生の魚はありますか？ なまのさかなはありますか？ Do you have raw fish?"],
     ["鳥","鳥 とり Bird<br>鳥が飛んでいる A bird is flying<br>一石二鳥 いっせきにちょう (idiom)Kill two birds with one stone"],
     ["飲み物","飲み物 のみもの (noun)Drink<br>何か飲み物はいかが？ Would you like something to drink?"],
-    ["花","花 はな Flower<br>きれいな花ね! What beautiful flowers!<br>花火を見た？ はなびをみるた？ Did you see the fireworks?<br>(idiom)言わぬが花 いわぬがはな Speech is silver, silence is golden"]
+    ["花","花 はな Flower<br>きれいな花ね! What beautiful flowers!<br>花火を見た？ はなびをみるた？ Did you see the fireworks?<br>(idiom)言わぬが花 いわぬがはな Speech is silver, silence is golden"],
+    ["月","月 つき Moon<br>月が出た つきがでた The moon is out<br>月曜日 げつようび Monday"],
+    ["月曜日","月曜日 げつようび Monday<br>月曜日に行く Going on Monday"],
+    ["山","山 やま Mountain<br>山の多い国です。It's a very mountainous country.<br>富士山は美しい ふじさんはうつくしょい Mount Fuji is beautiful"],
+    ["猫","猫 ねこ Cat<br>猫がいる ねこがいる There is a cat"],
+    ["犬","犬 いぬ Dog<br>犬を見た いぬをみた I saw a dog"],
+    ["牛","牛 うし Cow<br>牛肉 ぎゅうにく Beef<br>牛乳 ぎゅうにゅう Milk"],
+    ["牛乳","牛乳 ぎゅうにゅう Milk<br>牛乳はどこ？ Where is the milk?"],
+    ["果物","果物 くだもの Fruit<br>好きな果物は？ すきなくだものは？ What's your favorite fruit?"],
+    ["雪","雪 ゆき Snow<br>雪が降っている ゆきがふっている It's snowing"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
