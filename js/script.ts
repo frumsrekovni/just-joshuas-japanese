@@ -315,7 +315,13 @@ const commonJapaneseWords:wordCard[] = [
     ["牛","牛 うし Cow<br>牛肉 ぎゅうにく Beef<br>牛乳 ぎゅうにゅう Milk"],
     ["牛乳","牛乳 ぎゅうにゅう Milk<br>牛乳はどこ？ Where is the milk?"],
     ["果物","果物 くだもの Fruit<br>好きな果物は？ すきなくだものは？ What's your favorite fruit?"],
-    ["雪","雪 ゆき Snow<br>雪が降っている ゆきがふっている It's snowing"]
+    ["雪","雪 ゆき Snow<br>雪が降っている ゆきがふっている It's snowing"],
+    ["居る","居る いる To be/To exist (animate objects)<br>犬がいる いぬがいる There is a dog<br>いるの？ Are you there?<br>あいつら、ここに居るの？ Are they here?<br>誰かいる？ だれかいる？ Is anyone there?"],
+    ["有る","有る ある To be/To exist<br>お金ある？ おかねある？ Do you have money?<br>あるの？ Is it there?<br>時間ある？ じかんある？ Do you have time?<br>話す時間ある？ はなすじかんある？ Do you have time to talk?"],
+    ["成る","成る なる to become/to end up<br>なるほど I see/I understand<br>何になりたい？ What do you want to become?<br>何とかなるよね We'll figure something out"],
+    ["なるほど","なるほど I see/I understand<brなるほど、これがマルメか I see so this is Malmö"],
+    ["です","です be/is<br>そうです！ That's right!<br>名前はジョシュアです なまえはジョシュアです My name is Joshua<br>何ですか なんですか What is it?<br>以上ですか いじょうですか Is that all?<br>２８歳です にじゅうはさいです I am 28 years old"],
+    ["為る","為る する to do/to cause<br>どうする？ What will you do?<br>頭痛がする ずつうがする I have a headache<br>気にするなよ　Don't worry about it<br>何するつもり What do you plan to do?"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
