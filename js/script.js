@@ -202,7 +202,7 @@ const commonJapaneseWords = [
     ["友達", "友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
     ["来る", "来る くる Come/Next<br>来るの？ Are you coming?<br>また来週 またらいしゅう See you next week<br>早く来い はやくこい Come quickly"],
     ["週", "週 しゅう Week<br>来週 らいしゅう Next week<br>今週 こんしゅう This week"],
-    ["思う", "思う おもう Think<br>どう思う？ What do you think?<br>本当だと思うよ I think it's true"],
+    ["思う", "思う おもう Think<br>どう思う？ What do you think?<br>本当だと思うよ I think it's true<br>きっと楽しいと思うよ きっとたのしいとおもうよ I think it will be fun"],
     ["同じ", "同じ おなじ Same<br>同じ意見です I agree."],
     ["意見", "意見 いけん Opinion<br>同じ意見です I agree."],
     ["君", "君 きみ You<br>君は誰？ Who are you?"],
@@ -310,7 +310,10 @@ const commonJapaneseWords = [
     ["成る", "成る なる to become/to end up<br>なるほど I see/I understand<br>何になりたい？ What do you want to become?<br>何とかなるよね We'll figure something out"],
     ["なるほど", "なるほど I see/I understand<brなるほど、これがマルメか I see so this is Malmö"],
     ["です", "です be/is<br>そうです！ That's right!<br>名前はジョシュアです なまえはジョシュアです My name is Joshua<br>何ですか なんですか What is it?<br>以上ですか いじょうですか Is that all?<br>２８歳です にじゅうはさいです I am 28 years old"],
-    ["為る", "為る する to do/to cause<br>どうする？ What will you do?<br>頭痛がする ずつうがする I have a headache<br>気にするなよ　Don't worry about it<br>何するつもり What do you plan to do?"]
+    ["為る", "為る する to do/to cause<br>どうする？ What will you do?<br>頭痛がする ずつうがする I have a headache<br>気にするなよ　Don't worry about it<br>何するつもり What do you plan to do?"],
+    ["難しい", "難しい むずかしい Difficult<br>難しいですね It's difficult, isn't it?<br>チェスは難しい Chess is difficult"],
+    ["簡単な", "簡単な かんたんな Easy/Simple<br>簡単な質問 かんたんなしつもん Easy question"],
+    ["楽しい", "楽しい たのしい Fun<br>人生は楽しい じんせいはたのしい Life is fun<br>きっと楽しいと思うよ　きっとたのしいとおもうよ I think it will be fun"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
