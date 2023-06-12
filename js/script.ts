@@ -324,7 +324,17 @@ const commonJapaneseWords:wordCard[] = [
     ["為る","為る する to do/to cause<br>どうする？ What will you do?<br>頭痛がする ずつうがする I have a headache<br>気にするなよ　Don't worry about it<br>何するつもり What do you plan to do?"],
     ["難しい","難しい むずかしい Difficult<br>難しいですね It's difficult, isn't it?<br>チェスは難しい Chess is difficult"],
     ["簡単な","簡単な かんたんな Easy/Simple<br>簡単な質問 かんたんなしつもん Easy question"],
-    ["楽しい","楽しい たのしい Fun<br>人生は楽しい じんせいはたのしい Life is fun<br>きっと楽しいと思うよ　きっとたのしいとおもうよ I think it will be fun"]
+    ["楽しい","楽しい たのしい Fun<br>人生は楽しい じんせいはたのしい Life is fun<br>きっと楽しいと思うよ　きっとたのしいとおもうよ I think it will be fun"],
+    ["ブドウ","ブドウ Grape<br>ブドウは好き？ Do you like grapes?"],
+    ["じゃがいも","じゃがいも Potato<br>じゃがいもは好き？ Do you like potatoes?"],
+    ["だいこん","だいこん Radish<br>だいこんは好き？ Do you like radishes?"],
+    ["きゃべつ","きゃべつ Cabbage<br>きゃべつは好き？ Do you like cabbage?"],
+    ["パイン","パイン Pineapple<br>パインは好き？ Do you like pineapple?"],
+    ["りんご","りんご Apple<br>りんごは好き？ Do you like apples?"],
+    ["ミカン","ミカン Orange<br>ミカンは好き？ Do you like oranges?"],
+    ["ピーマン","ピーマン Bell pepper<br>ピーマンは好き？ Do you like bell peppers?"],
+    ["なす" ,"なす Eggplant<br>なすは好き？ Do you like eggplant?"]
+
 
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
