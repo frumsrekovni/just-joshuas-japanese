@@ -741,10 +741,29 @@ path{
 .news-article-translation p{
    display: none;
 }
-
+.article-wrapper{
+    height: 300px; 
+    overflow-x: hidden;
+    overflow-y:scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border:1px solid black;
+}
+.article-wrapper::-webkit-scrollbar{
+    display: none;
+}
 
 .article-title-header{
-    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    -webkit-transition: 400ms cubic-bezier(.14,.82,.7,.92);
+    -o-transition: 400ms cubic-bezier(.14,.82,.7,.92);
+    transition: 400ms cubic-bezier(.14,.82,.7,.92);
+}
+.article-title-header:hover{
+    opacity: 60%;
 }
 #news-article-translation-1 .article-title-header{
     background-color: rgb(65, 0, 65);
