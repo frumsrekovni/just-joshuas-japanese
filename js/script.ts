@@ -325,15 +325,23 @@ const commonJapaneseWords:wordCard[] = [
     ["難しい","難しい むずかしい Difficult<br>難しいですね It's difficult, isn't it?<br>チェスは難しい Chess is difficult"],
     ["簡単な","簡単な かんたんな Easy/Simple<br>簡単な質問 かんたんなしつもん Easy question"],
     ["楽しい","楽しい たのしい Fun<br>人生は楽しい じんせいはたのしい Life is fun<br>きっと楽しいと思うよ　きっとたのしいとおもうよ I think it will be fun"],
-    ["ブドウ","ブドウ Grape<br>ブドウは好き？ Do you like grapes?"],
-    ["じゃがいも","じゃがいも Potato<br>じゃがいもは好き？ Do you like potatoes?"],
-    ["だいこん","だいこん Radish<br>だいこんは好き？ Do you like radishes?"],
+    ["ブドウ","ブドウ Grape<br>ブドウは好き？ Do you like grapes?<br>あのブドウは酸っぱいよ あのブドウはすっぱいよ The grapes are sour"],
+    ["じゃがいも","じゃがいも Potato<br>じゃがいもはあたたかいままです The potatoes are still warm"],
+    ["大根","大根 だいこん Radish<br>韓国大根は高いです かんこくだいこんはたかいです Korean radishes are expensive"],
     ["きゃべつ","きゃべつ Cabbage<br>きゃべつは好き？ Do you like cabbage?"],
-    ["パイン","パイン Pineapple<br>パインは好き？ Do you like pineapple?"],
-    ["りんご","りんご Apple<br>りんごは好き？ Do you like apples?"],
-    ["ミカン","ミカン Orange<br>ミカンは好き？ Do you like oranges?"],
-    ["ピーマン","ピーマン Bell pepper<br>ピーマンは好き？ Do you like bell peppers?"],
-    ["なす" ,"なす Eggplant<br>なすは好き？ Do you like eggplant?"]
+    ["パイン","パイン Pineapple<br>パインはちょっと高いです パインはちょっとたかいです Pineapples are a bit expensive"],
+    ["りんご","りんご Apple<br>りんごは好き？ Do you like apples?<br>このりんごは甘い このりんごはあまい This apple is sweet"],
+    ["ミカン","ミカン Orange<br>ミカンは、ビタミンが豊富です ミカンは、ビタミンがほうふです Oranges are rich in vitamins"],
+    ["ピーマン","ピーマン Bell pepper<br>ピーマンが大嫌い ぴーまんがだいきらい I hate bell peppers"],
+    ["なす" ,"なす Eggplant<br>なすは好き？ Do you like eggplant?"],
+    ["明るい","明るい あかるい Bright<br>すごく明るい すごくあかるい It's very bright<br>月は明るい つきはあかるい The moon is bright"],
+    ["暗い","暗い くらい Dark<br>外は暗い そとはくらい It's dark outside<br>暗い部屋の中を懐中電灯で照らした。 くらいへやのなかをかいちゅうでんとうでてらした I shone a flashlight around the dark room"],
+    ["重い","重い おもい Heavy/Important<br>頭が重い あたまがおもい My head feels heavy<br>この本は重い このほんはおもい This book is heavy"],
+    ["軽い","軽い かるい Light/Unimportant<br>この椅子は軽い このいすはかるい This chair is light<br>軽い食事 かるいしょくじ Light meal<br>症状は軽いですよ しょうじょうはかるいですよ The symptoms are mild"],
+    ["前","前 まえ Front/Before<br>前に行く Going forward<br>前に戻る Going back<br>前に進む Going forward<br>前に進め！ まえにすすめ！ Go forward!<br>お名前は？ おなまえは？ What's your name?<br>当たり前だ あたりまえだ Of course<br>11時半前だ じゅういちじはんまえだ It's nearly 11:30<br>店の前で待っててください みせのまえでまっててください Please wait by the front of the store"],
+    ["後","後 あと After/Later<br>また後で See you later<br>後で電話して あとででんわして Call me later<br>後で決めます あとできめます I'll decide later"],
+    ["後ろ","後ろ うしろ back/rear<br>後ろを見ろ うしろをみろ Look behind you<br>彼の後ろにいる かれのうしろにいる I'm behind him"],
+    ["先","先 さき Ahead/First/Before<br>どうぞ、お先に！ どうぞ、おさきに！ Go ahead!<br>私が先に行きます わたしがさきにいきます I'll go first"]
 
 
 ];
