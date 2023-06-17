@@ -342,6 +342,9 @@ const commonJapaneseWords = [
     ["いちご", "いちご Strawberry<br>苺を持ってきたよ いちごをもってきたよ I brought strawberries"],
     ["明るい", "明るい あかるい Bright<br>すごく明るい すごくあかるい It's very bright<br>月は明るい つきはあかるい The moon is bright"],
     ["暗い", "暗い くらい Dark<br>外は暗い そとはくらい It's dark outside<br>暗い部屋の中を懐中電灯で照らした。 くらいへやのなかをかいちゅうでんとうでてらした I shone a flashlight around the dark room"],
+    ["部屋", "部屋 へや Room<br>部屋が暑い へやがあつい The room is hot<br>部屋が寒い へやがさむい The room is cold<br>部屋を片づけて へやをかたづけて Clean your room"],
+    ["綺麗", "綺麗 きれい Beautiful/Clean<br>綺麗じゃない？ きれいじゃない？ Isn't it beautiful?<br>綺麗な鳥を見たんだよ きれいなとりをみたんだよ I saw a beautiful bird<br>このモップで床を綺麗にしてください このモップでゆかをきれいにしてください Please clean the floor with this mop"],
+    ["広い", "広い ひろい Wide/Spacious<br>広い部屋 ひろいへや A spacious room<br>広い道 ひろいみち A wide road<br>広い心 ひろいこころ A generous heart"],
     ["重い", "重い おもい Heavy/Important<br>頭が重い あたまがおもい My head feels heavy<br>この本は重い このほんはおもい This book is heavy"],
     ["軽い", "軽い かるい Light/Unimportant<br>この椅子は軽い このいすはかるい This chair is light<br>軽い食事 かるいしょくじ Light meal<br>症状は軽いですよ しょうじょうはかるいですよ The symptoms are mild"],
     ["前", "前 まえ Front/Before<br>前に行く Going forward<br>前に戻る Going back<br>前に進む Going forward<br>前に進め！ まえにすすめ！ Go forward!<br>お名前は？ おなまえは？ What's your name?<br>当たり前だ あたりまえだ Of course<br>11時半前だ じゅういちじはんまえだ It's nearly 11:30<br>店の前で待っててください みせのまえでまっててください Please wait by the front of the store"],
@@ -375,6 +378,11 @@ const commonJapaneseWords = [
     ["百本", "百本 ひゃっぽん one hundred long things<br>百本の鉛筆 ひゃっぽんのえんぴつ One hundred pencils<br>百本の線 ひゃっぽんのせん One hundred lines"],
     ["千本", "千本 せんぼん one thousand long things<br>千本の鉛筆 せんぼんのえんぴつ One thousand pencils<br>千本の線 せんぼんのせん One thousand lines"],
     ["何本", "何本 なんぼん how many long things<br>何本ある？ How many are there?"],
+    ["着る", "着る きる to wear<br>何を着る？ なにをきる？ What will you wear?"],
+    ["消える", "消える きえる to disappear/to go out<br>電気が消えた でんきがきえた The lights went out<br>消えている きえている It's gone"],
+    ["開ける", "開ける あける to open<br>開けて あけて Open it<br>開けてください あけてください Please open it"],
+    ["弾く", "弾く ひく to play (piano/guitar)<br>ギターを弾く ギターをひく Play the guitar<br>ピアノを弾く ピアノをひく Play the piano"],
+    ["乗る", "乗る のる to ride/to board<br>乗って 乗って Get on<br>乗ってください のってください Please get on"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
