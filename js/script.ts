@@ -630,7 +630,7 @@ function toggleArticlePost(activeExpandArticle){
 }
 
 // ### THE POLITENESS SLIDER CODE ###
-
+// Rude <-> Polite
 const sliderPoliteness = document.getElementById("politeness-input-slider") as HTMLInputElement;
 const dynamicText = document.getElementById("dynamic-politeness-div") as HTMLDivElement;
 let wordsForPoliteness:string[][] = [
@@ -638,7 +638,12 @@ let wordsForPoliteness:string[][] = [
     ["帰れ","帰って","帰ってください","お帰れください"],
     ["わりぃ","ごめん","すみません","申し訳ございません","大変申し訳ございません"],
     ["写真撮って","写真撮ってください","写真撮っていただけますか","すみませんが写真撮っていただけますか","申し訳ございませんが写真撮って頂けますでしょうか","大変申し訳ございませんが写真撮って頂けますでしょうか"],
-    ["なんだよ！","あぁ？","なに？","なんですか","なんでしょうか"]];
+    ["なんだよ！","あぁ？","なに？","なんですか","なんでしょうか"],
+    ["なんでもねよ","いまのわすれて","なんでもないよ","なんでもないです","なんでもございません"],
+    ["金がねぇー","金欠なんだ","お金がないです","経済面で苦しいです"],
+    ["待って","ちょっと待ってください","少しお待ちいただけますか"],
+    ["応援してるよ","応援しています","応援しております"]
+];
 
 
 dynamicText.innerText = wordsForPoliteness[0][0];
