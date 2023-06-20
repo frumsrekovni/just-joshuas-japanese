@@ -463,3 +463,8 @@ function leftPostDrag(event) {
     event.preventDefault();
     (_a = document.getElementById("post16")) === null || _a === void 0 ? void 0 : _a.style.backgroundColor = "white";
 }
+const articlewrapperelement = document.getElementById("article-wrapper");
+articlewrapperelement === null || articlewrapperelement === void 0 ? void 0 : articlewrapperelement.addEventListener("wheel", (event) => {
+    articlewrapperelement.style.backgroundColor = "red";
+    console.log("change");
+});

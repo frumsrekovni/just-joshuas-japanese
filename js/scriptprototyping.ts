@@ -506,3 +506,11 @@ function leftPostDrag(event){
     document.getElementById("post16")?.style.backgroundColor = "white";
 
 }
+
+
+const articlewrapperelement = document.getElementById("article-wrapper");
+
+articlewrapperelement?.addEventListener("wheel", (event) => {
+    articlewrapperelement.style.backgroundColor = "red";
+    console.log("change");
+});
