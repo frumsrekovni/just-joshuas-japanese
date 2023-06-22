@@ -352,6 +352,7 @@ const commonJapaneseWords:wordCard[] = [
     ["きゃべつ","きゃべつ Cabbage<br>きゃべつは好き？ Do you like cabbage?"],
     ["パイン","パイン Pineapple<br>パインはちょっと高いです パインはちょっとたかいです Pineapples are a bit expensive"],
     ["りんご","りんご Apple<br>りんごは好き？ Do you like apples?<br>このりんごは甘い このりんごはあまい This apple is sweet"],
+    ["甘い","甘い あまい Sweet<br>甘いですね It's sweet, isn't it?<br>このりんごは甘い このりんごはあまい This apple is sweet<br>甘いものが好き あまいものがすき I like sweet things"],
     ["ミカン","ミカン Orange<br>ミカンは、ビタミンが豊富です ミカンは、ビタミンがほうふです Oranges are rich in vitamins"],
     ["ピーマン","ピーマン Bell pepper<br>ピーマンが大嫌い ぴーまんがだいきらい I hate bell peppers"],
     ["人参","人参 にんじん Carrot<br>ウサギが人参を食べてるよ うさぎがにんじんをたべてるよ The rabbit is eating a carrot"],
@@ -409,6 +410,19 @@ const commonJapaneseWords:wordCard[] = [
     ["質問","質問 しつもん Question<br>質問がある しつもんがある I have a question<br>質問していい？ しつもんしていい？ Can I ask a question?<br>良い質問です いいしつもんです That's a good question"],
     ["答える","答える こたえる to answer<br>質問に答えることを拒否する　しつもんにこたえることをきょひする I refuse to answer the question."],
     ["お店","お店 おみせ Store<br>お店はいつ開くの？ おみせはいつひらくの？ When does the store open?<br>お店では買えないよ おみせではかえないよ You can't buy these from a shop"],
+    ["頭","頭 あたま Head<br>頭が痛い あたまがいたい I have a headache<br>頭が良い あたまがいい Smart"],
+    ["歩く","歩く あるく to walk<br>歩いて あるいて Walk<br>歩いてください あるいてください Please walk"],
+    ["医者","医者 いしゃ Doctor<br>医者に行く いしゃにいく Go to the doctor"],
+    ["椅子","椅子 いす Chair<br>椅子に座る いすにすわる Sit on the chair"],
+    ["いつも","いつも always<br>いつもありがとう Thank you always<br>いつも一緒 いつもいっしょ Always together"],
+    ["色々","色々 いろいろ various<br>色々な人 いろいろなひと Various people<br>色々な食べ物 いろいろなたべもの Various foods"],
+    ["歌","歌 うた Song<br>歌を歌う うたをうたう Sing a song"],
+    ["歌う","歌う うたう to sing<br>歌って うたって Sing<br>歌ってください うたってください Please sing"],
+    ["上","上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above"],
+    ["映画","映画 えいが Movie<br>映画を見る えいがをみる Watch a movie"],
+    ["円","円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"]
+
+
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
