@@ -335,6 +335,7 @@ const commonJapaneseWords:wordCard[] = [
     ["犬","犬 いぬ Dog<br>犬を見た いぬをみた I saw a dog"],
     ["牛","牛 うし Cow<br>牛肉 ぎゅうにく Beef<br>牛乳 ぎゅうにゅう Milk"],
     ["牛乳","牛乳 ぎゅうにゅう Milk<br>牛乳はどこ？ Where is the milk?"],
+
     ["果物","果物 くだもの Fruit<br>好きな果物は？ すきなくだものは？ What's your favorite fruit?"],
     ["雪","雪 ゆき Snow<br>雪が降っている ゆきがふっている It's snowing"],
     ["居る","居る いる To be/To exist (animate objects)<br>犬がいる いぬがいる There is a dog<br>いるの？ Are you there?<br>あいつら、ここに居るの？ Are they here?<br>誰かいる？ だれかいる？ Is anyone there?"],
@@ -347,6 +348,8 @@ const commonJapaneseWords:wordCard[] = [
     ["簡単な","簡単な かんたんな Easy/Simple<br>簡単な質問 かんたんなしつもん Easy question"],
     ["楽しい","楽しい たのしい Fun<br>人生は楽しい じんせいはたのしい Life is fun<br>きっと楽しいと思うよ　きっとたのしいとおもうよ I think it will be fun"],
     ["ブドウ","ブドウ Grape<br>ブドウは好き？ Do you like grapes?<br>あのブドウは酸っぱいよ あのブドウはすっぱいよ The grapes are sour"],
+[ "ほれんそ","ほれんそ Spinach"],
+["ニシン","Will tis is the season"],
     ["じゃがいも","じゃがいも Potato<br>じゃがいもはあたたかいままです The potatoes are still warm"],
     ["大根","大根 だいこん Radish<br>韓国大根は高いです かんこくだいこんはたかいです Korean radishes are expensive"],
     ["きゃべつ","きゃべつ Cabbage<br>きゃべつは好き？ Do you like cabbage?"],
