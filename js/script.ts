@@ -188,6 +188,8 @@ const commonJapaneseWords:wordCard[] = [
     ["新聞","新聞 しんぶん Newspaper<br>新聞はどこ？ Where is the newspaper?<br>今日の新聞ある？ Do you have today's newspaper?"],
     ["新しい","新しい あたらしい New<br>新しいの？ Is it new?"],
     ["多い","多い おおい A lot<br>山の多い国です。It's a very mountainous country."],
+    ["国","国 くに Country<br>日本は狭い国です Japan is a small country<br>アメリカは大きい国です America is a big country<br>国語 こくご National language"],
+    ["国語","国語 こくご National language<br>国語は難しいですか？ Is Japanese difficult?"],
     ["東","東 ひがし East<br>東はどの方向なの？　ひがしはどのほうこうなの？ What direction is east?<br>東京 とうきょう Tokyo"],
     ["少ない","少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo."],
     ["少し","少し すこし A little<br>少コーヒー少しどう？ How about a little coffee?"],
@@ -268,6 +270,7 @@ const commonJapaneseWords:wordCard[] = [
     ["火曜日","火曜日 かようび Tuesday<br>火曜日に行く Going on Tuesday<br>火曜日はお暇ですか かようびはおひまですか Are you free on Tuesday?"],
     ["水曜日","水曜日 すいようび Wednesday<br>水曜日に行く Going on Wednesday<br>水曜日は仕事があります すいようびはしごとがあります I have work on Wednesday"],
     ["金曜日","金曜日 きんようび Friday<br>金曜日に行く Going on Friday<br>やっと金曜日だ やっときんようびだ It's finally Friday"],
+    ["土","土 つち Earth/Dirt/Ground<br>土曜日 どようび Saturday<br>土曜日に行く Going on Saturday<br>土は何色なの？ つちはないろなの？ What color is the dirt?<br>土砂降りです どしゃぶりです It's raining hard."],
     ["土曜日","土曜日 どようび Saturday<br>土曜日に行く Going on Saturday<br>今日は土曜日ですか？ きょうはどようびですか Is today Saturday?"],
     ["日曜日","日曜日 にちようび Sunday<br>日曜日に行く Going on Sunday<br>明日は日曜日です あしたはにちようびです Tomorrow is Sunday"],
     ["火","火 ひ Fire<br>火は治まった ひはおさまった The fire has been put out<br>火曜日 かようび Tuesday<br>火曜日に行く Going on Tuesday<br>"],
@@ -286,6 +289,7 @@ const commonJapaneseWords:wordCard[] = [
     ["言う","言う いう Say<br>何と言うの？ What did you say?<br>ジョシュアが「私から警察に電話をします」と言うと Joshua says, I'll call the police."],
     ["言語","言語 げんご Language<br>言語が好きです I like languages<br>言語学 げんごがく Linguistics"],
     ["西","西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
+    ["天","天 てん Heaven<br>天国 てんごく Heaven<br>天気 てんき Weather<br>変な天気！ へんなてんき！ What strange weather!"],
     ["気","気 き spirit/feeling<br>本気？ ほんき Seriously?<br>元気 げんき Well/Fine<br>変な天気！ へんなてんき！ What strange weather!"],
     ["週","週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
     ["週間","週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
@@ -423,7 +427,9 @@ const commonJapaneseWords:wordCard[] = [
     ["歌う","歌う うたう to sing<br>歌って うたって Sing<br>歌ってください うたってください Please sing"],
     ["上","上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above"],
     ["映画","映画 えいが Movie<br>映画を見る えいがをみる Watch a movie"],
-    ["円","円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"]
+    ["円","円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"],
+    ["左","左 ひだり Left<br>左に行く ひだりにいく Go left<br>左折して させつして Turn left<br>左足が痛みます ひだりあしはいたみます My left foot hurts"],
+    ["右","右 みぎ Right<br>右に行く みぎにいく Go right<br>右折して うせつして Turn right<br>右足が痛みます みぎあしはいたみます My right foot hurts"]
 
 
 ];
