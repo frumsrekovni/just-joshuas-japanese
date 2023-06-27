@@ -429,7 +429,22 @@ const commonJapaneseWords:wordCard[] = [
     ["映画","映画 えいが Movie<br>映画を見る えいがをみる Watch a movie"],
     ["円","円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"],
     ["左","左 ひだり Left<br>左に行く ひだりにいく Go left<br>左折して させつして Turn left<br>左足が痛みます ひだりあしはいたみます My left foot hurts"],
-    ["右","右 みぎ Right<br>右に行く みぎにいく Go right<br>右折して うせつして Turn right<br>右足が痛みます みぎあしはいたみます My right foot hurts"]
+    ["右","右 みぎ Right<br>右に行く みぎにいく Go right<br>右折して うせつして Turn right<br>右足が痛みます みぎあしはいたみます My right foot hurts"],
+    ["賛成","賛成 さんせい I agree<br>大賛成です だいさんせいです I completely agree<br>みんな君に賛成だ よみんなきみにさんせいだ Everyone agrees with you"],
+    ["こちらこそ","こちらこそ My pleasure/Nice to meet you too"],
+    ["ご苦労様","ご苦労様 ごくろうさま Thank you for your hard work<br>ご苦労様でした ごくろうさまでした Thank you for your hard work"],
+    ["信じられない","信じられない しんじられない I can't believe it<br>もう誰も信じられない もうだれもしんじられない I can't trust anyone anymore"],
+    ["先ず","先ず　まず First of all<br>先ずは、お試しを まずは、おためしを First of all, try it out"],
+    ["最初","最初 さいしょ First<br>最初に行く さいしょにいく Go first<br>最初に来た人 さいしょにきたひと The first person to come"],
+    ["初めに","初めに はじめに First of all<br>初めに、お試しを はじめに、おためしを First of all, try it out"],
+    ["先に","先に さきに Before/First of all<brどうぞ、お先に！ どうぞ、おさきに！ Go ahead!<br>私が先に行きます わたしがさきにいきます I'll go first"],
+    ["直ぐに","直ぐに すぐに Immediately/First thing<br>直ぐに行く すぐにいく Go immediately<br>すぐに戻ります すぐにもどります I'll be right back"],
+    ["次に","次に つぎに Next<br>次に行く つぎにいく Go next<br>次に来た人 つぎにきたひと The next person to come"],
+    ["その後","その後 そのあと After that/Thereafter<br>その後どうなるの？ そのあとどうなるの？ What happens after that?<br>その後、何があった？ そのあと、なにがあった？ What happened after that?<br>その後から、見方が変わりました そのあとから、みかたがかわりました My perspective has changed since then"],
+    ["其れから","其れから　それから After that/And then<br>それから10年が経った それから10ねんがたった 10 years have passed since then<br>それからドアを開けて外に出ました それからドアをあけてそとにでました Then I opened the door and went outside"],
+    ["而して","而して　しかして And/And then/thus<br>而して、何があった？ しかして、なにがあった？ And then what happened?<br>そして、先生なんですよね そして、せんせいなんですよね And you're a teacher, right?"],
+    ["続いて","続いて　つづいて Subsequently/after<br>続いてキャンセルするチケットを選択します つづいてキャンセルするチケットをせんたくします Next, select the ticket you want to cancel<br>わたしに続いて読みなさい わたしにつづいてよみなさい Read after me"],
+    ["最後","最後 さいご End/Last<br>最後に質問があります さいごにしっもんがあります I have one last question<br>(idiom)最後に笑う者が最もよく笑う さいごにわらうものがもっともよくわらう He who laughs last laughs best"]
 
 
 ];
