@@ -178,6 +178,13 @@ h3{
 .sidebar li:hover a{
     text-decoration:underline;
 }
+.smaller-sidebar-options{
+    display: flex;
+    font-size: small;
+}
+.smaller-sidebar-options h3{
+    margin: 8px;
+}
 
 .blog-post{
     width: 100%;
