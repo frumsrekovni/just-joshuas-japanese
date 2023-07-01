@@ -432,7 +432,12 @@ const commonJapaneseWords = [
     ["其れから", "其れから　それから After that/And then<br>それから10年が経った それから10ねんがたった 10 years have passed since then<br>それからドアを開けて外に出ました それからドアをあけてそとにでました Then I opened the door and went outside"],
     ["而して", "而して　しかして And/And then/thus<br>而して、何があった？ しかして、なにがあった？ And then what happened?<br>そして、先生なんですよね そして、せんせいなんですよね And you're a teacher, right?"],
     ["続いて", "続いて　つづいて Subsequently/after<br>続いてキャンセルするチケットを選択します つづいてキャンセルするチケットをせんたくします Next, select the ticket you want to cancel<br>わたしに続いて読みなさい わたしにつづいてよみなさい Read after me"],
-    ["最後", "最後 さいご End/Last<br>最後に質問があります さいごにしっもんがあります I have one last question<br>(idiom)最後に笑う者が最もよく笑う さいごにわらうものがもっともよくわらう He who laughs last laughs best"]
+    ["最後", "最後 さいご End/Last<br>最後に質問があります さいごにしっもんがあります I have one last question<br>(idiom)最後に笑う者が最もよく笑う さいごにわらうものがもっともよくわらう He who laughs last laughs best"],
+    ["便利", "便利 べんり Convenient<br>それ、とても便利よ それ、とてもべんりよ That's very convenient<br>車は高いですが、便利です くるまはたかいですが、べんりです Cars are expensive but convenient"],
+    ["帽子", "帽子 ぼうし Hat<br>君の帽子はどれ？ きみのぼうしはどれ？ Which one is your hat?<br>帽子、返して ぼうし、かえして Give me back my hat<br>彼は帽子を買った。 かれはぼうしをかった He bought a hat"],
+    ["病院", "病院 びょういん Hospital<br>病院に行けよ びょういんにいけよ Go to the hospital<br>病院は何処ですか？ びょういんはどこですか？ Where is the hospital?"],
+    ["病気", "病気 びょうき Illness<br>病気です びょうきです I'm sick<br>彼らは病気だ かれらはびょうきだ They are sick<br>何の病気ですか なんのびょうきですか What illness do I have?"],
+    ["文章", "文章 ぶんしょう Sentence<br>文章を書く ぶんしょうをかく Write a sentence<br>この文章は正しいでしょうか？ このぶんしょうはただしいでしょうか？ Is this sentence correct?<br>この文章を訳す気にならない このぶんしょうをやくすきにならない I don't feel like translating this sentence"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
