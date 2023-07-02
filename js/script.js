@@ -175,7 +175,7 @@ const commonJapaneseWords = [
     ["誕生日", "誕生日 たんじょうび Birthday<br>誕生日はいつですか？ When is your birthday?"],
     ["耳", "耳 みみ Ear/Hearing<br>私の耳、赤い？ わたしのみみ、あかい？ Are my ears red?<br>それは初耳だ それははつみみだ It's news to me."],
     ["新聞", "新聞 しんぶん Newspaper<br>新聞はどこ？ Where is the newspaper?<br>今日の新聞ある？ Do you have today's newspaper?"],
-    ["新しい", "新しい あたらしい New<br>新しいの？ Is it new?"],
+    ["新しい", "新しい あたらしい New<br>新しいの？ Is it new?<br>新車を買うつもり しんしゃをかうつもりだ I am going to buy a new car"],
     ["多い", "多い おおい A lot<br>山の多い国です。It's a very mountainous country."],
     ["国", "国 くに Country<br>日本は狭い国です Japan is a small country<br>アメリカは大きい国です America is a big country<br>国語 こくご National language"],
     ["国語", "国語 こくご National language<br>国語は難しいですか？ Is Japanese difficult?"],
@@ -282,7 +282,7 @@ const commonJapaneseWords = [
     ["気", "気 き spirit/feeling<br>本気？ ほんき Seriously?<br>元気 げんき Well/Fine<br>変な天気！ へんなてんき！ What strange weather!"],
     ["週", "週 しゅう Week<br>第5週 だいごしゅう the 5th week"],
     ["週間", "週間 しゅうかん Week<br>5週間 ごしゅうまつ 5 weeks"],
-    ["買う", "買う かう Buy<br>それ買うよ I'll buy it"],
+    ["買う", "買う かう Buy<br>それ買うよ I'll buy it<br>新車を買うつもり しんしゃをかうつもりだ I am going to buy a new car<br>薬は買ったの？ Did you buy the medicine?"],
     ["買い物", "買い物 かいもの Shopping<br>買い物に行く Going shopping<br>毎朝買い物をします まいあさ買い物をｓじます I go shopping every morning"],
     ["読", "読 よむ Read<br>何読んでるの？ なによんでるの？ What are you reading?<br>(idiom)空気読み くうきよみ Read the room"],
     ["会社", "会社 かいしゃ Company<br>ジョシュアは会社にいる Is Joshua at the Office?<br>会社員です かいしゃいんです I'm an employee"],
@@ -305,7 +305,7 @@ const commonJapaneseWords = [
     ["立", "立 た Stand up/Erect<br>立てますか？ Can you stand up?<br>立派 りっぱ Splendid/Wonderful/Incredible"],
     ["立派", "立派 りっぱ Splendid/Wonderful/Incredible<br>立派ですね It's splendid, isn't it?<br>もっと立派な人になりたい。 I want to be a better person."],
     ["悪", "悪 わるい Bad/Inferior/Evil<br>目が悪いの？ めがわるいの？ Are your eyes bad?"],
-    ["車", "車 くるま Car<br>車が青い The car is blue"],
+    ["車", "車 くるま Car<br>車が青い The car is blue<br>新車を買うつもり しんしゃをかうつもりだ I am going to buy a new car"],
     ["母", "母 はは Mother<br>母は泣いていた はははないていた My mother was crying<br>お母さん おかあさん Mother<br>お母さんはどこですか おかあさんはどこですか Where's mom"],
     ["父", "父 ちち Father<br>父は家にいる ちちはいえにいる My father is home<br>叔父 おじ Uncle"],
     ["男", "男 おとこ Man<br>私は男だ わたしはおとこだ I am a man<br>男の子 おとこのこ Young man"],
@@ -437,7 +437,19 @@ const commonJapaneseWords = [
     ["帽子", "帽子 ぼうし Hat<br>君の帽子はどれ？ きみのぼうしはどれ？ Which one is your hat?<br>帽子、返して ぼうし、かえして Give me back my hat<br>彼は帽子を買った。 かれはぼうしをかった He bought a hat"],
     ["病院", "病院 びょういん Hospital<br>病院に行けよ びょういんにいけよ Go to the hospital<br>病院は何処ですか？ びょういんはどこですか？ Where is the hospital?"],
     ["病気", "病気 びょうき Illness<br>病気です びょうきです I'm sick<br>彼らは病気だ かれらはびょうきだ They are sick<br>何の病気ですか なんのびょうきですか What illness do I have?"],
-    ["文章", "文章 ぶんしょう Sentence<br>文章を書く ぶんしょうをかく Write a sentence<br>この文章は正しいでしょうか？ このぶんしょうはただしいでしょうか？ Is this sentence correct?<br>この文章を訳す気にならない このぶんしょうをやくすきにならない I don't feel like translating this sentence"]
+    ["文章", "文章 ぶんしょう Sentence<br>文章を書く ぶんしょうをかく Write a sentence<br>この文章は正しいでしょうか？ このぶんしょうはただしいでしょうか？ Is this sentence correct?<br>この文章を訳す気にならない このぶんしょうをやくすきにならない I don't feel like translating this sentence"],
+    ["短い", "短い みじかい Short<br>短い文章 みじかいぶんしょう Short sentence<br>短い髪 みじかいかみ Short hair<br>人生は短い じんせいはみじかい Life is short"],
+    ["人生", "人生 じんせい Life<br>人生は短い じんせいはみじかい Life is short<br>(idiom)人生山あり谷あり じんせいやまありたにあり Life has its ups and downs"],
+    ["もしもし", "もしもし Hello (on the phone)<br>もしもし、誰ですか？ もしもし、だれですか？ Hello, who is this?"],
+    ["勿論", "勿論 もちろん Of course<br>勿論、そうだ もちろん、そうだ Of course, that's right"],
+    ["料理", "料理 りょうり Cooking<br>料理は得意？ りょうりはとくい？ Are you good at cooking?<br>料理を作る りょうりをつくる Make a dish<br>タイの料理はどう？ タイのりょうりはどう？ How about Thai food?"],
+    ["旅行", "旅行 りょこう Travel<br>旅行は好き？ りょこうはすき？ Do you like to travel?<br>よいご旅行を よいごりょこうを Have a good trip"],
+    ["練習", "練習 れんしゅう Practice<br>練習してください れんしゅうしてください Please practice<br>練習は熟達の道  れんしゅうはじゅくたつのみち Practice makes perfect<br>彼は毎日家で練習した かれはまいにちいえでれんしゅうした He practiced at home every day"],
+    ["彼", "彼 かれ He/Boyfriend<br>彼は日本人です かれはにほんじんです He is Japanese<br>彼は日本語を話せます かれはにほんごをはなせます He can speak Japanese"],
+    ["若い", "若い わかい Young<br>若いなあ わかいなあ You're young<br>あの若い彼は誰？ あのわかいかれはだれ？ Who is that young guy?"],
+    ["分かる", "分かる わかる to understand/to know<br>今何時か分かる？ いまなんじかわかる？ Do you know what time it is?<br>何の日か分かる？ なんのひかわかる？ Do you know what day it is?<br>気持ち分かるよ きもちわかるよ I know how you feel"],
+    ["忘れる", "忘れる わすれる to forget<br>それを忘れる それをわすれる Forget about it<br>薬、飲み忘れるなよ くすり、のみわすれるなよ Don't forget to take your medicine"],
+    ["薬", "薬 くすり Medicine<br>お薬飲んだ？ おくすりのんだ？ Did you take your medicine?<br>薬が効いた くすりがきいた The medicine worked<br>薬は買ったの？ くすりはかったの？ Did you buy the medicine?"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
