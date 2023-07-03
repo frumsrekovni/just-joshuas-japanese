@@ -220,6 +220,7 @@ const commonJapaneseWords:wordCard[] = [
     ["来年","来年 らいねん Next year<br>来年は何をするの？ What are you doing next year?"],
     ["来る","来る くる Come/Next<br>来るの？ Are you coming?<br>また来週 またらいしゅう See you next week<br>早く来い はやくこい Come quickly"],
     ["道","道 みち Road<br>この道でいいの このみちでいいの Is this the right way?<br>逃げ道がない にげみちがない There's no way out"],
+    ["橋","橋 はし Bridge<br>この橋を渡る このはしをわたる Cross this bridge<br>橋は石造りだ はしはいしづくりだ The bridge is made of stone<br>橋は修理中です はしはしゅうりちゅうです The bridge is under repair"],
     ["通る","通る とおる Pass<br>通るの？ Are you going to pass?<br>この橋を通るな このはしをとおるな Don't cross this bridge<br>君の声はよく通るな きみのこえはよくとおるな Your voice carries well"],
     ["送る","送る おくる Send<br>送るの？ Are you going to send it?<br>家まで送るよ I'll see you home<br>どうやってファックスを送るのか、さっぱり分からない どうやってファックスをおくるのか、さっぱりわからない I have no idea how to send a fax"],
     ["皆さん","皆さん みなさん Everyone<br>皆さんはどこ？ Where is everyone?<br>皆さんお静かに みなさんおしずかに Everyone be quiet"],
@@ -391,6 +392,7 @@ const commonJapaneseWords:wordCard[] = [
     ["十","十 とお ten/ten things<br>十は茶色 とおはちゃいろ Ten are brown<br>十の問題 とおのもんだい Ten problems<br>十選んで とおえらんで Choose ten"],
     ["いくつ","いくつ how many/how old<br>いくつある？ How many are there?<br>いくつですか？ How old are you?"],
     ["一本","一本 いっぽん one long thing<br>一本の鉛筆 いっぽんのえんぴつ One pencil<br>一本の線 いっぽんのせん One line<br>ワインを一本ください ワインをいっぽんください One bottle of wine please"],
+    ["庭","庭 にわ Garden<br>庭から行きます にわからいきます I am coming from the garden<br>庭に水をまこう にわにみずをまこう <br>私たちの庭には二本の木がある わたしたちのにわにはにほんのきがある There are two trees in our garden"],
     ["二本","二本 にほん two long things<br>二本の鉛筆 にほんのえんぴつ Two pencils<br>二本の線 にほんのせん Two lines<br>私たちの庭には二本の木がある わたしたちのにわにはにほんのきがある There are two trees in our garden"],
     ["三本","三本 さんぼん three long things<br>三本の鉛筆 さんぼんのえんぴつ Three pencils<br>三本の線 さんぼんのせん Three lines<br>ビールを三本飲んだ ビールをさんぼんのんだ He drank three beers"],
     ["四本","四本 よんほん four long things<br>四本の鉛筆 よんほんのえんぴつ Four pencils<br>四本の線 よんほんのせん Four lines<br>四本の足 よんほんのあし Four legs"],
@@ -402,6 +404,8 @@ const commonJapaneseWords:wordCard[] = [
     ["十本","十本 じゅっぽん ten long things<br>十本の鉛筆 じゅっぽんのえんぴつ Ten pencils<br>十本の線 じゅっぽんのせん Ten lines<br>私は君より十本多くペンを持っている わたしはきみよりじゅっぽんおおくぺんをもっている I have ten more pens than you"],
     ["百本","百本 ひゃっぽん one hundred long things<br>百本の鉛筆 ひゃっぽんのえんぴつ One hundred pencils<br>百本の線 ひゃっぽんのせん One hundred lines<br>一日に数百本もの木を植えました いちにちにすうひゃくほんものきをうえました I planted a hundred trees in a day"],
     ["千本","千本 せんぼん one thousand long things<br>千本の鉛筆 せんぼんのえんぴつ One thousand pencils<br>千本の線 せんぼんのせん One thousand lines<br>その工場は毎月何千本もの瓶を製造している そのこうじょうはまいつきなんせんぼんものびんをせいぞうしている The factory produces thousands of bottles every month"],
+    ["抜く","抜く ぬく to pull out/to extract<br>歯を抜く はをぬく Pull out a tooth"],
+    ["歯","歯 は Tooth<br>歯が痛い はがいたい My tooth hurts<br>歯が抜けた はがぬけた My tooth fell out<br>歯を磨いたの？ はをみがいたの？ Did you brush your teeth?"],
     ["何本","何本 なんぼん how many long things<br>何本ある？ How many are there?<br>馬の歯って、何本なの？ うまのはって、なんぼんなの？ How many teeth does a horse have?"],
     ["着る","着る きる to wear<br>何を着る？ なにをきる？ What will you wear?"],
     ["消える","消える きえる to disappear/to go out<br>電気が消えた でんきがきえた The lights went out<br>消えている きえている It's gone"],
@@ -461,7 +465,17 @@ const commonJapaneseWords:wordCard[] = [
     ["若い","若い わかい Young<br>若いなあ わかいなあ You're young<br>あの若い彼は誰？ あのわかいかれはだれ？ Who is that young guy?"],
     ["分かる","分かる わかる to understand/to know<br>今何時か分かる？ いまなんじかわかる？ Do you know what time it is?<br>何の日か分かる？ なんのひかわかる？ Do you know what day it is?<br>気持ち分かるよ きもちわかるよ I know how you feel"],
     ["忘れる","忘れる わすれる to forget<br>それを忘れる それをわすれる Forget about it<br>薬、飲み忘れるなよ くすり、のみわすれるなよ Don't forget to take your medicine"],
-    ["薬","薬 くすり Medicine<br>お薬飲んだ？ おくすりのんだ？ Did you take your medicine?<br>薬が効いた くすりがきいた The medicine worked<br>薬は買ったの？ くすりはかったの？ Did you buy the medicine?"]
+    ["薬","薬 くすり Medicine<br>お薬飲んだ？ おくすりのんだ？ Did you take your medicine?<br>薬が効いた くすりがきいた The medicine worked<br>薬は買ったの？ くすりはかったの？ Did you buy the medicine?"],
+    ["夏","夏 なつ Summer<br>夏が好き なつがすき I like summer<br>夏は暑い なつはあつい Summer is hot<br>夏はどうだった？ なつはどうだった？ How was your summer?"],
+    ["夏休み","夏休み なつやすみ Summer vacation<br>夏休みは何をするの？ なつやすみはなにをするの？ What are you doing for summer vacation?<br>夏休みはどうだった？ なつやすみはどうだった？ How was your summer vacation?<br>夏休みはスウェーデンへ行った なつやすみスウェーデンリへいった I went to Sweden for summer vacation"],
+    ["習う","習う ならう to learn<br>趣味は言語を習う しゅみはげんごをならう My hobby is learning languages<br>(idiom)習うより慣れろ ならうよりなれろ Practice makes perfect"],
+    ["名前","名前 なまえ Name<br>名前は何？ なまえはなに？ What's your name?<br>名前を書く なまえをかく Write your name"],
+    ["お肉","お肉 おにく Meat<br>お肉は冷凍だよ おにくはれいとうだよ The meat is frozen<br>お肉が安いんです おにくがやすいんです The meat is cheap"],
+    ["脱ぐ","脱ぐ ぬぐ to take off (clothes)<br>脱いで ぬいで Take off<br>脱いでください ぬいでください Please take off"]
+    // ["寝る","寝る ねる to sleep<br>寝て ねて Sleep<br>寝てください ねてください Please sleep"],
+    // ["登る","登る のぼる to climb<br>登って  のぼって Climb<br>登ってください のぼってください Please climb"],
+    // ["箸","箸 はし Chopsticks<br>箸を使う はしをつかう Use chopsticks"],
+    // ["走る","走る はしる to run<br>走って はしって Run<br>走ってください はしってください Please run"]
 
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
