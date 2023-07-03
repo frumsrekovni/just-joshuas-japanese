@@ -445,6 +445,19 @@ h3{
     }
 }
 
+#post5 button{
+    border: none;
+    border-radius: 4px;
+    color: green;
+}
+#post5 button:hover{
+    cursor: pointer;
+    color: red;
+}
+#post5 button:active{
+    cursor: pointer;
+    color: yellowgreen;
+}
 
 #post7{
     height: 25vh;
