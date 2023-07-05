@@ -459,11 +459,11 @@ const commonJapaneseWords = [
     ["習う", "習う ならう to learn<br>趣味は言語を習う しゅみはげんごをならう My hobby is learning languages<br>(idiom)習うより慣れろ ならうよりなれろ Practice makes perfect"],
     ["名前", "名前 なまえ Name<br>名前は何？ なまえはなに？ What's your name?<br>名前を書く なまえをかく Write your name"],
     ["お肉", "お肉 おにく Meat<br>お肉は冷凍だよ おにくはれいとうだよ The meat is frozen<br>お肉が安いんです おにくがやすいんです The meat is cheap"],
-    ["脱ぐ", "脱ぐ ぬぐ to take off (clothes)<br>脱いで ぬいで Take off<br>脱いでください ぬいでください Please take off"]
-    // ["寝る","寝る ねる to sleep<br>寝て ねて Sleep<br>寝てください ねてください Please sleep"],
-    // ["登る","登る のぼる to climb<br>登って  のぼって Climb<br>登ってください のぼってください Please climb"],
-    // ["箸","箸 はし Chopsticks<br>箸を使う はしをつかう Use chopsticks"],
-    // ["走る","走る はしる to run<br>走って はしって Run<br>走ってください はしってください Please run"]
+    ["脱ぐ", "脱ぐ ぬぐ to take off (clothes)<br>日本では家に上がるとき、靴を脱ぐことになっています にほんではいえにあがるとき、くつをぬぐことになっています In Japan, it is customary to take off your shoes when entering a house"],
+    ["寝る", "寝る ねる to sleep<br>寝るぞ ねるぞ I'm going to sleep<br>犬が寝る いぬがねる The dog is sleep<br>寝るなよ ねるなよ Stay awake"],
+    ["登る", "登る のぼる to climb<br>猿は木に登る さるはきにのぼる Monkeys climb trees<br>山に登る やまにのぼる Climb a mountain<br>ケブネカイセに登るつもりです ケブネカイセにのぼるつもりです I'm going to climb Kebnekaise"],
+    ["箸", "箸 はし Chopsticks<br>お箸が苦手なの おはしがにがてなの I'm not good at using chopsticks<br>箸で寿司を食べます はしですしをたべます I eat sushi with chopsticks"],
+    ["走る", "走る はしる to run<br>彼は速く走る かれははやくはしる He runs fast<br>走るのはやめろ！ はしるのはやめろ！ Stop running!<br>走ると心拍数が上がります はしるとしんぱくすうがあがります Your heart rate increases when you run"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
