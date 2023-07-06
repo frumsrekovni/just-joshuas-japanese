@@ -476,7 +476,8 @@ const commonJapaneseWords:wordCard[] = [
     ["登る","登る のぼる to climb<br>猿は木に登る さるはきにのぼる Monkeys climb trees<br>山に登る やまにのぼる Climb a mountain<br>ケブネカイセに登るつもりです ケブネカイセにのぼるつもりです I'm going to climb Kebnekaise"],
     ["箸","箸 はし Chopsticks<br>お箸が苦手なの おはしがにがてなの I'm not good at using chopsticks<br>箸で寿司を食べます はしですしをたべます I eat sushi with chopsticks"],
     ["走る","走る はしる to run<br>彼は速く走る かれははやくはしる He runs fast<br>走るのはやめろ！ はしるのはやめろ！ Stop running!<br>走ると心拍数が上がります はしるとしんぱくすうがあがります Your heart rate increases when you run"]
-
+    // 飛行機 電車  地下鉄 空港 信号 交差点 道/道路 店員	野菜 	試験 宿題 技術者 	料理人 医師 看護師	 弁護士 祖母 祖父 親 腹 顔
+ 
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
