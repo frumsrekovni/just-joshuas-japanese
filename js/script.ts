@@ -475,8 +475,16 @@ const commonJapaneseWords:wordCard[] = [
     ["寝る","寝る ねる to sleep<br>寝るぞ ねるぞ I'm going to sleep<br>犬が寝る いぬがねる The dog is sleep<br>寝るなよ ねるなよ Stay awake"],
     ["登る","登る のぼる to climb<br>猿は木に登る さるはきにのぼる Monkeys climb trees<br>山に登る やまにのぼる Climb a mountain<br>ケブネカイセに登るつもりです ケブネカイセにのぼるつもりです I'm going to climb Kebnekaise"],
     ["箸","箸 はし Chopsticks<br>お箸が苦手なの おはしがにがてなの I'm not good at using chopsticks<br>箸で寿司を食べます はしですしをたべます I eat sushi with chopsticks"],
-    ["走る","走る はしる to run<br>彼は速く走る かれははやくはしる He runs fast<br>走るのはやめろ！ はしるのはやめろ！ Stop running!<br>走ると心拍数が上がります はしるとしんぱくすうがあがります Your heart rate increases when you run"]
-    // 飛行機 電車  地下鉄 空港 信号 交差点 道/道路 店員	野菜 	試験 宿題 技術者 	料理人 医師 看護師	 弁護士 祖母 祖父 親 腹 顔
+    ["走る","走る はしる to run<br>彼は速く走る かれははやくはしる He runs fast<br>走るのはやめろ！ はしるのはやめろ！ Stop running!<br>走ると心拍数が上がります はしるとしんぱくすうがあがります Your heart rate increases when you run"],
+    ["飛行機","飛行機 ひこうき Airplane<br>飛行機が見えた ひこうきがみえた I saw an airplane<br>飛行機は離陸間際だ ひこうきはりりくかんさいだ The plane is about to take off"],
+    ["地下鉄","地下鉄 ちかてつ Subway<br>地下鉄に乗ろう ちかてつにのろう Let's take the subway<br>ストックホルムに地下鉄がある ストックホルムにちかてつがある There is a subway in Stockholm<br>地下鉄の地図をもらえますか ちかてつのちずをもらえますか Can I have a subway map?"],
+    ["空港","空港 くうこう Airport<br>今空港にいます いまくうこうにいます I'm at the airport now<br>空港に送ってくれませんか くうこうにおくってくれませんか Can you take me to the airport?"],
+    ["信号","信号 しんごう Traffic light<br>信号が赤だ しんごうがあかだ The light is red<br>その信号を右ね そのしんごうをみぎね Turn right at that light<br>赤信号で止まりましたか あかしんごうでとまりましたか Did you stop at the red light?"],
+    ["交差点","交差点 こうさてん Intersection<br>この交差点の名前は何でしょう？ このこうさてんのなまえはなんでしょう？ What is the name of this intersection?<br>交差点で事故があった こうさてんでじこがあった There was an accident at the intersection"],
+    ["店員","店員 てんいん Shop assistant<br>彼女はスーパーマーケットの店員である かのじょはスーパーマーケットのてんいんである She is a shop assistant at a supermarket<br>店員さん、もう一杯ビールを持ってきてください てんいんさん、もういっぱいビールをもってきてください Waiter, another beer please"],
+    ["野菜","野菜 やさい Vegetable<br>野菜を食べたら？ やさいをたべたら？ Why aren't you eating your vegetables?<br>茄子は野菜よ なすはやさいよ Eggplants are vegetables<br>どんな野菜が好き？ どんなやさいがすき？ What kind of vegetables do you like?"],
+    ["試験","試験 しけん Exam<br>来週は試験だ らいしゅうはしけんだ I have an exam next week<br>試験はどうだった？ しけんはどうだった？ How was the exam?<br>試験頑張ってね しけんがんばって Good luck on your exam"]
+    //宿題 技術者 	料理人 医師 看護師	 弁護士 祖母 祖父 親 腹 顔 道/道路
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
