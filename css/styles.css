@@ -366,8 +366,8 @@ h3{
             user-select: none;
 }
 #flash-square-common-words{
-    height: 250px;
-    font-size: 175px;
+    height: 400px;
+    font-size: 144px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,6 +378,9 @@ h3{
         -ms-user-select: none;
             user-select: none;
 }
+#flash-square-common-word{
+    padding: 0;
+}
 #flash-square-answer{
     display: none;
 }
@@ -385,8 +388,7 @@ h3{
     justify-content: center;
     text-align: center;
     display: none;
-    padding: 2rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 #secret-wip-page-redirect{
     color: rgb(255, 255, 255);
