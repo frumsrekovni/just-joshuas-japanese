@@ -353,8 +353,7 @@ const commonJapaneseWords:wordCard[] = [
     ["簡単な","簡単な かんたんな Easy/Simple<br>簡単な質問 かんたんなしつもん Easy question"],
     ["楽しい","楽しい たのしい Fun<br>人生は楽しい じんせいはたのしい Life is fun<br>きっと楽しいと思うよ　きっとたのしいとおもうよ I think it will be fun"],
     ["ブドウ","ブドウ Grape<br>ブドウは好き？ Do you like grapes?<br>あのブドウは酸っぱいよ あのブドウはすっぱいよ The grapes are sour"],
-[ "ほれんそ","ほれんそ Spinach"],
-["ニシン","Will tis is the season"],
+    [ "ほれんそ","ほれんそ Spinach"],
     ["じゃがいも","じゃがいも Potato<br>じゃがいもはあたたかいままです The potatoes are still warm"],
     ["大根","大根 だいこん Radish<br>韓国大根は高いです かんこくだいこんはたかいです Korean radishes are expensive"],
     ["きゃべつ","きゃべつ Cabbage<br>きゃべつは好き？ Do you like cabbage?"],
@@ -483,8 +482,16 @@ const commonJapaneseWords:wordCard[] = [
     ["交差点","交差点 こうさてん Intersection<br>この交差点の名前は何でしょう？ このこうさてんのなまえはなんでしょう？ What is the name of this intersection?<br>交差点で事故があった こうさてんでじこがあった There was an accident at the intersection"],
     ["店員","店員 てんいん Shop assistant<br>彼女はスーパーマーケットの店員である かのじょはスーパーマーケットのてんいんである She is a shop assistant at a supermarket<br>店員さん、もう一杯ビールを持ってきてください てんいんさん、もういっぱいビールをもってきてください Waiter, another beer please"],
     ["野菜","野菜 やさい Vegetable<br>野菜を食べたら？ やさいをたべたら？ Why aren't you eating your vegetables?<br>茄子は野菜よ なすはやさいよ Eggplants are vegetables<br>どんな野菜が好き？ どんなやさいがすき？ What kind of vegetables do you like?"],
-    ["試験","試験 しけん Exam<br>来週は試験だ らいしゅうはしけんだ I have an exam next week<br>試験はどうだった？ しけんはどうだった？ How was the exam?<br>試験頑張ってね しけんがんばって Good luck on your exam"]
-    //宿題 技術者 	料理人 医師 看護師	 弁護士 祖母 祖父 親 腹 顔 道/道路
+    ["試験","試験 しけん Exam<br>来週は試験だ らいしゅうはしけんだ I have an exam next week<br>試験はどうだった？ しけんはどうだった？ How was the exam?<br>試験頑張ってね しけんがんばって Good luck on your exam"],
+    ["宿題","宿題 しゅくだい Homework<br>宿題しなきゃ しゅくだいしなきゃ I have to do my homework<br>宿題が大嫌い しゅくだいがだいきらい I hate homework"],
+    ["技術者","技術者 ぎじゅつしゃ Engineer<br>技術者になりたい ぎじゅつしゃになりたい I want to be an engineer<br>技術者は何をするの？ ぎじゅつしゃはなにをするの？ What does an engineer do?<br>その委員会は科学者と技術者からなる そのいいんかいはかがくしゃとぎじゅつしゃからなる The committee consists of scientists and engineers"],
+    ["料理人","料理人 りょうりにん Cook<br>料理人になりたい りょうりにんになりたい I want to be a cook<br>料理人が鶏肉をバーべキューしています りょうりにんがとりにくをばーべきゅーしています The cook is barbecuing chicken<br>(idiom)料理人多くしてスープしょっぱくなる りょうりにんおおくしてすーぷしょっぱくなる Too many cooks spoil the broth"],
+    ["医師","医師 いし Doctor<br>医師に行く いしにいく Go to the doctor<br>私は医師です わたしはいしです I'm a doctor<br>私は医師に少し質問した わたしはいしにすこししつもんした I asked the doctor a few questions"],
+    ["看護師","看護師 かんごし Nurse<br>彼女は看護師です かのじょはかんごしです She is a nurse<br>看護師になろうと思ったことある？ かんごしになろうとおもったことある？ Have you ever thought about becoming a nurse?"],
+    ["弁護士","弁護士 べんごし Lawyer<br>弁護士になりたい べんごしになりたい I want to be a lawyer<br>母は弁護士です はははべんごしです My mother is a lawyer<br>弁護士はみんな嘘つきだ べんごしはみんなうそつきだ All lawyers are liars"],
+    ["祖母","祖母 そぼ Grandmother<br>祖母に育てられた そぼにそだてられた I was raised by my grandmother<br>祖母は元気ですか そぼはげんきですか How is your grandmother?"],
+    ["祖父","祖父 そふ Grandfather<br>彼は祖父似だ かれはそふにだ He looks like his grandfather<br>祖父は非常に健康だ そふはひじょうにけんこうだ My grandfather is very healthy"]
+    // 親 腹 顔 道/道路
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
