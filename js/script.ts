@@ -490,8 +490,11 @@ const commonJapaneseWords:wordCard[] = [
     ["看護師","看護師 かんごし Nurse<br>彼女は看護師です かのじょはかんごしです She is a nurse<br>看護師になろうと思ったことある？ かんごしになろうとおもったことある？ Have you ever thought about becoming a nurse?"],
     ["弁護士","弁護士 べんごし Lawyer<br>弁護士になりたい べんごしになりたい I want to be a lawyer<br>母は弁護士です はははべんごしです My mother is a lawyer<br>弁護士はみんな嘘つきだ べんごしはみんなうそつきだ All lawyers are liars"],
     ["祖母","祖母 そぼ Grandmother<br>祖母に育てられた そぼにそだてられた I was raised by my grandmother<br>祖母は元気ですか そぼはげんきですか How is your grandmother?"],
-    ["祖父","祖父 そふ Grandfather<br>彼は祖父似だ かれはそふにだ He looks like his grandfather<br>祖父は非常に健康だ そふはひじょうにけんこうだ My grandfather is very healthy"]
-    // 親 腹 顔 道/道路
+    ["祖父","祖父 そふ Grandfather<br>彼は祖父似だ かれはそふにだ He looks like his grandfather<br>祖父は非常に健康だ そふはひじょうにけんこうだ My grandfather is very healthy"],
+    ["親","親 おや Parent"],
+    ["腹","腹 はら Belly<br>"],
+    ["顔","顔 かお Face<br>"],
+    ["道/道路","道/道路 みち/どうろ Road"]
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
