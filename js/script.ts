@@ -220,6 +220,7 @@ const commonJapaneseWords:wordCard[] = [
     ["来年","来年 らいねん Next year<br>来年は何をするの？ What are you doing next year?"],
     ["来る","来る くる Come/Next<br>来るの？ Are you coming?<br>また来週 またらいしゅう See you next week<br>早く来い はやくこい Come quickly"],
     ["道","道 みち Road<br>この道でいいの このみちでいいの Is this the right way?<br>逃げ道がない にげみちがない There's no way out"],
+    ["道路","道路 どうろ Road<br>道路に霧がある どうろにきりがある There is fog on the road<br>道路工事中 どうろこうじちゅう Road work ahead"],
     ["橋","橋 はし Bridge<br>この橋を渡る このはしをわたる Cross this bridge<br>橋は石造りだ はしはいしづくりだ The bridge is made of stone<br>橋は修理中です はしはしゅうりちゅうです The bridge is under repair"],
     ["通る","通る とおる Pass<br>通るの？ Are you going to pass?<br>この橋を通るな このはしをとおるな Don't cross this bridge<br>君の声はよく通るな きみのこえはよくとおるな Your voice carries well"],
     ["送る","送る おくる Send<br>送るの？ Are you going to send it?<br>家まで送るよ I'll see you home<br>どうやってファックスを送るのか、さっぱり分からない どうやってファックスをおくるのか、さっぱりわからない I have no idea how to send a fax"],
@@ -491,10 +492,10 @@ const commonJapaneseWords:wordCard[] = [
     ["弁護士","弁護士 べんごし Lawyer<br>弁護士になりたい べんごしになりたい I want to be a lawyer<br>母は弁護士です はははべんごしです My mother is a lawyer<br>弁護士はみんな嘘つきだ べんごしはみんなうそつきだ All lawyers are liars"],
     ["祖母","祖母 そぼ Grandmother<br>祖母に育てられた そぼにそだてられた I was raised by my grandmother<br>祖母は元気ですか そぼはげんきですか How is your grandmother?"],
     ["祖父","祖父 そふ Grandfather<br>彼は祖父似だ かれはそふにだ He looks like his grandfather<br>祖父は非常に健康だ そふはひじょうにけんこうだ My grandfather is very healthy"],
-    ["親","親 おや Parent"],
-    ["腹","腹 はら Belly<br>"],
-    ["顔","顔 かお Face<br>"],
-    ["道/道路","道/道路 みち/どうろ Road"]
+    ["親","親 おや Parent<br>親には見せたの？ おやにはみせたの？ Did you show it to your parents?<br>両親が離婚した りょうしんがりこんした My parents got divorced"],
+    ["腹","腹 はら Belly<br>お腹一杯 おなかいっぱい I'm full<br>お腹が空いた おなかがすいた I'm hungry<br>お腹が痛い おなかがいたい My stomach hurts"],
+    ["顔","顔 かお Face<br>顔でかーい かおでかーい You have a big face<br>顔赤いよ かおあかいよ Your face is red<br>顔が青いよ かおがあおいよ You look pale"],
+    ["働く","働く はたらく to work<br>システムアドミニストレータとして働いています システムアドミニストレータとしてはたらいています I work as a system administrator<br>彼女はよく働く かのじょはよくはたらく She works hard<br>働くしかない はたらくしかない I have to work"]
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
