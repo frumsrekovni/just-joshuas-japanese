@@ -239,6 +239,10 @@ const commonJapaneseWords = [
     ["駅", "駅 えき Station<br>駅はどこ？ Where is the station?"],
     ["電車", "電車 でんしゃ Train<br>電車は何時ですか What time is the train?<br>電車が来るよ！ The train is coming!<br>電車に乗った I got on the train."],
     ["雨", "雨 あめ Rain<br>雨やんだ？ Has it stopped raining?<br>雨季 うき Rainy season<br>雨季に入った The rainy season has started."],
+    ["虹", "虹 にじ Rainbow<br>虹を見た？ にじをみた？ Did you see the rainbow?<br>虹色 にじいろ Rainbow-colored<br>虹も見えるかもしれない にじもみえるかもしれない You might see a rainbow"],
+    ["雷", "雷 かみなり Thunder<br>雷が鳴ったよ かみなりがなったよ I heard thunder<br>子供達は雷におびえた こどもたちはかみなりにおびえた The children were frightened by the thunder<br>雷は金属に落ちやすい かみなりはきんぞくにおちやすい Lightning is liable to hit metal"],
+    ["晴れ", "晴れ はれ Sunny<br>空が晴れた そらがはれた The sky cleared up<br>今日は晴れだ きょうははれだ It's sunny today"],
+    ["曇り", "曇り くもり Cloudy<br>曇りの日です くもりのひです It's a cloudy day<br>晴れ後曇りでした はれごくもりでした It was sunny then cloudy"],
     ["水", "水 みず Water<br>水を飲む Drink water<br>水曜日 すいようび Wednesday"],
     ["一", "一 いち One<br>もう一度？ もういちど？ Come again?<br>一人 ひとり　Alone.<br> 俺が一人じゃない　I'm not alone.<br>一分 いっぷん a minute<br>(idiom)一石二鳥 いっせきにちょう Kill two birds with one stone"],
     ["二", "二 に Two<br>二鳥 にとり Two birds<br>二人 ふたり Two people<br>二人は友達なの？ Are you two friends?<br>(idiom)一石二鳥 いっせきにちょう Kill two birds with one stone"],
@@ -483,7 +487,13 @@ const commonJapaneseWords = [
     ["親", "親 おや Parent<br>親には見せたの？ おやにはみせたの？ Did you show it to your parents?<br>両親が離婚した りょうしんがりこんした My parents got divorced"],
     ["腹", "腹 はら Belly<br>お腹一杯 おなかいっぱい I'm full<br>お腹が空いた おなかがすいた I'm hungry<br>お腹が痛い おなかがいたい My stomach hurts"],
     ["顔", "顔 かお Face<br>顔でかーい かおでかーい You have a big face<br>顔赤いよ かおあかいよ Your face is red<br>顔が青いよ かおがあおいよ You look pale"],
-    ["働く", "働く はたらく to work<br>システムアドミニストレータとして働いています システムアドミニストレータとしてはたらいています I work as a system administrator<br>彼女はよく働く かのじょはよくはたらく She works hard<br>働くしかない はたらくしかない I have to work"]
+    ["働く", "働く はたらく to work<br>システムアドミニストレータとして働いています システムアドミニストレータとしてはたらいています I work as a system administrator<br>彼女はよく働く かのじょはよくはたらく She works hard<br>働くしかない はたらくしかない I have to work"],
+    ["相撲", "相撲 すもう Sumo wrestling<br>相撲を見たことがありますか すもうをみたことがありますか Have you ever seen sumo wrestling?<br>腕相撲 うでずもう Arm wrestling<br>指相撲 ゆびずもう Thumb wrestling"],
+    ["野球", "野球 やきゅう Baseball<br>野球は得意？ やきゅうはとくい？ Are you good at baseball?<br>今でも野球は得意？ いまでもやきゅうはとくい？ Are you still good at baseball?<br>野球をしよう！ やきゅうをしよう！ Let's play baseball!"],
+    ["空手", "空手 からて Karate<br>空手をしよう！ からてをしよう！ Let's do karate!<br>趣味は空手 しゅみはからて My hobby is karate"],
+    ["卓球", "卓球 たっきゅう Table tennis<br>卓球をしよう！ たっきゅうをしよう！ Let's play table tennis!<br>卓球は得意？ たっきゅうはとくい？ Are you good at table tennis?<br>ピンポンは卓球とも呼ばれている ピンポンはたっきゅうともよばれている Ping pong is also called table tennis"],
+    ["登山", "登山 とざん Mountain climbing<br>登山をしよう！ とざんをしよう！ Let's go mountain climbing!<br>登山は得意？ とざんはとくい？ Are you good at mountain climbing?<br>登山靴を買ったよ とざんぐつをかったよ I bought mountain climbing shoes"],
+    ["趣味", "趣味 しゅみ Hobby<br>趣味は何？ しゅみはなに？ What's your hobby?<br>趣味は空手 しゅみはからて My hobby is karate<br>彼は多趣味だ かれはたしゅみだ He has many hobbies"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
