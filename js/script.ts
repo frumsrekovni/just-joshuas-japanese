@@ -505,7 +505,20 @@ const commonJapaneseWords:wordCard[] = [
     ["空手","空手 からて Karate<br>空手をしよう！ からてをしよう！ Let's do karate!<br>趣味は空手 しゅみはからて My hobby is karate"],
     ["卓球","卓球 たっきゅう Table tennis<br>卓球をしよう！ たっきゅうをしよう！ Let's play table tennis!<br>卓球は得意？ たっきゅうはとくい？ Are you good at table tennis?<br>ピンポンは卓球とも呼ばれている ピンポンはたっきゅうともよばれている Ping pong is also called table tennis"],
     ["登山","登山 とざん Mountain climbing<br>登山をしよう！ とざんをしよう！ Let's go mountain climbing!<br>登山は得意？ とざんはとくい？ Are you good at mountain climbing?<br>登山靴を買ったよ とざんぐつをかったよ I bought mountain climbing shoes"],
-    ["趣味","趣味 しゅみ Hobby<br>趣味は何？ しゅみはなに？ What's your hobby?<br>趣味は空手 しゅみはからて My hobby is karate<br>彼は多趣味だ かれはたしゅみだ He has many hobbies"]
+    ["趣味","趣味 しゅみ Hobby<br>趣味は何？ しゅみはなに？ What's your hobby?<br>趣味は空手 しゅみはからて My hobby is karate<br>彼は多趣味だ かれはたしゅみだ He has many hobbies"],
+    ["赤","赤 あか Red<br>顔が赤いよ かおがあかいよ Your face is red<br>赤信号で止まりましたか あかしんごうでとまりましたか Did you stop at the red light?"],
+    ["橙色","橙色 だいだいいろ Orange<br>橙色の車 だいだいいろのくるま Orange car<br>オレンジはずっと橙色なの？ オレンジはずっとだいだいいろなの？ Are oranges always orange?"],
+    ["黄色","黄色 きいろ Yellow<br>バナナは黄色です バナナはきいろです Bananas are yellow<br>彼の車は黄色だと思うよ かれのくるまはきいろだとおもうよ I think his car is yellow"],
+    ["緑","緑 みどり Green<br>緑の車 みどりのくるま Green car<br>緑の車は珍しい みどりのくるまはめずらしい Green cars are rare"],
+    ["青","青 あお Blue<br>空は青い そらはあおい The sky is blue<br>青信号で止まりましたか あおしんごうでとまりましたか Did you stop at the green light?"],
+    ["紫","紫 むらさき Purple<br>紫の車 むらさきのくるま Purple car<br>紫の車は珍しい むらさきのくるまはめずらしい Purple cars are rare"],
+    ["黒","黒 くろ Black<br>黒猫は好き くろねこはすき Do you like black cats?<br>黒猫は不吉だ くろねこはふきつだ Black cats are bad luck<br>カラスは黒い からすはくろい Crows are black"],
+    ["灰色","灰色 はいいろ Gray<br>灰色が好き はいいろがすき I like gray<br>灰色の車 はいいろのくるま Gray car<br>紫色のセーターより灰色のセーターの方が好きです むらさきいろのセーターよりはいいろのセーターのほうがすきです I like gray sweater more than purple sweater"],
+    ["茶色","茶色 ちゃいろ Brown<br>茶色の車 ちゃいろのくるま Brown car<br>茶色のセーター ちゃいろのセーター Brown sweater<br>彼の靴は茶色だ かれのくつはちゃいろだ His shoes are brown"],
+    ["桃色","桃色 ももいろ Pink<br>桃色の車 ももいろのくるま Pink car<br>桃色のセーター ももいろのセーター Pink sweater<br>桃色の犬 ももいろのいぬ Pink dog<br>私は茶色い髪をしています わたしはちゃいろいかみをしています I have brown hair"],
+    ["真っ白","真っ白 まっしろ Pure white<br>このタオル、真っ白だよ このタオル、まっしろだよ This towel is pure white<br>(idiom)頭が真っ白だった あたまがまっしろだった My mind went blank"],
+    ["金色","金色 きんいろ Gold<br>金色の車 きんいろのくるま Golden car<br>金色のカブトムシを見付けたぞ！ きんいろのカブトムシをみつけたぞ！ I found a golden beetle!<br>金は色が真鍮と似ている きんはいろがしんちゅうとにている Gold is similar in color to brass"],
+    ["透明","透明 とうめい Transparent<br>あなたに対して透明になった気分だ あなたにたいしてとうめいになったきぶんだ I feel invisible to you<br>この透明な液体には毒が含まれている このとうめいなえきたいにはどくがふくまれている This transparent liquid contains poison"]
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
