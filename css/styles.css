@@ -894,6 +894,12 @@ ruby{
     animation: popping-post 20s;
 }
 
+#riichimahjjan span{
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
 @keyframes popping-post {
     /* GROW GROW GROW */
     1%{
