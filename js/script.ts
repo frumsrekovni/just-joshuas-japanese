@@ -518,7 +518,21 @@ const commonJapaneseWords:wordCard[] = [
     ["桃色","桃色 ももいろ Pink<br>桃色の車 ももいろのくるま Pink car<br>桃色のセーター ももいろのセーター Pink sweater<br>桃色の犬 ももいろのいぬ Pink dog<br>私は茶色い髪をしています わたしはちゃいろいかみをしています I have brown hair"],
     ["真っ白","真っ白 まっしろ Pure white<br>このタオル、真っ白だよ このタオル、まっしろだよ This towel is pure white<br>(idiom)頭が真っ白だった あたまがまっしろだった My mind went blank"],
     ["金色","金色 きんいろ Gold<br>金色の車 きんいろのくるま Golden car<br>金色のカブトムシを見付けたぞ！ きんいろのカブトムシをみつけたぞ！ I found a golden beetle!<br>金は色が真鍮と似ている きんはいろがしんちゅうとにている Gold is similar in color to brass"],
-    ["透明","透明 とうめい Transparent<br>あなたに対して透明になった気分だ あなたにたいしてとうめいになったきぶんだ I feel invisible to you<br>この透明な液体には毒が含まれている このとうめいなえきたいにはどくがふくまれている This transparent liquid contains poison"]
+    ["透明","透明 とうめい Transparent<br>あなたに対して透明になった気分だ あなたにたいしてとうめいになったきぶんだ I feel invisible to you<br>この透明な液体には毒が含まれている このとうめいなえきたいにはどくがふくまれている This transparent liquid contains poison"],
+    ["暖かい","暖かい あたたかい Warm/having enough money​<br>暖かい日でした あたたかいひでした It was a warm day<br>懐が暖かい ふところがあたたかい I have enough money"],
+    ["春","春 はる Spring<br>春が好き はるがすき I like spring<br>もうすぐ春だ もうすぐはるだ It's almost spring"],
+    ["秋","秋 あき Autumn<br>秋が好き あきがすき I like autumn<br>秋はどうだった？ あきはどうだった？ How was your autumn?<br>今日は立秋です きょうはりっしゅうです Today is the first day of autumn"],
+    ["涼しい","涼しい すずしい Cool(Temperature)<br>今日は涼しいです きょうはすずしいです It's cool today<br>雨上がりは涼しい あめあがりはすずしい It's cool after the rain"],
+    ["冬","冬 ふゆ Winter<br>冬は寒い ふゆはさむい Winter is cold<br>冬休み何日から？ ふゆやすみなんにちから？ When does your Winter/Christmas holiday start?"],
+    ["南","南 みなみ South<br>南に行こう みなみにいこう Let's go south<br>南はどっち？ みなみはどっち？ Which way is south?<br>南アフリカは遠い みなみアフリカはとおい South Africa is far away"],
+    ["北","北 きた North<br>北に行こう きたにいこう Let's go north<br>北はどっち？ きたはどっち？ Which way is north?<br>北アフリカは遠い きたアフリカはとおい North Africa is far away"],
+    ["東西南北","東西南北 とうざいなんぼく The four cardinal directions/Everywhere<br>東西南北はこのように分かれています とうざいなんぼくはこのようにわかれています The four cardinal directions are divided like this<br>東西南北、俺がこの地を支配する とうざいなんぼく、おれがこのちをしはいする Everywhere I will rule this land"],
+    ["下","下 した Under<br>下に行こう したにいこう Let's go under<br>下はどっち？ したはどっち？ Which way is down?<br>頭を下げろ あたまをさげろ Duck your head"],
+    ["昨夜","昨夜 さくや Last night<br>昨夜は何をした？ さくやはなにをした？ What did you do last night?<br>昨夜はごめん さくやはごめん Sorry about last night"],
+    ["去年","去年 きょねん Last year<br>去年はどうだった？ きょねんはどうだった？ How was last year?<br>去年は雪が多かった きょねんはゆきがおおかった There was a lot of snow last year<br>去年、第一子を出産しました きょねん、だいいっしをしゅっさんしました I gave birth to my first child last year"],
+    ["今月","今月 こんげつ This month<br>今月は何をする？ こんげつはなにをする？ What are you doing this month?<br>今月は何日ですか こんげつはなんにちですか What day is it this month?<br>今月は金欠なの こんげつはきんけつなの I'm broke this month"],
+    ["鍵","鍵 かぎ Key<br>鍵がいる？ かぎがいる？ Do you need the key?<br>私の鍵知らない？ わたしのかぎしらない？ Do you know where my keys are?"],
+    ["静か","静か しずか Quiet<br>静かにしてください しずかにしてください Please be quiet<br>海は静かだった うみはしずかだった The sea was calm"]
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
