@@ -449,6 +449,7 @@ h3{
 .kana-toggle{
     display: none;
 }
+
 .button-kana-flash{
     width: 20px;
     height: 22px;
@@ -467,6 +468,17 @@ h3{
 #hiragana-toggle:checked + #kana-flash-hiragana-button{
     color: green;
     box-shadow: inset 2px 2px 5px rgb(46, 77, 50);
+}
+#katakana-toggle:checked + #kana-flash-katakana-button{
+    color: green;
+    box-shadow: inset 2px 2px 5px rgb(46, 77, 50);
+}
+.kana-flash-settings{
+    display: flex;
+    width: fit-content;
+}
+.kana-flash-settings label{
+    padding: 1px;
 }
 
 
