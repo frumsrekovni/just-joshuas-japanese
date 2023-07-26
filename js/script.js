@@ -525,6 +525,44 @@ const commonJapaneseWords = [
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
 const flashSquarePostElement = document.getElementById("flash-square-common-words");
+let useHiraganaInFlashSquare = true;
+let useKatakanaInFlashSquare = true;
+function flashSquareKanaClick() {
+    flashSquareKanaElement.style.display = "none";
+    flashSquareAnswerElement.style.display = "block";
+}
+// I want to play an animation whwne both are deactivated
+let kanaCoinflip = 0;
+function flashSquareAnswerClick() {
+    if (useKatakanaInFlashSquare == false && useHiraganaInFlashSquare == false) {
+        flashSquareKanaElement.innerText = "¯\_(ツ)_/¯";
+        flashSquareAnswerElement.innerText = "¯\_(ツ)_/¯";
+    }
+    else {
+        const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length)); // Any random element from allkana array
+        if (useKatakanaInFlashSquare == false) {
+            kanaCoinflip = 0;
+        }
+        else if (useHiraganaInFlashSquare == false) {
+            kanaCoinflip = 1;
+        }
+        else {
+            kanaCoinflip = Math.floor(Math.random() * 2);
+        }
+        flashSquareKanaElement.innerText = allKanaTriples[randomKanaElementPosition][kanaCoinflip]; // Between 0 - 1. Hiragana or katakana is a coinflip
+        flashSquareAnswerElement.innerText = allKanaTriples[randomKanaElementPosition][2]; // The answer
+        flashSquareAnswerElement.style.display = "none";
+        flashSquareKanaElement.style.display = "block";
+    }
+}
+function changeFlashcardSettingsHiragana() {
+    var _a;
+    useHiraganaInFlashSquare = !((_a = document.getElementById("hiragana-toggle")) === null || _a === void 0 ? void 0 : _a.checked);
+}
+function changeFlashcardSettingsKatakana() {
+    var _a;
+    useKatakanaInFlashSquare = !((_a = document.getElementById("katakana-toggle")) === null || _a === void 0 ? void 0 : _a.checked);
+}
 function flashSquareCommonWordClick() {
     if (flashSquareCommonWord.style.display != "none") {
         flashSquareCommonWord.style.display = "none";
@@ -674,27 +712,6 @@ function darkenPage() {
 }
 function undarkenPage() {
     darkeningElement.style.display = "none";
-}
-function flashSquareKanaClick() {
-    flashSquareKanaElement.style.display = "none";
-    flashSquareAnswerElement.style.display = "block";
-}
-function flashSquareAnswerClick() {
-    const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length)); // Any random element from allkana array
-    flashSquareKanaElement.innerText = allKanaTriples[randomKanaElementPosition][Math.floor(Math.random() * 2)]; // Between 0 - 1. Hiragana or katakana is a coinflip
-    flashSquareAnswerElement.innerText = allKanaTriples[randomKanaElementPosition][2]; // The answer
-    flashSquareAnswerElement.style.display = "none";
-    flashSquareKanaElement.style.display = "block";
-}
-function flashSquareN5Click() {
-    var _a, _b;
-    (_a = document.getElementById("flash-square-N5")) === null || _a === void 0 ? void 0 : _a.style.display = "none";
-    (_b = document.getElementById("flash-square-N5-answer")) === null || _b === void 0 ? void 0 : _b.style.display = "block";
-}
-function flashSquareN5AnswerClick() {
-    const rndAllN5KanjiPosition = Math.floor(Math.random() * (allN5Kanji.length)); // Any random element from allN5kanji array
-    document.getElementById("flash-square-N5").innerText = allN5Kanji[rndAllN5KanjiPosition][Math.floor(Math.random() * 2)];
-    document.getElementById("flash-square-N5-answer").innerText = allN5Kanji[rndAllN5KanjiPosition][2];
 }
 if (date_today == new Date(`${date_today.getFullYear()}-12-31`)) {
     setInterval(isItTimeToCelebrateNewYears, 1100);

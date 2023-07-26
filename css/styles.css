@@ -459,6 +459,7 @@ h3{
     border-radius: 4px;
     color: gray;
     box-shadow: 2px 2px 2px gray;
+    user-select: none;
 
 }
 .button-kana-flash:hover{

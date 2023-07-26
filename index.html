@@ -617,18 +617,14 @@
 
                 <div class="kana-flash-settings">
                     <label>
-                        <input id="hiragana-toggle" class="kana-toggle" type="checkbox">
-                        <div id="kana-flash-hiragana-button" class="button-kana-flash">あ</div>
+                        <input id="hiragana-toggle" class="kana-toggle" type="checkbox" checked>
+                        <div id="kana-flash-hiragana-button" class="button-kana-flash" onclick="changeFlashcardSettingsHiragana()">あ</div>
                     </label>
                     <label>
-                        <input id="katakana-toggle" class="kana-toggle" type="checkbox">
-                        <div id="kana-flash-katakana-button" class="button-kana-flash">ア</div>
+                        <input id="katakana-toggle" class="kana-toggle" type="checkbox" checked>
+                        <div id="kana-flash-katakana-button" class="button-kana-flash" onclick="changeFlashcardSettingsKatakana()">ア</div>
                     </label>
                 </div>
-
-<!-- onclick="turnHiraganaOff()" -->
-                
-                <!-- <button onclick="turnKatakanaOff()">ア</button> -->
                 <article>
                     <div id="flash-square">
                         <div id="flash-square-kana" onclick="flashSquareKanaClick()">あ</div>
