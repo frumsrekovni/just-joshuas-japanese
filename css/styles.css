@@ -460,19 +460,28 @@ h3{
     color: gray;
     box-shadow: 2px 2px 2px gray;
     user-select: none;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 .button-kana-flash:hover{
     cursor: pointer;
-    color: black;
+    color: rgb(0, 121, 0)
 }
 #hiragana-toggle:checked + #kana-flash-hiragana-button{
-    color: green;
-    box-shadow: inset 2px 2px 5px rgb(46, 77, 50);
+    color:rgb(24, 202, 24);
+    box-shadow: inset 2px 2px 7px rgb(52, 126, 62);
 }
 #katakana-toggle:checked + #kana-flash-katakana-button{
-    color: green;
-    box-shadow: inset 2px 2px 5px rgb(46, 77, 50);
+    color: rgb(24, 202, 24);
+    box-shadow: inset 2px 2px 7px rgb(52, 126, 62);
+}
+#hiragana-toggle:checked + .button-kana-flash:hover{
+    color: rgb(0, 121, 0) !important;
+    box-shadow: inset 2px 2px 5px rgb(46, 77, 50) !important;
+}
+#katakana-toggle:checked + .button-kana-flash:hover{
+    color: rgb(0, 121, 0) !important;
+    box-shadow: inset 2px 2px 5px rgb(46, 77, 50) !important;
 }
 .kana-flash-settings{
     display: flex;
