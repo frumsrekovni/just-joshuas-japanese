@@ -930,6 +930,18 @@ ruby{
     border-radius: 3px;
     padding: 3px;
 }
+.reduplication-examples-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.reduplication-example{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
 
 @keyframes popping-post {
     /* GROW GROW GROW */
