@@ -520,7 +520,13 @@ const commonJapaneseWords = [
     ["去年", "去年 きょねん Last year<br>去年はどうだった？ きょねんはどうだった？ How was last year?<br>去年は雪が多かった きょねんはゆきがおおかった There was a lot of snow last year<br>去年、第一子を出産しました きょねん、だいいっしをしゅっさんしました I gave birth to my first child last year"],
     ["今月", "今月 こんげつ This month<br>今月は何をする？ こんげつはなにをする？ What are you doing this month?<br>今月は何日ですか こんげつはなんにちですか What day is it this month?<br>今月は金欠なの こんげつはきんけつなの I'm broke this month"],
     ["鍵", "鍵 かぎ Key<br>鍵がいる？ かぎがいる？ Do you need the key?<br>私の鍵知らない？ わたしのかぎしらない？ Do you know where my keys are?"],
-    ["静か", "静か しずか Quiet<br>静かにしてください しずかにしてください Please be quiet<br>海は静かだった うみはしずかだった The sea was calm"]
+    ["静か", "静か しずか Quiet<br>静かにしてください しずかにしてください Please be quiet<br>海は静かだった うみはしずかだった The sea was calm"],
+    ["絵", "絵 え Picture<br>絵を描く えをかく Draw a picture<br>絵を見せて えをみせて Show me the picture<br>きれいな絵だ きれいなえだ It's a beautiful picture"],
+    ["鉛筆", "鉛筆 えんぴつ Pencil<br>鉛筆を貸して えんぴつをかして Lend me a pencil<br>鉛筆を落とした えんぴつをおとした I dropped my pencil<br>みんな鉛筆はある？ みんなえんぴつはある？ Does everyone have a pencil?"],
+    ["美味しい", "美味しい おいしい Delicious<br>美味しいですか おいしいですか Is it delicious?<br>美味しい食べ物を食べたい おいしいたべものをたべたい I want to eat delicious food<br>このお茶美味しい このおちゃおいしい This tea is delicious"],
+    ["お皿", "お皿 おさら Plate/Dish<br>お皿が割れた おさらがわれた The plate broke<br>お皿を洗って おさらをあらって Wash the plate<br>スープ用のお皿ある？ スープようのおさらある？ Do you have a bowl for soup?"],
+    ["遅い", "遅い おそい Late<br>遅いですか おそいですか Am I late?<br>遅いよ おそいよ You're late<br>今年は秋が遅いね ことしはあきがおそいね Autumn is late this year"],
+    ["茶", "茶 ちゃ Tea<br>お茶を飲む おちゃをのむ Drink tea<br>お茶を飲みましょう おちゃをのみましょう Let's drink tea<br>お茶を飲んでいる おちゃをのんでいる I'm drinking tea<br>このお茶美味しい このおちゃおいしい This tea is delicious"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
