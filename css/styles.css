@@ -938,33 +938,40 @@ ruby{
     overflow-y:scroll;
     height: 50px;
 }
-.japanese-reduplication-example{
+.reduplication-example{
     line-height: 3rem;
+}
+.japanese-reduplication-example{
     width: 100%;
     text-align: right;
-    padding:7px;
+    padding-right:7px;
 }
 .translated-reduplication-example{
-    line-height: 3rem;
     width: 100%;
     text-align: left;
-    padding:7px;
+    padding-left:7px;
 }
 
 #reduplication-examples-wrapper::-webkit-scrollbar{
     width: 8px;
 }
-#reduplication-examples-wrapper::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.33);
-}
 #reduplication-examples-wrapper::-webkit-scrollbar-thumb {
-    background-color:pink;
+    background-color:rgba(219, 112, 147,0.5);
+    
 }
 .reduplication-example{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: larger;
+}
+.expand-reduplication-examples-wrapper-button{
+    background-color: olive;
+    width: 23px;
+    height: 120px;
+}
+.reduplication-examples-wrapper button{
+    border: none;
 }
 
 
