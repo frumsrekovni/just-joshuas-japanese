@@ -420,3 +420,12 @@ articlewrapperelement?.addEventListener("wheel", (event) => {
     articlewrapperelement.style.backgroundColor = "red";
     console.log("change");
 });
+
+
+// WIP Examples of reduplication
+function expandReduplicationExamplesWrapper(){
+    console.log("expandReduplicationExamplesWrapper");
+    const reduplicationExamples = document.getElementById("reduplication-examples-wrapper") as HTMLDivElement;
+    reduplicationExamples.style.height ="auto";
+}
+// In order for the transition CSS function to work like you imagined it you should avoid directly changing the styling in scripting and instead opt for adding classes to elements in order to trigger an animation event.

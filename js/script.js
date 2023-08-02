@@ -782,3 +782,8 @@ prevBtn.addEventListener("click", function () {
 sliderPoliteness.addEventListener("input", function () {
     dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];
 });
+function expandReduplicationExamplesWrapper() {
+    console.log("expandReduplicationExamplesWrapper");
+    const reduplicationExamples = document.getElementById("reduplication-examples-wrapper");
+    reduplicationExamples.style.height = 1000 + "px";
+}

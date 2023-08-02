@@ -831,4 +831,3 @@ sliderPoliteness.addEventListener("input", function(){
 
     dynamicText.innerText = wordsForPoliteness[currentArray][Number(sliderPoliteness.value)];   
 });
-

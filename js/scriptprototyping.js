@@ -370,3 +370,9 @@ articlewrapperelement === null || articlewrapperelement === void 0 ? void 0 : ar
     articlewrapperelement.style.backgroundColor = "red";
     console.log("change");
 });
+// WIP Examples of reduplication
+function expandReduplicationExamplesWrapper() {
+    console.log("expandReduplicationExamplesWrapper");
+    const reduplicationExamples = document.getElementById("reduplication-examples-wrapper");
+    reduplicationExamples.style.height = "auto";
+}
