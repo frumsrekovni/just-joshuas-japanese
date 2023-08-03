@@ -936,8 +936,12 @@ ruby{
     background-color: #fdfaf1;
     scrollbar-width: 10px;
     overflow-y:scroll;
+    width: 100%;
     height: 70px;
-    transition: ease-in-out 1s;
+    transition: height 1s ease-in-out;
+}
+.reduplication-examples-wrapper-expanded{
+    height: 700px !important;
 }
 .reduplication-example{
     line-height: 3rem;
@@ -972,7 +976,6 @@ ruby{
     line-height: 2rem;
     text-align: center;
 }
-
 
 @keyframes popping-post {
     /* GROW GROW GROW */

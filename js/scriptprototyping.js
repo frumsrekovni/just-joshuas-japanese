@@ -374,5 +374,7 @@ articlewrapperelement === null || articlewrapperelement === void 0 ? void 0 : ar
 function expandReduplicationExamplesWrapper() {
     console.log("expandReduplicationExamplesWrapper");
     const reduplicationExamples = document.getElementById("reduplication-examples-wrapper");
-    reduplicationExamples.style.height = "auto";
+    // reduplicationExamples.style.height ="auto";
+    reduplicationExamples.classList.add("reduplication-examples-wrapper-expanded");
 }
+// In order for the transition CSS function to work like you imagined it you should avoid directly changing the styling in scripting and instead opt for adding classes to elements in order to trigger an animation event.
