@@ -165,7 +165,7 @@ document.getElementById("math-training");
 let leftfield = 0;
 let rightfield = 0;
 let sumfield = 0;
-leftfield = 三;
+// leftfield = 三;
 rightfield = 3;
 sumfield = leftfield + rightfield;
 console.log(sumfield);
@@ -377,4 +377,17 @@ function expandReduplicationExamplesWrapper() {
     // reduplicationExamples.style.height ="auto";
     reduplicationExamples.classList.add("reduplication-examples-wrapper-expanded");
 }
-// In order for the transition CSS function to work like you imagined it you should avoid directly changing the styling in scripting and instead opt for adding classes to elements in order to trigger an animation event.
+// In order for the transition CSS function to work like you imagined it you should avoid directly changing the styling in scripting and instead opt for adding classes to elements in order to trigger an animation event. However in this case the animation does not work on the auto attribute. you actually have to use JavaScript hacks or an entirely different method that doesn't even produce the exact same end result.
+let collapsibleArticles = document.getElementsByClassName("collapsible-article");
+for (let i = 0; i < collapsibleArticles.length; i++) {
+    collapsibleArticles[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        let content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        }
+        else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}

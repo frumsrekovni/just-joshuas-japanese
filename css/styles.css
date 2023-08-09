@@ -938,14 +938,18 @@ ruby{
     overflow-y:scroll;
     width: 100%;
     height: 70px;
-    transition: height 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#reduplication-examples-toggle:checked + #reduplication-examples-wrapper{
+    height: 1000px !important;
 }
 .reduplication-examples-wrapper-expanded{
-    height: 700px !important;
+    flex: 0;
 }
 .reduplication-example{
     line-height: 3rem;
 }
+
 .japanese-reduplication-example{
     width: 100%;
     text-align: right;
@@ -976,6 +980,32 @@ ruby{
     line-height: 2rem;
     text-align: center;
 }
+
+
+.collapsible-article {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible-article:hover {
+    background-color: #555;
+  }
+  
+  .translated-article {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
 
 @keyframes popping-post {
     /* GROW GROW GROW */
