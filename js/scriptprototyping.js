@@ -367,8 +367,8 @@ function leftPostDrag(event) {
 }
 const articlewrapperelement = document.getElementById("article-wrapper");
 articlewrapperelement === null || articlewrapperelement === void 0 ? void 0 : articlewrapperelement.addEventListener("wheel", (event) => {
-    articlewrapperelement.style.backgroundColor = "red";
-    console.log("change");
+    // articlewrapperelement.style.backgroundColor = "red";
+    // console.log("change");
 });
 // WIP Examples of reduplication
 function expandReduplicationExamplesWrapper() {

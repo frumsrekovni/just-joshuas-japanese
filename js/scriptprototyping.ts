@@ -417,8 +417,8 @@ function leftPostDrag(event){
 const articlewrapperelement = document.getElementById("article-wrapper");
 
 articlewrapperelement?.addEventListener("wheel", (event) => {
-    articlewrapperelement.style.backgroundColor = "red";
-    console.log("change");
+    // articlewrapperelement.style.backgroundColor = "red";
+    // console.log("change");
 });
 
 
