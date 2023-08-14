@@ -540,7 +540,7 @@ const commonJapaneseWords:wordCard[] = [
     ["遅い","遅い おそい Late<br>遅いですか おそいですか Am I late?<br>遅いよ おそいよ You're late<br>今年は秋が遅いね ことしはあきがおそいね Autumn is late this year"],
     ["茶","茶 ちゃ Tea<br>お茶を飲む おちゃをのむ Drink tea<br>お茶を飲みましょう おちゃをのみましょう Let's drink tea<br>お茶を飲んでいる おちゃをのんでいる I'm drinking tea<br>このお茶美味しい このおちゃおいしい This tea is delicious"],
     ["向こう","向こう むこう Over there<br>向こうへ行け！ むこうへいけ！ Go over there!/Go away<br>向こうの方で泳ごう むこうのほうでおよごう Let's swim over there<br>向こうに白い塔が見えます むこうにしろいとうがみえます You can see a white tower over there"],
-    ["困る","困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."]
+    ["困る","困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."],["冗談"]
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
