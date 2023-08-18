@@ -560,8 +560,8 @@ function flashSquareKanaClick(){
 let kanaCoinflip:number = 0;
 function flashSquareAnswerClick(){
     if(useKatakanaInFlashSquare == false && useHiraganaInFlashSquare == false){
-        flashSquareKanaElement.innerText = "¯\_(ツ)_/¯";
-        flashSquareAnswerElement.innerText = "¯\_(ツ)_/¯";
+        flashSquareKanaElement.innerText = "¯\_(ツ)_/ ¯";
+        flashSquareAnswerElement.innerText = "¯\_(ツ)_/¯ ";
     } else{
         const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length));                       // Any random element from allkana array
         if(useKatakanaInFlashSquare == false){
