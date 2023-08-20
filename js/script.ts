@@ -540,7 +540,10 @@ const commonJapaneseWords:wordCard[] = [
     ["遅い","遅い おそい Late<br>遅いですか おそいですか Am I late?<br>遅いよ おそいよ You're late<br>今年は秋が遅いね ことしはあきがおそいね Autumn is late this year"],
     ["茶","茶 ちゃ Tea<br>お茶を飲む おちゃをのむ Drink tea<br>お茶を飲みましょう おちゃをのみましょう Let's drink tea<br>お茶を飲んでいる おちゃをのんでいる I'm drinking tea<br>このお茶美味しい このおちゃおいしい This tea is delicious"],
     ["向こう","向こう むこう Over there<br>向こうへ行け！ むこうへいけ！ Go over there!/Go away<br>向こうの方で泳ごう むこうのほうでおよごう Let's swim over there<br>向こうに白い塔が見えます むこうにしろいとうがみえます You can see a white tower over there"],
-    ["困る","困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."],["冗談"]
+    ["困る","困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."],
+    ["冗談","冗談 じょうだん Joke<br>冗談だよ じょうだんだよ It's a joke<br>冗談を言う じょうだんをいう Tell a joke<br>冗談を言わないで じょうだんをいわないで Don't joke around"],
+    ["浴びる","浴びる あびる to take a shower<br>シャワーを浴びる シャワーをあびる Take a shower<br>雨に浴びた あめにあびた I got caught in the rain<br>太陽に浴びる たいようにあびる Bask in the sun"],
+
  
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
@@ -792,7 +795,7 @@ let wordsForPoliteness:string[][] = [
     ["応援してるよ","応援しています","応援しております"],
     ["ハピバ！","おたおめ","ハッピーバースデー！","誕生日おめでとう","お誕生日おめでとう","誕生日おめでとうございます","お誕生日おめでとうございます","あなたの誕生日を心よりお祝い申し上げます"],
     ["へぇ","そなんだ","そなんですか","さよでございますか"],["ほんきでいってのか","冗談でし","本当ですか","作用"]
-],["わからない","わかりません"]
+    ,["わからない","わかりません"]]
 
 
 dynamicText.innerText = wordsForPoliteness[0][0];
