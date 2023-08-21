@@ -541,8 +541,8 @@ const commonJapaneseWords:wordCard[] = [
     ["茶","茶 ちゃ Tea<br>お茶を飲む おちゃをのむ Drink tea<br>お茶を飲みましょう おちゃをのみましょう Let's drink tea<br>お茶を飲んでいる おちゃをのんでいる I'm drinking tea<br>このお茶美味しい このおちゃおいしい This tea is delicious"],
     ["向こう","向こう むこう Over there<br>向こうへ行け！ むこうへいけ！ Go over there!/Go away<br>向こうの方で泳ごう むこうのほうでおよごう Let's swim over there<br>向こうに白い塔が見えます むこうにしろいとうがみえます You can see a white tower over there"],
     ["困る","困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."],
-    ["冗談","冗談 じょうだん Joke<br>冗談だよ じょうだんだよ It's a joke<br>冗談を言う じょうだんをいう Tell a joke<br>冗談を言わないで じょうだんをいわないで Don't joke around"],
-    ["浴びる","浴びる あびる to take a shower<br>シャワーを浴びる シャワーをあびる Take a shower<br>雨に浴びた あめにあびた I got caught in the rain<br>太陽に浴びる たいようにあびる Bask in the sun"],
+    ["冗談","冗談 じょうだん Joke<br>冗談だよ じょうだんだよ It's a joke<br>冗談はやめて じょうだんはやめて Get serious<br>りんさんは私の冗談に笑った りんさんはわたしのじょうだんにわらった Rin laughed at my joke"],
+    ["浴びる","浴びる あびる to take a shower<br>シャワー浴びるの？ シャワーあびるの？ Are you going to take a shower?<br>彼女は、朝食前にシャワーを浴びることにしている かのじょは、ちょうしょくまえにシャワーをあびることにしている She takes a shower before breakfast"]
 
  
 ];
