@@ -532,7 +532,8 @@ const commonJapaneseWords = [
     ["冗談", "冗談 じょうだん Joke<br>冗談だよ じょうだんだよ It's a joke<br>冗談はやめて じょうだんはやめて Get serious<br>りんさんは私の冗談に笑った りんさんはわたしのじょうだんにわらった Rin laughed at my joke"],
     ["浴びる", "浴びる あびる to take a shower<br>シャワー浴びるの？ シャワーあびるの？ Are you going to take a shower?<br>彼女は、朝食前にシャワーを浴びることにしている かのじょは、ちょうしょくまえにシャワーをあびることにしている She takes a shower before breakfast"],
     ["曇り", "曇り くもり Cloudy<br>今日は曇りです きょうはくもりです It's cloudy today<br>曇りの日は嫌い くもりのひはきらい I don't like cloudy days"],
-    ["暖かい", "暖かい あたたかい Warm/having enough money​<br>暖かい日でした あたたかいひでした It was a warm day<br>懐が暖かい ふところがあたたかい I have enough money<br>この冬は暖かい。 このふゆはあたたかい。 This winter is warm."]
+    ["暖かい", "暖かい あたたかい Warm/having enough money​<br>暖かい日でした あたたかいひでした It was a warm day<br>懐が暖かい ふところがあたたかい I have enough money<br>この冬は暖かい。 このふゆはあたたかい。 This winter is warm."],
+    ["葉書", "葉書 はがき Postcard<br>葉書を送る はがきをおくる Send a postcard<br>葉書を買って はがきをかって Buy a postcard<br>葉書を書いて はがきをかいて Write a postcard"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
