@@ -939,6 +939,7 @@ ruby{
     width: 100%;
     height: 70px;
     transition: all 1s ease-in-out;
+    
 }
 #reduplication-examples-toggle:checked + #reduplication-examples-wrapper{
     height: 1000px !important;
@@ -948,12 +949,23 @@ ruby{
 }
 .reduplication-example{
     line-height: 3rem;
+    color: #555;
 }
+a:link{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 .japanese-reduplication-example{
     width: 100%;
     text-align: right;
     padding-right:7px;
+    
 }
 .translated-reduplication-example{
     width: 100%;
