@@ -951,6 +951,9 @@ ruby{
     line-height: 3rem;
     color: #555;
 }
+.reduplication-example:hover{
+    opacity: 0.8;
+}
 a:link{
     text-decoration: none;
     cursor: pointer;
