@@ -735,7 +735,7 @@ function calculate_time_since_first_post(){
     years_element?.innerHTML=   years;
 
     // Doing cur_date == end_date doesnt actually work the way youd think it does
-    // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :)
+    // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :) make it a popup and send out an email when.
 
     if(time_to_anniversary_date_in_seconds > 31449600){
 
