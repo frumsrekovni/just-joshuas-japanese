@@ -941,7 +941,7 @@ ruby{
     transition: all 1s ease-in-out;
     
 }
-#reduplication-examples-toggle:checked + #reduplication-examples-wrapper{
+#reduplication-examples-toggle:checked > #reduplication-examples-wrapper{
     height: 1000px !important;
 }
 .reduplication-examples-wrapper-expanded{
@@ -974,6 +974,10 @@ a:visited{
     width: 100%;
     text-align: left;
     padding-left:7px;
+}
+
+#reduplication-examples-button:checked #reduplication-examples-wrapper{
+    height: 1233px !important;
 }
 
 #reduplication-examples-wrapper::-webkit-scrollbar{
