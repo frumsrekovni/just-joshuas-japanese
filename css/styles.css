@@ -954,6 +954,10 @@ ruby{
 .reduplication-example:hover{
     opacity: 0.8;
 }
+.reduplication-example:active{
+    color: rgb(24, 6, 24);
+    opacity: 0.3;
+}
 a:link{
     text-decoration: none;
     cursor: pointer;
