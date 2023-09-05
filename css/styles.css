@@ -980,7 +980,7 @@ a:visited{
     padding-left:7px;
 }
 
-#reduplication-examples-button:checked #reduplication-examples-wrapper{
+#reduplication-examples-toggle:checked +#reduplication-examples-wrapper{
     height: 1233px !important;
 }
 
