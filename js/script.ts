@@ -547,7 +547,9 @@ const commonJapaneseWords:wordCard[] = [
     ["暖かい","暖かい あたたかい Warm/having enough money​<br>暖かい日でした あたたかいひでした It was a warm day<br>懐が暖かい ふところがあたたかい I have enough money<br>この冬は暖かい。 このふゆはあたたかい。 This winter is warm."],
     ["葉書","葉書 はがき Postcard<br>葉書を送る はがきをおくる Send a postcard<br>葉書を買って はがきをかって Buy a postcard<br>葉書を書いて はがきをかいて Write a postcard"],
     ["麻雀","麻雀 まーじゃん Mahjong<br>麻雀をしよう！ まーじゃんをしよう！ Let's play mahjong!<br>麻雀は得意？ まーじゃんはとくい？ Are you good at mahjong?"],
-    ["龍","龍 りゅう Dragon<br>龍が好き りゅうがすき I like dragons<br>龍は本当に存在するの？ りゅうはほんとうにそんざいするの？ Do dragons really exist?"]
+    ["龍","龍 りゅう Dragon<br>龍が好き りゅうがすき I like dragons<br>龍は本当に存在するの？ りゅうはほんとうにそんざいするの？ Do dragons really exist?"],
+    ["塩","塩 しお Salt<br>塩を買って しおをかって Buy salt<br>塩を食べる しおをたべる Eat salt<br>塩を掛ける しおをかける Sprinkle salt"],
+    ["死ぬ","死ぬ しぬ to die<br>死ぬのが怖い しぬのがこわい I'm afraid of dying<br>死ぬほど好き しぬほどすき I love it so much<br>死ぬほど疲れた しぬほどつかれた I'm dead tired"]
 
  
 ];

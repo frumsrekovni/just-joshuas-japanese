@@ -981,7 +981,7 @@ a:visited{
 }
 
 #reduplication-examples-toggle:checked +#reduplication-examples-wrapper{
-    height: 1233px !important;
+    height: 300px !important;
 }
 
 #reduplication-examples-wrapper::-webkit-scrollbar{
