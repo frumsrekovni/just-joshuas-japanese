@@ -548,8 +548,12 @@ const commonJapaneseWords:wordCard[] = [
     ["葉書","葉書 はがき Postcard<br>葉書を送る はがきをおくる Send a postcard<br>葉書を買って はがきをかって Buy a postcard<br>葉書を書いて はがきをかいて Write a postcard"],
     ["麻雀","麻雀 まーじゃん Mahjong<br>麻雀をしよう！ まーじゃんをしよう！ Let's play mahjong!<br>麻雀は得意？ まーじゃんはとくい？ Are you good at mahjong?"],
     ["龍","龍 りゅう Dragon<br>龍が好き りゅうがすき I like dragons<br>龍は本当に存在するの？ りゅうはほんとうにそんざいするの？ Do dragons really exist?"],
-    ["塩","塩 しお Salt<br>塩を買って しおをかって Buy salt<br>塩を食べる しおをたべる Eat salt<br>塩を掛ける しおをかける Sprinkle salt"],
-    ["死ぬ","死ぬ しぬ to die<br>死ぬのが怖い しぬのがこわい I'm afraid of dying<br>死ぬほど好き しぬほどすき I love it so much<br>死ぬほど疲れた しぬほどつかれた I'm dead tired"]
+    ["塩","塩 しお Salt<br>お塩とって おしおとって Pass the salt<br>塩ください しおください The salt, please<br>塩を入れましたか しおをいれましたか Did you put salt in it?"],
+    ["死ぬ","死ぬ しぬ to die<br>死ぬのが怖い しぬのがこわい I'm afraid of dying<br>死ぬほど好き しぬほどすき I love it so much<br>死ぬほど疲れた しぬほどつかれた I'm dead tired<br>人は必ず死ぬ ひとはかならずしぬ Everyone dies"],
+    ["おやすみなさい ","おやすみなさい Good night<br>おやすみなさい、良い夢を おやすみなさい、よいゆめを Good night, sweet dreams"],
+    ["おかえりなさい","おかえりなさい Welcome back<br>お帰りなさい。逢いたかったわ。 おかえりなさい。あいたかったわ。 Welcome back. We missed you."],
+    ["行ってきます","行ってきます I'm off<br>学校に行ってきます がっこうにいってきます I'm off to school<br>一時間したら行ってきます いちじかんしたらいってきます I'll leave in an hour"],
+    ["感じ","感じ かんじ Feeling<br>いい感じ いいかんじ Sounds good<br>何か感じる なにかかんじる I feel something<br>私が悪いと感じた あたしがわるいとかんじた I felt bad"]
 
  
 ];
