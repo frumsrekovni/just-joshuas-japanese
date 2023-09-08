@@ -541,7 +541,11 @@ const commonJapaneseWords = [
     ["おやすみなさい ", "おやすみなさい Good night<br>おやすみなさい、良い夢を おやすみなさい、よいゆめを Good night, sweet dreams"],
     ["おかえりなさい", "おかえりなさい Welcome back<br>お帰りなさい。逢いたかったわ。 おかえりなさい。あいたかったわ。 Welcome back. We missed you."],
     ["行ってきます", "行ってきます I'm off<br>学校に行ってきます がっこうにいってきます I'm off to school<br>一時間したら行ってきます いちじかんしたらいってきます I'll leave in an hour"],
-    ["感じ", "感じ かんじ Feeling<br>いい感じ いいかんじ Sounds good<br>何か感じる なにかかんじる I feel something<br>私が悪いと感じた あたしがわるいとかんじた I felt bad"]
+    ["感じ", "感じ かんじ Feeling<br>いい感じ いいかんじ Sounds good<br>何か感じる なにかかんじる I feel something<br>私が悪いと感じた あたしがわるいとかんじた I felt bad"],
+    ["上手", "上手 じょうず Good at<br>上手に泳げるの？ じょうずにおよげるの？ Can you swim well?<br>試験は上手くいった？ しけんはじょうずくいった？ Did you do well on the test?<br>どう上手くいってる？ どうじょうずくいってる？ How's it going?"],
+    ["醤油", "醤油 しょうゆ Soy sauce<br>そこの醤油取って そこのしょうゆとって Pass the soy sauce<br>寿司に醤油なんてつけないわ すしにしょうゆなんてつけないわ I don't put soy sauce on sushi"],
+    ["吸う", "吸う すいます To smoke<br>父はたばこを吸う ちちはたばこをすう My father smokes<br>父はタバコを吸うのをやめた ちちはタバコをすうのをやめた My father quit smoking"],
+    ["寿司屋", "寿司屋 すしや Sushi restaurant<br>ここの寿司屋は、回転寿司だよ ここのすしやは、かいてんずしですよ This sushi restaurant is a conveyor belt sushi restaurant<br>寿司屋に行こう すしやにいこう Let's go to a sushi restaurant"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
