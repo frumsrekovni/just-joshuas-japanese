@@ -413,6 +413,7 @@ const commonJapaneseWords:wordCard[] = [
     ["何本","何本 なんぼん how many long things<br>何本ある？ How many are there?<br>馬の歯って、何本なの？ うまのはって、なんぼんなの？ How many teeth does a horse have?"],
     ["着る","着る きる to wear<br>何を着る？ なにをきる？ What will you wear?"],
     ["消える","消える きえる to disappear/to go out<br>電気が消えた でんきがきえた The lights went out<br>消えている きえている It's gone"],
+    ["電気","電気 でんき Electricity<br>電気消して でんきけして Turn off the lights<br>居間の電気は消したの？ いまのでんきはけしたの？ Did you turn off the living room lights?"],
     ["開ける","開ける あける to open<br>開けて あけて Open it<br>開けてください あけてください Please open it"],
     ["弾く","弾く ひく to play (piano/guitar)<br>ギターを弾く ギターをひく Play the guitar<br>ピアノを弾く ピアノをひく Play the piano"],
     ["乗る","乗る のる to ride/to board<br>乗って 乗って Get on<br>乗ってください のってください Please get on"],
@@ -557,9 +558,10 @@ const commonJapaneseWords:wordCard[] = [
     ["上手","上手 じょうず Good at<br>上手に泳げるの？ じょうずにおよげるの？ Can you swim well?<br>試験は上手くいった？ しけんはじょうずくいった？ Did you do well on the test?<br>どう上手くいってる？ どうじょうずくいってる？ How's it going?"],
     ["醤油","醤油 しょうゆ Soy sauce<br>そこの醤油取って そこのしょうゆとって Pass the soy sauce<br>寿司に醤油なんてつけないわ すしにしょうゆなんてつけないわ I don't put soy sauce on sushi"],
     ["吸う","吸う すいます To smoke<br>父はたばこを吸う ちちはたばこをすう My father smokes<br>父はタバコを吸うのをやめた ちちはタバコをすうのをやめた My father quit smoking"],
-    ["寿司屋","寿司屋 すしや Sushi restaurant<br>ここの寿司屋は、回転寿司だよ ここのすしやは、かいてんずしですよ This sushi restaurant is a conveyor belt sushi restaurant<br>寿司屋に行こう すしやにいこう Let's go to a sushi restaurant"]
-
- 
+    ["寿司屋","寿司屋 すしや Sushi restaurant<br>ここの寿司屋は、回転寿司だよ ここのすしやは、かいてんずしですよ This sushi restaurant is a conveyor belt sushi restaurant<br>寿司屋に行こう すしやにいこう Let's go to a sushi restaurant"],
+    ["誰か","誰か だれか Someone<br>誰かいる？ だれかいる？ Is anyone there?<br>誰か助けて だれかたすけて Help me, someone"],
+    ["動物","動物 どうぶつ Animal<br>魚も動物ですか？ さかなもどうぶつですか？ Are fish also animals?<br>動物は火を恐れる どうぶつはひをおそれる Animals are scared of fire"],
+    ["動物園","動物園 どうぶつえん Zoo<br>動物園に行こう どうぶつえんにいこう Let's go to the zoo<br>動物園は楽しい どうぶつえんはたのしい The zoo is fun<br>この動物園にお店はあるの？ このどうぶつえんにおみせはあるの？ Is there a shop in this zoo?"] 
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
