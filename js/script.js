@@ -549,7 +549,11 @@ const commonJapaneseWords = [
     ["寿司屋", "寿司屋 すしや Sushi restaurant<br>ここの寿司屋は、回転寿司だよ ここのすしやは、かいてんずしですよ This sushi restaurant is a conveyor belt sushi restaurant<br>寿司屋に行こう すしやにいこう Let's go to a sushi restaurant"],
     ["誰か", "誰か だれか Someone<br>誰かいる？ だれかいる？ Is anyone there?<br>誰か助けて だれかたすけて Help me, someone"],
     ["動物", "動物 どうぶつ Animal<br>魚も動物ですか？ さかなもどうぶつですか？ Are fish also animals?<br>動物は火を恐れる どうぶつはひをおそれる Animals are scared of fire"],
-    ["動物園", "動物園 どうぶつえん Zoo<br>動物園に行こう どうぶつえんにいこう Let's go to the zoo<br>動物園は楽しい どうぶつえんはたのしい The zoo is fun<br>この動物園にお店はあるの？ このどうぶつえんにおみせはあるの？ Is there a shop in this zoo?"]
+    ["動物園", "動物園 どうぶつえん Zoo<br>動物園に行こう どうぶつえんにいこう Let's go to the zoo<br>動物園は楽しい どうぶつえんはたのしい The zoo is fun<br>この動物園にお店はあるの？ このどうぶつえんにおみせはあるの？ Is there a shop in this zoo?"],
+    ["服", "服 ふく Clothes<br>制服はあるの？ せいふくはあるの？ Do you have a school uniform?<br>その服いいね そのふくいいね I like your outfit"],
+    ["制服", "制服 せいふく Uniform<br>制服はあるの？ せいふくはあるの？ Do you have a uniform?<br>制服を着なさい せいふくをきなさい Put on your uniform<br>学校では制服を着ています がっこうではせいふくをきています We wear uniforms at our school"],
+    ["上着", "上着 うわぎ Jacket<br>上着を着る うわぎをきる Put on your jacket<br>それって新しい上着？ それってあたらしいうわぎ？ Is that a new jacket?<br>彼女は赤い上着に決めた かのじょはあかいうわぎにきめた She decided on a red jacket"],
+    ["靴", "靴 くつ Shoes<br>靴を履いて くつをはいて Put on your shoes<br>この靴どう思う？ このくつどうおもう？ What do you think of these shoes?<br>この靴は少し緩い このくつはすこしゆるい These shoes are a little loose"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
