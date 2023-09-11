@@ -553,7 +553,10 @@ const commonJapaneseWords = [
     ["服", "服 ふく Clothes<br>制服はあるの？ せいふくはあるの？ Do you have a school uniform?<br>その服いいね そのふくいいね I like your outfit"],
     ["制服", "制服 せいふく Uniform<br>制服はあるの？ せいふくはあるの？ Do you have a uniform?<br>制服を着なさい せいふくをきなさい Put on your uniform<br>学校では制服を着ています がっこうではせいふくをきています We wear uniforms at our school"],
     ["上着", "上着 うわぎ Jacket<br>上着を着る うわぎをきる Put on your jacket<br>それって新しい上着？ それってあたらしいうわぎ？ Is that a new jacket?<br>彼女は赤い上着に決めた かのじょはあかいうわぎにきめた She decided on a red jacket"],
-    ["靴", "靴 くつ Shoes<br>靴を履いて くつをはいて Put on your shoes<br>この靴どう思う？ このくつどうおもう？ What do you think of these shoes?<br>この靴は少し緩い このくつはすこしゆるい These shoes are a little loose"]
+    ["靴", "靴 くつ Shoes<br>靴を履いて くつをはいて Put on your shoes<br>この靴どう思う？ このくつどうおもう？ What do you think of these shoes?<br>この靴は少し緩い このくつはすこしゆるい These shoes are a little loose"],
+    ["韓国", "韓国 かんこく South Korea<br>韓国人です かんこくじんです I'm Korean<br>韓国語を話せる かんこくごをはなせる I can speak Korean<br>韓国料理は一般的に辛い かんこくりょうりはいっぱんてきにからい Korean food is generally spicy"],
+    ["中国", "中国 ちゅうごく China<br>中国が好きだ ちゅうごくがすきだ I like China<br>中国語を話せる ちゅうごくごをはなせる I can speak Chinese<br>いつ中国に着いたの？ いつちゅうごくについたの？ When did you arrive in China?"],
+    ["日本", "日本 にほん Japan<br>日本人ですか にほんじんですか Are you Japanese?<br>日本語を話せる にほんごをはなせる I can speak Japanese<br>日本語は難しい にほんごはむずかしい Japanese is difficult<br>日本は島国だ にほんはしまぐにだ Japan is an island country"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
