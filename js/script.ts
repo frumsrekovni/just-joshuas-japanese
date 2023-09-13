@@ -499,6 +499,7 @@ const commonJapaneseWords:wordCard[] = [
     ["祖父","祖父 そふ Grandfather<br>彼は祖父似だ かれはそふにだ He looks like his grandfather<br>祖父は非常に健康だ そふはひじょうにけんこうだ My grandfather is very healthy"],
     ["親","親 おや Parent<br>親には見せたの？ おやにはみせたの？ Did you show it to your parents?<br>両親が離婚した りょうしんがりこんした My parents got divorced"],
     ["腹","腹 はら Belly<br>お腹一杯 おなかいっぱい I'm full<br>お腹が空いた おなかがすいた I'm hungry<br>お腹が痛い おなかがいたい My stomach hurts"],
+    ["お腹","お腹 おなか Belly<br>お腹一杯 おなかいっぱい I'm full<br>お腹が空いた おなかがすいた I'm hungry<br>お腹が痛い おなかがいたい My stomach hurts"],
     ["顔","顔 かお Face<br>顔でかーい かおでかーい You have a big face<br>顔赤いよ かおあかいよ Your face is red<br>顔が青いよ かおがあおいよ You look pale"],
     ["働く","働く はたらく to work<br>システムアドミニストレータとして働いています システムアドミニストレータとしてはたらいています I work as a system administrator<br>彼女はよく働く かのじょはよくはたらく She works hard<br>働くしかない はたらくしかない I have to work"],
     ["相撲","相撲 すもう Sumo wrestling<br>相撲を見たことがありますか すもうをみたことがありますか Have you ever seen sumo wrestling?<br>腕相撲 うでずもう Arm wrestling<br>指相撲 ゆびずもう Thumb wrestling"],
@@ -571,7 +572,8 @@ const commonJapaneseWords:wordCard[] = [
     ["日本","日本 にほん Japan<br>日本人ですか にほんじんですか Are you Japanese?<br>日本語を話せる にほんごをはなせる I can speak Japanese<br>日本語は難しい にほんごはむずかしい Japanese is difficult<br>日本は島国だ にほんはしまぐにだ Japan is an island country"],
     ["上げる","上げる あげる to raise<br>手を上げて てをあげて Raise your hand<br>上げてもいい？ あげてもいい？ Can I raise it?"],
     ["言葉","言葉 ことば Word<br>言葉を失った ことばをうしなった I was speechless.<br>昔の言葉だよ むかしのことばだよ It's an old word<br>言葉を慎みなさい ことばをつつしみなさい Watch your language"],
-    ["机","机 つくえ Desk<br>机の上にある つくえのうえにある It's on the desk<br>私の机は古い わたしのつくえはふるい My desk is old"]
+    ["机","机 つくえ Desk<br>机の上にある つくえのうえにある It's on the desk<br>私の机は古い わたしのつくえはふるい My desk is old"],
+    ["授業","授業 じゅぎょう Class<br>授業が始まる じゅぎょうがはじまる Class begins<br>彼等は授業中だ かれらはじゅぎょうちゅうだ They are in class<br>今日は授業ないの？ きょうはじゅぎょうないの？ Don't you have classes today?"],
 
 
 ];
