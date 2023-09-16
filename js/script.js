@@ -282,6 +282,8 @@ const commonJapaneseWords = [
     ["話す", "話す はなす Speak<br>話すの？ Are you going to speak?<br>話すの遅いね You're a slow talker<br>話したい？ はなしたい？ Do you want to talk?"],
     ["電話", "電話 でんわ Phone<br>電話はどこ？ Where is the telephone?<br>電話するよ I'll call you"],
     ["言う", "言う いう Say<br>何と言うの？ What did you say?<br>ジョシュアが「私から警察に電話をします」と言うと Joshua says, I'll call the police."],
+    ["警察", "警察 けいさつ Police<br>警察はどこ？ Where is the police station?<br>警察を呼んで！ けいさつをよんで！ Call the police!<br>警察は捜索を打ち切った。 けいさつはそうさくをうちきった The police called off the search"],
+    ["世界", "世界 せかい World<br>世界は広い せかいはひろい The world is big<br>僕のママは世界一だ！ ぼくのママはせかいいちだ！ My mom is the best in the world!"],
     ["言語", "言語 げんご Language<br>言語が好きです I like languages<br>言語学 げんごがく Linguistics"],
     ["西", "西 にし West<br>西に行く Going west<br>西 せい Spain<br>西欧 せいおう Western Europe<br>西洋 せいよう the West"],
     ["天", "天 てん Heaven<br>天国 てんごく Heaven<br>天気 てんき Weather<br>変な天気！ へんなてんき！ What strange weather!"],
