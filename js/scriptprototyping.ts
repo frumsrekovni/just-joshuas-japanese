@@ -182,6 +182,12 @@ rightfield = 3;
 sumfield = leftfield + rightfield;
 console.log(sumfield);
 
+function expand_examples(){
+    let wrap = document.getElementById("reduplication-examples-wrapper");
+    wrap?.style.height = "auto";
+}
+
+
 
 function resizeCounter(){
     const countdown_toggle = document.getElementById("countdown-toggle") as HTMLInputElement;

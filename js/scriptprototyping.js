@@ -169,6 +169,10 @@ let sumfield = 0;
 rightfield = 3;
 sumfield = leftfield + rightfield;
 console.log(sumfield);
+function expand_examples() {
+    let wrap = document.getElementById("reduplication-examples-wrapper");
+    wrap === null || wrap === void 0 ? void 0 : wrap.style.height = "auto";
+}
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");
     countdown_toggle.checked = !countdown_toggle.checked;
