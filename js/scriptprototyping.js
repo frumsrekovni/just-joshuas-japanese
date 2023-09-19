@@ -169,9 +169,17 @@ let sumfield = 0;
 rightfield = 3;
 sumfield = leftfield + rightfield;
 console.log(sumfield);
+let expandedReuplicationExamples = false;
 function expand_examples() {
-    let wrap = document.getElementById("reduplication-examples-wrapper");
-    wrap === null || wrap === void 0 ? void 0 : wrap.style.height = "auto";
+    if (!expandedReuplicationExamples) {
+        let wrap = document.getElementById("reduplication-examples-wrapper");
+        wrap === null || wrap === void 0 ? void 0 : wrap.style.height = "auto";
+    }
+    else {
+        let wrap = document.getElementById("reduplication-examples-wrapper");
+        wrap === null || wrap === void 0 ? void 0 : wrap.style.height = "100px";
+    }
+    expandedReuplicationExamples = !expandedReuplicationExamples;
 }
 function resizeCounter() {
     const countdown_toggle = document.getElementById("countdown-toggle");

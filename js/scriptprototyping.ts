@@ -182,9 +182,16 @@ rightfield = 3;
 sumfield = leftfield + rightfield;
 console.log(sumfield);
 
+let expandedReuplicationExamples = false;
 function expand_examples(){
-    let wrap = document.getElementById("reduplication-examples-wrapper");
-    wrap?.style.height = "auto";
+    if(!expandedReuplicationExamples){
+        let wrap = document.getElementById("reduplication-examples-wrapper");
+        wrap?.style.height = "auto";
+    } else{
+        let wrap = document.getElementById("reduplication-examples-wrapper");
+        wrap?.style.height = "100px";
+    }
+    expandedReuplicationExamples = !expandedReuplicationExamples;
 }
 
 
