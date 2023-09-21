@@ -962,6 +962,18 @@ ruby{
     color: rgb(24, 6, 24);
     opacity: 0.3;
 }
+
+.reduplication-examples-row{
+    display: flex;
+    
+    align-content: center;
+}
+.extra-examples{
+    background-color: red;
+    line-height: 3rem;
+    font-size: medium;
+    display: flex;
+}
 a:link{
     text-decoration: none;
     cursor: pointer;
