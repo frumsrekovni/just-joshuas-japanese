@@ -933,6 +933,7 @@ ruby{
 #reduplication-examples-wrapper{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #fdfaf1;
     scrollbar-width: 10px;
     overflow-y:scroll;
@@ -965,8 +966,8 @@ ruby{
 
 .reduplication-examples-row{
     display: flex;
-    
-    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 .extra-examples{
     background-color: red;
