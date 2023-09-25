@@ -344,7 +344,7 @@ const commonJapaneseWords:wordCard[] = [
     ["月曜日","月曜日 げつようび Monday<br>月曜日に行く Going on Monday"],
     ["山","山 やま Mountain<br>山の多い国です。It's a very mountainous country.<br>富士山は美しい ふじさんはうつくしょい Mount Fuji is beautiful"],
     ["猫","猫 ねこ Cat<br>猫がいる ねこがいる There is a cat"],
-    ["犬","犬 いぬ Dog<br>犬を見た いぬをみた I saw a dog"],
+    ["犬","犬 いぬ Dog<br>犬を見た いぬをみた I saw a dog<br>犬に食べ物をあげないでね いぬにたべものをあげないでね Don't feed the dog"],
     ["牛","牛 うし Cow<br>牛肉 ぎゅうにく Beef<br>牛乳 ぎゅうにゅう Milk"],
     ["牛乳","牛乳 ぎゅうにゅう Milk<br>牛乳はどこ？ Where is the milk?"],
 
@@ -383,6 +383,7 @@ const commonJapaneseWords:wordCard[] = [
     ["後","後 あと After/Later<br>また後で See you later<br>後で電話して あとででんわして Call me later<br>後で決めます あとできめます I'll decide later"],
     ["後ろ","後ろ うしろ back/rear<br>後ろを見ろ うしろをみろ Look behind you<br>彼の後ろにいる かれのうしろにいる I'm behind him"],
     ["先","先 さき Ahead/First/Before<br>どうぞ、お先に！ どうぞ、おさきに！ Go ahead!<br>私が先に行きます わたしがさきにいきます I'll go first"],
+    ["食べ物","食べ物 たべもの Food<br>食べ物はどこ？ Where is the food?<br>好きな食べ物は？ すきなたべものは？ What's your favorite food?<br>犬に食べ物をあげないでね いぬにたべものをあげないでね Don't feed the dog"],
     ["一番","一番 いちばん Number one/Best<br>一番になりたい いちばんになりたい I want to be number one<br>一番好きな食べ物は？ いちばんすきなたべものは？ What's your favorite food?"],
     ["二番","二番 にばん Number two/Second<br>二番目 にばんめ Second<br>二番目に好きな食べ物は？ にばんめにすきなたべものは？ What's your second favorite food?"],
     ["三番","三番 さんばん Number three/Third<br>三番目 さんばんめ Third<br>三番目に好きな食べ物は？ さんばんめにすきなたべものは？ What's your third favorite food?"],
@@ -576,6 +577,9 @@ const commonJapaneseWords:wordCard[] = [
     ["言葉","言葉 ことば Word<br>言葉を失った ことばをうしなった I was speechless.<br>昔の言葉だよ むかしのことばだよ It's an old word<br>言葉を慎みなさい ことばをつつしみなさい Watch your language"],
     ["机","机 つくえ Desk<br>机の上にある つくえのうえにある It's on the desk<br>私の机は古い わたしのつくえはふるい My desk is old"],
     ["授業","授業 じゅぎょう Class<br>授業が始まる じゅぎょうがはじまる Class begins<br>彼等は授業中だ かれらはじゅぎょうちゅうだ They are in class<br>今日は授業ないの？ きょうはじゅぎょうないの？ Don't you have classes today?"],
+    ["基本的","基本的 きほんてき Basic<br> 基本的なことを教えて きほんてきなことをおしえて Teach me the basics<br>基本的には同意だ きほんてきにはどういだ Basically, I agree<br>私、基本的に一人でいる方が好きなんです わたし、きほんてきにひとりでいるほうがすきなんです I basically prefer being by myself"],
+    ["会話","会話 かいわ Conversation<br>会話が上手い かいわがうまい You're good at conversation<br>会話に加われば？ かいわにくわわれば？ Why don't you join the conversation?"],
+    ["出来る","出来る できる to be able to<br>一人で出来るよ ひとりでできるよ I can do it by myself<br>出来ると思います できるとおもいます I think I can do it<br>平泳ぎは出来るが、背泳ぎは出来ない ひらおよぎはできるが、せおよぎはできない I can do breaststroke, but not the backstroke"]
 
 
 ];
