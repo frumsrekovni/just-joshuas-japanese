@@ -355,6 +355,7 @@ const commonJapaneseWords:wordCard[] = [
     ["成る","成る なる to become/to end up<br>なるほど I see/I understand<br>何になりたい？ What do you want to become?<br>何とかなるよね We'll figure something out"],
     ["なるほど","なるほど I see/I understand<brなるほど、これがマルメか I see so this is Malmö"],
     ["です","です be/is<br>そうです！ That's right!<br>名前はジョシュアです なまえはジョシュアです My name is Joshua<br>何ですか なんですか What is it?<br>以上ですか いじょうですか Is that all?<br>２８歳です にじゅうはさいです I am 28 years old"],
+    ["以上","以上 いじょう more than/above<br>以上ですか いじょうですか Is that all?<br>1年以上 いちねんいじょう More than a year"],
     ["為る","為る する to do/to cause<br>どうする？ What will you do?<br>頭痛がする ずつうがする I have a headache<br>気にするなよ　Don't worry about it<br>何するつもり What do you plan to do?"],
     ["難しい","難しい むずかしい Difficult<br>難しいですね It's difficult, isn't it?<br>チェスは難しい Chess is difficult"],
     ["簡単な","簡単な かんたんな Easy/Simple<br>簡単な質問 かんたんなしつもん Easy question"],
