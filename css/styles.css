@@ -968,7 +968,7 @@ ruby{
 
 .reduplication-examples-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     background-color: blue;
@@ -982,8 +982,8 @@ a:visited{
     cursor: pointer;
 }
 .extra-reduplication-example{
-    font-size: 1rem !important;
-    padding: 0 0 0.88rem 0.5rem;
+    display: none;
+    text-align: center;
 }
 
 .japanese-reduplication-example{
