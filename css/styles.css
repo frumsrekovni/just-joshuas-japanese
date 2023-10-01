@@ -952,12 +952,6 @@ ruby{
 .reduplication-examples-wrapper-expanded{
     flex: 0;
 }
-.reduplication-example{
-    line-height: 3rem;
-    color: #555;
-    
-    
-}
 .reduplication-example:hover{
     opacity: 0.8;
 }
@@ -971,7 +965,6 @@ ruby{
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    background-color: blue;
 }
 a:link{
     text-decoration: none;
@@ -981,20 +974,27 @@ a:visited{
     text-decoration: none;
     cursor: pointer;
 }
+.reduplication-example{
+    line-height: 3rem;
+    color: #555;
+    display: flex;
+    font-size: larger;
+}
+.japanese-reduplication-example{
+    text-align: right;
+    width: 50%;
+    margin-right: 7px;
+
+}
+.translated-reduplication-example{
+    text-align: left;
+    width: 50%;
+    margin-left: 7px;
+}
 .extra-reduplication-example{
     display: none;
     text-align: center;
 }
-
-.japanese-reduplication-example{
-    background-color: rebeccapurple;
-    text-align: right;
-}
-.translated-reduplication-example{
-    background-color: green;
-    text-align: left;
-}
-
 #reduplication-examples-wrapper::-webkit-scrollbar{
     width: 8px;
 }
@@ -1002,12 +1002,7 @@ a:visited{
     background-color:rgba(219, 112, 147,0.5);
     
 }
-.reduplication-example{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: larger;
-}
+
 #expand-reduplication-examples-wrapper-button{
     background-color: olive;
     width: 100%;
