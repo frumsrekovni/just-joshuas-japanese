@@ -416,6 +416,7 @@ const commonJapaneseWords = [
     ["口", "口 くち mouth<br>口が渇いた くちがかわいた I'm thirsty<br>口が臭い くちがくさい I have bad breath"],
     ["お風呂", "お風呂 おふろ Bath<br>お風呂に入る おふろにはいる Take a bath"],
     ["入る", "入る はいる to enter/to go in<br>入って はいって Enter<br>入ってください はいってください Please enter<br>お風呂に入る おふろにはいる Take a bath"],
+    ["愛", "愛 あい Love<br>愛してるよ あいしてるよ I love you<br>これが愛なのか？ これがあいなのか？ Is this love?<br>愛とは嘘である あいとはうそである Love is a lie"],
     ["したい", "したい want to<br>何がしたい？ なにがしたい？ What do you want to do?<br>話したい？ はなしたい？ Do you want to talk?<br>もっと貢献したい もっとこうけんしたい I want to contribute more"],
     ["質問", "質問 しつもん Question<br>質問がある しつもんがある I have a question<br>質問していい？ しつもんしていい？ Can I ask a question?<br>良い質問です いいしつもんです That's a good question"],
     ["答える", "答える こたえる to answer<br>質問に答えることを拒否する　しつもんにこたえることをきょひする I refuse to answer the question."],
