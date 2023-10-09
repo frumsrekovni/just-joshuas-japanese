@@ -571,7 +571,9 @@ const commonJapaneseWords = [
     ["授業", "授業 じゅぎょう Class<br>授業が始まる じゅぎょうがはじまる Class begins<br>彼等は授業中だ かれらはじゅぎょうちゅうだ They are in class<br>今日は授業ないの？ きょうはじゅぎょうないの？ Don't you have classes today?"],
     ["基本的", "基本的 きほんてき Basic<br> 基本的なことを教えて きほんてきなことをおしえて Teach me the basics<br>基本的には同意だ きほんてきにはどういだ Basically, I agree<br>私、基本的に一人でいる方が好きなんです わたし、きほんてきにひとりでいるほうがすきなんです I basically prefer being by myself"],
     ["会話", "会話 かいわ Conversation<br>会話が上手い かいわがうまい You're good at conversation<br>会話に加われば？ かいわにくわわれば？ Why don't you join the conversation?"],
-    ["出来る", "出来る できる to be able to<br>一人で出来るよ ひとりでできるよ I can do it by myself<br>出来ると思います できるとおもいます I think I can do it<br>平泳ぎは出来るが、背泳ぎは出来ない ひらおよぎはできるが、せおよぎはできない I can do breaststroke, but not the backstroke"]
+    ["出来る", "出来る できる to be able to<br>一人で出来るよ ひとりでできるよ I can do it by myself<br>出来ると思います できるとおもいます I think I can do it<br>平泳ぎは出来るが、背泳ぎは出来ない ひらおよぎはできるが、せおよぎはできない I can do breaststroke, but not the backstroke"],
+    ["スイス", "スイス Switzerland<br>スイス出身です スイスしゅっしんです I'm from Switzerland<br>これって、スイス製？ これって、スイスせい？ Is this made in Switzerland?"],
+    ["遅れ", "遅れ　おくれ Late/Delay<br>遅れるな おくれるな Don't be late<br>なぜ遅れたの？ なぜおくれたの？ Why are you late?<br>手遅れだね。 ておくれだね。 It's too late."],
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
