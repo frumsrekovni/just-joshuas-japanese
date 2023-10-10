@@ -574,6 +574,8 @@ const commonJapaneseWords = [
     ["出来る", "出来る できる to be able to<br>一人で出来るよ ひとりでできるよ I can do it by myself<br>出来ると思います できるとおもいます I think I can do it<br>平泳ぎは出来るが、背泳ぎは出来ない ひらおよぎはできるが、せおよぎはできない I can do breaststroke, but not the backstroke"],
     ["スイス", "スイス Switzerland<br>スイス出身です スイスしゅっしんです I'm from Switzerland<br>これって、スイス製？ これって、スイスせい？ Is this made in Switzerland?"],
     ["遅れ", "遅れ　おくれ Late/Delay<br>遅れるな おくれるな Don't be late<br>なぜ遅れたの？ なぜおくれたの？ Why are you late?<br>手遅れだね。 ておくれだね。 It's too late."],
+    ["冒", "冒 ぼう Risk<br>そんな危険は冒したくないな そんなきけんはぼうしたくないな I don't want to take that risk<br>冒険は好きですか ぼうけんはすきですか Do you like adventure?"],
+    ["危険", "危険 きけん Danger<br>危険だ きけんだ It's dangerous<br>危険な場所 きけんなばしょ Dangerous place<br>危険な場所に行くな きけんなばしょにいくな Don't go to dangerous places"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
