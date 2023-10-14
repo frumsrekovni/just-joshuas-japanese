@@ -575,7 +575,9 @@ const commonJapaneseWords = [
     ["スイス", "スイス Switzerland<br>スイス出身です スイスしゅっしんです I'm from Switzerland<br>これって、スイス製？ これって、スイスせい？ Is this made in Switzerland?"],
     ["遅れ", "遅れ　おくれ Late/Delay<br>遅れるな おくれるな Don't be late<br>なぜ遅れたの？ なぜおくれたの？ Why are you late?<br>手遅れだね。 ておくれだね。 It's too late."],
     ["冒", "冒 ぼう Risk<br>そんな危険は冒したくないな そんなきけんはぼうしたくないな I don't want to take that risk<br>冒険は好きですか ぼうけんはすきですか Do you like adventure?"],
-    ["危険", "危険 きけん Danger<br>危険だ きけんだ It's dangerous<br>危険な場所 きけんなばしょ Dangerous place<br>危険な場所に行くな きけんなばしょにいくな Don't go to dangerous places"]
+    ["危険", "危険 きけん Danger<br>危険だ きけんだ It's dangerous<br>危険な場所 きけんなばしょ Dangerous place<br>危険な場所に行くな きけんなばしょにいくな Don't go to dangerous places"],
+    ["ポテトチップス", "ポテトチップス Potato chips<br>ポテトチップスを食べる ぽてとちっぷすをたべる Eat potato chips<br>ポテトチップスは好き？ ぽてとちっぷすはすき？ Do you like potato chips?<br>ポテトチップスは健康に良くないです ぽてとちっぷすはけんこうによくないです Potato chips are not good for you"],
+    ["階段", "階段 かいだん Stairs<br>階段を上がる かいだんをあがる Go up the stairs<br>階段やベッド、テーブルも手作り かいだんやベッド、テーブルもてづくり Stairs, beds, and tables are also handmade"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
