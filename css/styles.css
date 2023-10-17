@@ -930,6 +930,7 @@ ruby{
     border-radius: 3px;
     padding: 3px;
 }
+
 #reduplication-examples-wrapper{
     display: flex;
     flex-direction: column;
