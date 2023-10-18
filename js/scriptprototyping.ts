@@ -434,6 +434,10 @@ articlewrapperelement?.addEventListener("wheel", (event) => {
     // console.log("change");
 });
 
+function expand_examples(this){
+    // When clicked go into "this" and make all the inside divs of class "Extra examples" visible
+}
+
 
 // WIP Examples of reduplication
 function expandReduplicationExamplesWrapper(){
