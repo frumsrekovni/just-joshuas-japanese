@@ -436,6 +436,8 @@ articlewrapperelement?.addEventListener("wheel", (event) => {
 
 function expand_examples(this){
     // When clicked go into "this" and make all the inside divs of class "Extra examples" visible
+    
+
 }
 
 
