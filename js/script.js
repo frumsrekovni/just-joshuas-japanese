@@ -578,7 +578,8 @@ const commonJapaneseWords = [
     ["危険", "危険 きけん Danger<br>危険だ きけんだ It's dangerous<br>危険な場所 きけんなばしょ Dangerous place<br>危険な場所に行くな きけんなばしょにいくな Don't go to dangerous places"],
     ["ポテトチップス", "ポテトチップス Potato chips<br>ポテトチップスを食べる ぽてとちっぷすをたべる Eat potato chips<br>ポテトチップスは好き？ ぽてとちっぷすはすき？ Do you like potato chips?<br>ポテトチップスは健康に良くないです ぽてとちっぷすはけんこうによくないです Potato chips are not good for you"],
     ["階段", "階段 かいだん Stairs<br>階段を上がる かいだんをあがる Go up the stairs<br>階段やベッド、テーブルも手作り かいだんやベッド、テーブルもてづくり Stairs, beds, and tables are also handmade"],
-    ["取得", "取得 しゅとく Obtain/Grab<br>取得した しゅとくした I acquired it<br>タイルを17個取得する たいるを17こしゅとくする Grab 17 tiles<br>取得した情報 しゅとくしたじょうほう Obtained information<br>ユキはアメリカ国籍を取得した ユキはアメリカこくせきをしゅとくした Yuki gained American citizenship"]
+    ["取得", "取得 しゅとく Obtain/Grab<br>取得した しゅとくした I acquired it<br>タイルを17個取得する たいるを17こしゅとくする Grab 17 tiles<br>取得した情報 しゅとくしたじょうほう Obtained information<br>ユキはアメリカ国籍を取得した ユキはアメリカこくせきをしゅとくした Yuki gained American citizenship"],
+    ["照れる", "照れる てれる to be shy/awkward<br>彼は照れていた かれはてれていた He was shy<br>照れるな てれるな Don't be shy<br>照れるよ てれるよ I'm shy<br>彼は彼女のいる前ではとても照れくさそうにする かれはかのじょのいるまえではとてもてれくさそうにする He acts very shy in her presence"],
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
