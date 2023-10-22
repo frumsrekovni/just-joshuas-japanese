@@ -180,7 +180,7 @@ const commonJapaneseWords = [
     ["国", "国 くに Country<br>日本は狭い国です Japan is a small country<br>アメリカは大きい国です America is a big country<br>国語 こくご National language"],
     ["国語", "国語 こくご National language<br>国語は難しいですか？ こくごはむずかですか？ Is Japanese difficult?<br> 国語の先生 こくごのせんせい Japanese teacher"],
     ["東", "東 ひがし East<br>東はどの方向なの？　ひがしはどのほうこうなの？ What direction is east?<br>東京 とうきょう Tokyo"],
-    ["少ない", "少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo."],
+    ["少ない", "少ない すくない Few<br>オスロは東京より人口が少ない Oslo has fewer people than Tokyo.<br>５は８より少ない ５は８よりすくない Five is less than eight<br>年齢のせいか揚げ物が少ない弁当を選ぶようになった ねんれいのせいかあげものがすくないべんとうをえらぶようになった Maybe because of my age, I've started choosing bento with fewer fried foods."],
     ["少し", "少し すこし A little<br>少コーヒー少しどう？ How about a little coffee?"],
     ["食べる", "食べる たべる Eat<br>みんなで食べる eat together"],
     ["大", "大 だい Big/Vast<br>大きい おおきい Big/Loud/Important<br>大丈夫？ だいじょうぶ？ Are you OK?<br>大好き だいすき I love you<br>その本は大きい このほんはおおきい This book is big"],
@@ -580,6 +580,7 @@ const commonJapaneseWords = [
     ["階段", "階段 かいだん Stairs<br>階段を上がる かいだんをあがる Go up the stairs<br>階段やベッド、テーブルも手作り かいだんやベッド、テーブルもてづくり Stairs, beds, and tables are also handmade"],
     ["取得", "取得 しゅとく Obtain/Grab<br>取得した しゅとくした I acquired it<br>タイルを17個取得する たいるを17こしゅとくする Grab 17 tiles<br>取得した情報 しゅとくしたじょうほう Obtained information<br>ユキはアメリカ国籍を取得した ユキはアメリカこくせきをしゅとくした Yuki gained American citizenship"],
     ["照れる", "照れる てれる to be shy/awkward<br>彼は照れていた かれはてれていた He was shy<br>照れるな てれるな Don't be shy<br>照れるよ てれるよ I'm shy<br>彼は彼女のいる前ではとても照れくさそうにする かれはかのじょのいるまえではとてもてれくさそうにする He acts very shy in her presence"],
+    ["大体", "大体 だいたい Mostly/Generally<br>大体正しい だいたいただしい That's mostly correct<br>大体終わった？ だいたいおわった？ Are you about done?<br>彼は大体あなたぐらいの年齢です かれはだいたいあなたぐらいのねんれいです He's about your age"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
