@@ -580,7 +580,8 @@ const commonJapaneseWords = [
     ["階段", "階段 かいだん Stairs<br>階段を上がる かいだんをあがる Go up the stairs<br>階段やベッド、テーブルも手作り かいだんやベッド、テーブルもてづくり Stairs, beds, and tables are also handmade"],
     ["取得", "取得 しゅとく Obtain/Grab<br>取得した しゅとくした I acquired it<br>タイルを17個取得する たいるを17こしゅとくする Grab 17 tiles<br>取得した情報 しゅとくしたじょうほう Obtained information<br>ユキはアメリカ国籍を取得した ユキはアメリカこくせきをしゅとくした Yuki gained American citizenship"],
     ["照れる", "照れる てれる to be shy/awkward<br>彼は照れていた かれはてれていた He was shy<br>照れるな てれるな Don't be shy<br>照れるよ てれるよ I'm shy<br>彼は彼女のいる前ではとても照れくさそうにする かれはかのじょのいるまえではとてもてれくさそうにする He acts very shy in her presence"],
-    ["大体", "大体 だいたい Mostly/Generally<br>大体正しい だいたいただしい That's mostly correct<br>大体終わった？ だいたいおわった？ Are you about done?<br>彼は大体あなたぐらいの年齢です かれはだいたいあなたぐらいのねんれいです He's about your age"]
+    ["大体", "大体 だいたい Mostly/Generally<br>大体正しい だいたいただしい That's mostly correct<br>大体終わった？ だいたいおわった？ Are you about done?<br>彼は大体あなたぐらいの年齢です かれはだいたいあなたぐらいのねんれいです He's about your age"],
+    ["お手洗い", "お手洗い おてあらい Restroom/Toilet<br>お手洗いはどこですか おてあらいはどこですか Where is the restroom?<br>お手洗いに行きたい おてあらいにいきたい I want to go to the restroom"]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
