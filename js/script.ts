@@ -6,7 +6,7 @@ const years_element = document.getElementById("years-number");
 const days_element = document.getElementById("days-number");
 const hours_element = document.getElementById("hours-number");
 const minutes_element = document.getElementById("minutes-number");
-const secon. ds_element = document.getElementById("seconds-number");
+const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const all_blogposts = document.getElementsByClassName("blog-post") as HTMLCollectionOf<HTMLElement>;
 const all_sidebar_redirects = document.getElementsByClassName("sidebar-redirect") as HTMLCollectionOf<HTMLElement>;
@@ -214,7 +214,7 @@ const commonJapaneseWords:wordCard[] = [
     ["好","好 すき Like<br>ピアノは好き？ Do you like the piano?"],
     ["友達","友達 ともだち Friend<br>友達はいる？ Do you have any friends?"],
     ["来る","来る くる Come/Next<br>来るの？ Are you coming?<br>また来週 またらいしゅう See you next week<br>早く来い はやくこい Come quickly"],
-    ["週","週 しゅう Week<br>来週 らいしゅう Next week<br>今週 こんしゅう This week"],
+    ["週","週 しゅう Week<br>来週 らいしゅう Next week<br>今週 こんしゅう This week<br>今週末は暇？ こんしゅうまつはひま？ Are you free this weekend?"],
     ["来週","来週 らいしゅう Next week<br>来週は何をするの？ What are you doing next week?"],
     ["来月","来月 らいげつ Next month<br>来月は何をするの？ What are you doing next month?"],
     ["来年","来年 らいねん Next year<br>来年は何をするの？ What are you doing next year?"],
@@ -244,7 +244,7 @@ const commonJapaneseWords:wordCard[] = [
     ["有名だ","有名だ ゆうめいだ Famous<br>有名だね You're famous<br>有名人 ゆうめいじん Celebrity<br>京都は古いお寺があるので有名だ きょうとはふるいおてらがあるのでゆうめいだ Kyoto is famous for its old temples"],
     ["古い","古い ふるい Old<br>古いの？ Is it old?<br>私の机は古い 私のつくえはふるい My desk is old<br>京都は古いお寺があるので有名だ きょうとはふるいおてらがあるのでゆうめいだ Kyoto is famous for its old temples"],
     ["暑い","暑い あつい Hot<br>今日は暑い It's hot today<br>暑すぎて仕事にならない あつすぎてしごとにならない It's too hot to work"],
-    ["寒い","寒い さむい Cold<br>寒いですね Cold, isn't it?<br>寒い国 さむいくに Cold country"],
+    ["寒い","寒い さむい Cold<br>寒いですね Cold, isn't it?<br>寒い国 さむいくに Cold country<br>外は寒いですか そとはさむいですか Is it cold outside?"],
     ["厚い","厚い あつい Thick<br>この本はとても厚い このほんはとてもあつい This book is very thick<br>厚い友達 あついともだち A close friend"],
     ["熱い","熱い あつい Hot(To the touch)<br>卵がまだ熱い たまごがまだあつい The egg is still hot"],
     ["駅","駅 えき Station<br>駅はどこ？ Where is the station?"],
