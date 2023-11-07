@@ -1771,7 +1771,7 @@
                 <time class="date" datetime=""></time>
                 <article>
                     <p>
-                        Let's get started. How much have you played before?
+                        
                         BASIC FACTS TO GET STARTED 
                         - The game is played with 4 players.
                         - Each Round has its own Wind. Starts with East.
@@ -1780,21 +1780,22 @@
                         - The game flows counter-clockwise. East->South->West->North.
                         - Everyone starts with 25000 points.
                         - One hand is made up of 14 tiles.
+                        - The tiles are made up of 3 suits stretching from 1-9, 4 Winds and 3 Dragons. Each respective one having 4 tiles.
                         - A hand is made of 4 melds and 1 pair.
-                        - 1 meld can be a sequence(123,234,789) or a triplet(111,222,999)
+                        - 1 meld can be a sequence(123,234,789) or a triplet(111,222,999). Each meld being in the same suit.
                         - A hand can be considered open or closed.
-                        - Pon is a move that can be done if you have a pair and anyone else discards the same tile. This will make your hand open.
-                        - Chi is a move that can only be done to the player to your left and if they discard a tile that completes a sequence in your hand. This will make your hand open.
-                        - Every hand needs atleast 1 yaku(win condition) to win. The most common being Riichi, Yakuhai and Tanyou
+                        - Pon is a move that can be done if you have a pair and anyone else discards the same tile. You will take that tile to complete you triplet and it becomes your turn. This will make your hand open.
+                        - Chi is a move that can only be done to the player to your left and if they discard a tile that completes a sequence in your hand. You will take that tile to complete your sequence. This will make your hand open.
+                        - Every hand needs atleast 1 yaku(win condition) to win. The most common being Riichi, Yakuhai and Tanyao
                         - Riichi is a yaku that is always active. It is a 1000 point bet that you will win the hand. This can only be done with a closed hand and you are in tenpai.
                         - Yakuhai is a triplet of the round wind, seat wind or dragon tiles. Can be open or closed.
-                        - Tanyao is a hand with no terminals or honors. Can be open or closed.
+                        - Tanyao is a hand with no terminals(1,9) or honors(non-numbers). Can be open or closed.
+                        - Yakus stack.
+                        - Ron is a move that can be done to any player if they discard a tile that completes your hand. You will show all your tiles and the round ends. Assuming you have 4 melds, 1 pair and atleast 1 yaku.
+                        - You must say Chi, Pon and Ron out loud.
                         
-                        - One complete hand is typically 14 tiles. With 4 melds and 1 pair.
-                        - 1 Meld can be a sequence, triplet or quad. A quad is still viewed as a triplet.
-                        7. A triplet is 3 of the same tile. A sequence is 3 tiles in a row of the same suit. A quad is 4 of the same tile.
-                        8. You need 1 yaku
-
+                        Script:
+                        Let's get started. How much have you played before?
                         The first thing you do is decide the seating. Usually this is done by drawing the winds. East is the dealer and decides where to sit. From the dealer's right it goes South, West, North and then back to East.
 
                         Before anything we need to shuffle the tiles. And then create a wall of 17 by 2 tiles.
