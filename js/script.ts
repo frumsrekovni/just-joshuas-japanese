@@ -594,7 +594,10 @@ const commonJapaneseWords:wordCard[] = [
 ["大体","大体 だいたい Mostly/Generally<br>大体正しい だいたいただしい That's mostly correct<br>大体終わった？ だいたいおわった？ Are you about done?<br>彼は大体あなたぐらいの年齢です かれはだいたいあなたぐらいのねんれいです He's about your age"],
 ["お手洗い","お手洗い おてあらい Restroom/Toilet<br>お手洗いはどこですか おてあらいはどこですか Where is the restroom?<br>お手洗いに行きたい おてあらいにいきたい I want to go to the restroom"],
 ["初心者","初心者 しょしんしゃ Beginner<br>"],
-["これまで","これまで Up until now<br>"]
+["これまで","これまで Up until now<br>"],
+["午前","午前 ごぜん AM<br>"],
+["午後","午後 ごご PM<br>"],
+["将来","将来 しょうらい Future<br>"],
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
