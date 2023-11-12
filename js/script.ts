@@ -222,7 +222,7 @@ const commonJapaneseWords:wordCard[] = [
     ["道","道 みち Road<br>この道でいいの このみちでいいの Is this the right way?<br>逃げ道がない にげみちがない There's no way out"],
     ["道路","道路 どうろ Road<br>道路に霧がある どうろにきりがある There is fog on the road<br>道路工事中 どうろこうじちゅう Road work ahead"],
     ["橋","橋 はし Bridge<br>この橋を渡る このはしをわたる Cross this bridge<br>橋は石造りだ はしはいしづくりだ The bridge is made of stone<br>橋は修理中です はしはしゅうりちゅうです The bridge is under repair"],
-    ["通る","通る とおる Pass<br>通るの？ Are you going to pass?<br>この橋を通るな このはしをとおるな Don't cross this bridge<br>君の声はよく通るな きみのこえはよくとおるな Your voice carries well"],
+    ["通る","通る とおる Pass<br>通るの？ Are you going to pass?<br>この橋を通るな このはしをとおるな Don't cross this bridge<br>君の声はよく通るな きみのこえはよくとおるな Your voi. ce carries well"],
     ["送る","送る おくる Send<br>送るの？ Are you going to send it?<br>家まで送るよ I'll see you home<br>どうやってファックスを送るのか、さっぱり分からない どうやってファックスをおくるのか、さっぱりわからない I have no idea how to send a fax"],
     ["皆さん","皆さん みなさん Everyone<br>皆さんはどこ？ Where is everyone?<br>皆さんお静かに みなさんおしずかに Everyone be quiet"],
     ["思う","思う おもう Think<br>どう思う？ What do you think?<br>本当だと思うよ I think it's true<br>きっと楽しいと思うよ きっとたのしいとおもうよ I think it will be fun"],
