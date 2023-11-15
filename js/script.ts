@@ -593,11 +593,11 @@ const commonJapaneseWords:wordCard[] = [
 ["照れる","照れる てれる to be shy/awkward<br>彼は照れていた かれはてれていた He was shy<br>照れるな てれるな Don't be shy<br>照れるよ てれるよ I'm shy<br>彼は彼女のいる前ではとても照れくさそうにする かれはかのじょのいるまえではとてもてれくさそうにする He acts very shy in her presence"],
 ["大体","大体 だいたい Mostly/Generally<br>大体正しい だいたいただしい That's mostly correct<br>大体終わった？ だいたいおわった？ Are you about done?<br>彼は大体あなたぐらいの年齢です かれはだいたいあなたぐらいのねんれいです He's about your age"],
 ["お手洗い","お手洗い おてあらい Restroom/Toilet<br>お手洗いはどこですか おてあらいはどこですか Where is the restroom?<br>お手洗いに行きたい おてあらいにいきたい I want to go to the restroom"],
-["初心者","初心者 しょしんしゃ Beginner<br>"],
-["これまで","これまで Up until now<br>"],
-["午前","午前 ごぜん AM<br>"],
-["午後","午後 ごご PM<br>"],
-["将来","将来 しょうらい Future<br>"],
+["初心者","初心者 しょしんしゃ Beginner<br>まだ初心者なんです まだしょしんしゃなんです I'm just a beginner<br>皆さん全員、初心者ですか？ みなさんぜんいん、しょしんしゃですか？ Are you all beginners?"],
+["これまで","これまで Up until now<br>今日はこれまで きょうはこれまで That's all for today<br>これまでになく絶好調です これまでになくぜっこうちょうです I have never felt better"],
+["午前","午前 ごぜん AM<br>午前８時です ごぜんはちじです It's 8 AM"],
+["午後","午後 ごご PM<br>午後八時です ごごはちじです It's 8 PM"],
+["将来","将来 しょうらい Future<br>将来に備えよ しょうらいにそなえよ Prepare for the future<br>将来何になりたいですか？ しょうらいなにになりたいですか？ What do you want to be in the future?"],
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
