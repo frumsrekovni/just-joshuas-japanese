@@ -671,6 +671,7 @@ function fireFirework(elementId) {
 function deleteFirework() {
     this.remove();
 }
+// Need to update this function to show a new top post leading up to the new year
 function isItTimeToCelebrateNewYears() {
     var _a;
     const cur_date = new Date();
