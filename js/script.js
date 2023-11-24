@@ -186,6 +186,7 @@ const commonJapaneseWords = [
     ["大", "大 だい Big/Vast<br>大きい おおきい Big/Loud/Important<br>大丈夫？ だいじょうぶ？ Are you OK?<br>大好き だいすき I love you<br>その本は大きい このほんはおおきい This book is big"],
     ["大きい", "大きい おおきい Big/Loud/Important<br>この犬、大きいよ このいぬ、おおきいよ This dog is big<br>大型 おおがた Large-sized<br>この大型犬は声が大きい このおおがたいぬはこえがおおきい This big dog has a loud voice"],
     ["家", "家 いえ House<br> 家に帰るの？ Are you going home?.<br>家族 かぞく Family<br>大家族なの？ Do you have a big family?"],
+    ["帰る", "帰る かえる Return<br>家に帰るの？ Are you going home?<br>帰りたい かえりたい I want to go home"],
     ["今日", "今日 きょう Today<br>今日は暑い It is hot today<br>今日は魚が安い きょうはさかながやすい Fish is cheap today<br>今日は何曜日ですか？ What day is it today?"],
     ["明日", "明日 あした Tomorrow<br> 明日何するの？ What are you doing tomorrow"],
     ["昨日", "昨日 きのう Yesterday<br>昨日は暑かった It was hot yesterday"],
@@ -587,6 +588,7 @@ const commonJapaneseWords = [
     ["午前", "午前 ごぜん AM<br>午前８時です ごぜんはちじです It's 8 AM"],
     ["午後", "午後 ごご PM<br>午後八時です ごごはちじです It's 8 PM"],
     ["将来", "将来 しょうらい Future<br>将来に備えよ しょうらいにそなえよ Prepare for the future<br>将来何になりたいですか？ しょうらいなにになりたいですか？ What do you want to be in the future?"],
+    ["蛙", "蛙 かえる Frog<br> 蛙が好き かえるがすき I like frogs<br>蛙は水の中で生きる かえるはみずのなかでいきる Frogs live in water"],
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
@@ -671,7 +673,7 @@ function fireFirework(elementId) {
 function deleteFirework() {
     this.remove();
 }
-// Need to update this function to show a new top post leading up to the new year
+// Need to update this function to show a new top post leading up to the new year. Also maybe implement email funcitonaollity. meaning sending out happy new year. 
 function isItTimeToCelebrateNewYears() {
     var _a;
     const cur_date = new Date();
