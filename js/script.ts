@@ -221,7 +221,7 @@ const commonJapaneseWords:wordCard[] = [
     ["来年","来年 らいねん Next year<br>来年は何をするの？ What are you doing next year?"],
     ["来る","来る くる Come/Next<br>来るの？ Are you coming?<br>また来週 またらいしゅう See you next week<br>早く来い はやくこい Come quickly"],
     ["道","道 みち Road<br>この道でいいの このみちでいいの Is this the right way?<br>逃げ道がない にげみちがない There's no way out"],
-    ["道路","道路 どうろ Road<br>道路に霧がある どうろにきりがある There is fog on the road<br>道路工事中 どうろこうじちゅう Road work ahead"],
+    ["道路","道路 どうろ Road<br>道路に霧がある どうろにきりがある There is fog on the road<br>道路工事中 どうろこうじちゅう Road work ahead<br>道を渡った みちをわたった I crossed the street<br>道を空けてください みちをあけてください Make way, please"],
     ["橋","橋 はし Bridge<br>この橋を渡る このはしをわたる Cross this bridge<br>橋は石造りだ はしはいしづくりだ The bridge is made of stone<br>橋は修理中です はしはしゅうりちゅうです The bridge is under repair"],
     ["通る","通る とおる Pass<br>通るの？ Are you going to pass?<br>この橋を通るな このはしをとおるな Don't cross this bridge<br>君の声はよく通るな きみのこえはよくとおるな Your voi. ce carries well"],
     ["送る","送る おくる Send<br>送るの？ Are you going to send it?<br>家まで送るよ I'll see you home<br>どうやってファックスを送るのか、さっぱり分からない どうやってファックスをおくるのか、さっぱりわからない I have no idea how to send a fax"],
