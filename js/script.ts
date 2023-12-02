@@ -692,7 +692,7 @@ function deleteFirework(){
 }
 
 
-// Need to update this function to show a new top post leading up to the new year. Also maybe implement email funcitonaollity. meaning sending out happy new year. 
+// Need to update this function to show a new top post leading up to the new year. Also maybe implement email funcitonaollity. meaning sending out happy new year.maybe stage it in sections preparing different plays for the climax.
 function isItTimeToCelebrateNewYears(){
     const cur_date = new Date();   
     if((cur_date < (new Date(`${cur_date.getFullYear()}-01-01T03:30:00`)) ) && 
