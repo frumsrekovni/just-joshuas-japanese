@@ -226,7 +226,8 @@ const commonJapaneseWords = [
     ["夜", "夜 よる Night<br>夜です よるです It's night<br>夜だった よるだった It was night<br>徹夜した てつやした I stayed up all night"],
     ["食事", "食事 しょくじ Meal<br>食事に行く？ Want to go out to eat?"],
     ["(verb)飲む", "(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?<br>何か飲むものある？ なにかのむものある？ Is there anything to drink?<br>牛乳はよく飲むの？ ぎゅうにゅうはよくのむの？ Do you often drink milk?"],
-    ["持つ", "持つ もつ Have<br>それ持つよ I'll hold that."],
+    ["持つ", "持つ もつ Have<br>それ持つよ I'll hold that.<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>トムの肩ばっかり持つなよ トムのかたばっかりもつなよ Don't always side with Tom"],
+    ["袋", "袋 ふくろ Bag<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>袋を持ってください ふくろをもってください Please take this bag<br>椅子の下で一組の手袋を見つけました いすのしたでいっそうのてぶくろをみつけました I found a pair of gloves under the chair"],
     ["白", "白 しろ White<br>白いの？ Is it white?<br>面白い おもしろい Interesting"],
     ["不味い", "不味い まずい unpalatable<br>魚は不味い The fish doesn't taste good.<br>"],
     ["高い", "高い たかい High/Expensive<br>高いですね High/Expensive, Isn't it?<br>高校 こうこう High school<br>高校生 こうこうせい High school student"],
@@ -431,12 +432,12 @@ const commonJapaneseWords = [
     ["歌", "歌 うた Song<br>歌を歌う うたをうたう Sing a song<br>鳥は歌います とりはうたいます The birds are singing<br>子守唄を歌って こもりうたをうたって Sing me a lullaby"],
     ["歌う", "歌う うたう to sing<br>歌って うたって Sing<br>歌ってください うたってください Please sing"],
     ["上", "上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above"],
-    ["映画", "映画 えいが Movie<br>映画を見る えいがをみる Watch a movie"],
+    ["映画", "映画 えいが Movie<br>映画を見る えいがをみる Watch a movie<br>好きな映画は何？ すきなえいがはなに？ What are your favorite movies?<br>この映画はヒドイ！ このえいがはヒドイ！ This movie is terrible!"],
     ["円", "円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"],
     ["左", "左 ひだり Left<br>左に行く ひだりにいく Go left<br>左折して させつして Turn left<br>左足が痛みます ひだりあしはいたみます My left foot hurts"],
     ["右", "右 みぎ Right<br>右に行く みぎにいく Go right<br>右折して うせつして Turn right<br>右足が痛みます みぎあしはいたみます My right foot hurts"],
     ["賛成", "賛成 さんせい I agree<br>大賛成です だいさんせいです I completely agree<br>みんな君に賛成だ よみんなきみにさんせいだ Everyone agrees with you"],
-    ["こちらこそ", "こちらこそ My pleasure/Nice to meet you too"],
+    ["こちらこそ", "こちらこそ My pleasure/Nice to meet you too<br>こちらこそ、私もお会いできてよかったです こちらこそ、わたしもおあいできてよかったです Likewise, it was nice to meet you."],
     ["ご苦労様", "ご苦労様 ごくろうさま Thank you for your hard work<br>ご苦労様でした ごくろうさまでした Thank you for your hard work"],
     ["信じられない", "信じられない しんじられない I can't believe it<br>もう誰も信じられない もうだれもしんじられない I can't trust anyone anymore"],
     ["先ず", "先ず まず First of all<br>先ずは、お試しを まずは、おためしを First of all, try it out<br>先ず香港に行って、それからシンガポールに行きます まず香港に行って、それからシンガポールに行きます First I'll go to Hong Kong, then I'll go to Singapore"],
@@ -673,7 +674,7 @@ function fireFirework(elementId) {
 function deleteFirework() {
     this.remove();
 }
-// Need to update this function to show a new top post leading up to the new year. Also maybe implement email funcitonaollity. meaning sending out happy new year. 
+// Need to update this function to show a new top post leading up to the new year. Also maybe implement email funcitonaollity. meaning sending out happy new year.maybe stage it in sections preparing different plays for the climax.
 function isItTimeToCelebrateNewYears() {
     var _a;
     const cur_date = new Date();
