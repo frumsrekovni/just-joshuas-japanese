@@ -239,7 +239,7 @@ const commonJapaneseWords:wordCard[] = [
     ["(verb)飲む","(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?<br>何か飲むものある？ なにかのむものある？ Is there anything to drink?<br>牛乳はよく飲むの？ ぎゅうにゅうはよくのむの？ Do you often drink milk?"],
     ["持つ","持つ もつ Have<br>それ持つよ I'll hold that.<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>トムの肩ばっかり持つなよ トムのかたばっかりもつなよ Don't always side with Tom"],
     ["袋","袋 ふくろ Bag<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>袋を持ってください ふくろをもってください Please take this bag<br>椅子の下で一組の手袋を見つけました いすのしたでいっそうのてぶくろをみつけました I found a pair of gloves under the chair"],
-    ["白","白 しろ White<br>白いの？ Is it white?<br>面白い おもしろい Interesting"],
+    ["白","白 しろ White<br>白いの？ Is it white?<br>面白い おもしろい Interesting<br>真っ白です まっしろです It's pure white<br>白い犬 しろいいぬ White dog"],
     ["不味い","不味い まずい unpalatable<br>魚は不味い The fish doesn't taste good.<br>"],
     ["高い","高い たかい High/Expensive<br>高いですね High/Expensive, Isn't it?<br>高校 こうこう High school<br>高校生 こうこうせい High school student"],
     ["安い","安い やすい Cheap<br>安いですね Cheap, isn't it?<br>安心 あんしん Relief<br>安心してください あんしんしてください Please be at ease"],
