@@ -553,6 +553,7 @@ const commonJapaneseWords:wordCard[] = [
     ["困る","困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."],
     ["冗談","冗談 じょうだん Joke<br>冗談だよ じょうだんだよ It's a joke<br>冗談はやめて じょうだんはやめて Get serious<br>りんさんは私の冗談に笑った りんさんはわたしのじょうだんにわらった Rin laughed at my joke"],
     ["浴びる","浴びる あびる to take a shower<br>シャワー浴びるの？ シャワーあびるの？ Are you going to take a shower?<br>彼女は、朝食前にシャワーを浴びることにしている かのじょは、ちょうしょくまえにシャワーをあびることにしている She takes a shower before breakfast"],
+    ["散漫"," 散漫  さんまん  Scattered<br>散漫な人 さんまんなひと Scattered person<br>散漫な人は嫌い さんまんなひとはきらい I don't like scattered people<br>散漫な人は嫌い さんまんなひとはきらい I don't like scattered people"],
     ["曇り","曇り くもり Cloudy<br>今日は曇りです きょうはくもりです It's cloudy today<br>曇りの日は嫌い くもりのひはきらい I don't like cloudy days"],
     ["暖かい","暖かい あたたかい Warm/having enough money<br>暖かい日でした あたたかいひでした It was a warm day<br>懐が暖かい ふところがあたたかい I have enough money<br>この冬は暖かい。 このふゆはあたたかい。 This winter is warm."],
     ["葉書","葉書 はがき Postcard<br>葉書を送る はがきをおくる Send a postcard<br>葉書を買って はがきをかって Buy a postcard<br>葉書を書いて はがきをかいて Write a postcard"],
