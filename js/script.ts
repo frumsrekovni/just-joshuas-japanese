@@ -602,6 +602,7 @@ const commonJapaneseWords:wordCard[] = [
 ["午後","午後 ごご PM<br>午後八時です ごごはちじです It's 8 PM"],
 ["将来","将来 しょうらい Future<br>将来に備えよ しょうらいにそなえよ Prepare for the future<br>将来何になりたいですか？ しょうらいなにになりたいですか？ What do you want to be in the future?"],
 ["蛙","蛙 かえる Frog<br> 蛙が好き かえるがすき I like frogs<br>蛙は水の中で生きる かえるはみずのなかでいきる Frogs live in water"],
+["彼方","彼方 あちら Over there<br>かしこまりました。サラダバーはあちらです。All right, sir. The salad bar is over there."]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word") as HTMLDivElement;
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer") as HTMLDivElement;
