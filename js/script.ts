@@ -234,7 +234,7 @@ const commonJapaneseWords:wordCard[] = [
     ["朝","朝 あさ Morning<br>もう朝なの？ Is it morning already?<br>(idiom)朝飯前だ あさめしまえだ Piece of cake / As easy as pie<br>今朝 けさ This morning"],
     ["今朝","今朝 けさ This morning<br>今朝は何を食べた？ What did you eat this morning?<br>今朝の新聞読んだ？ Did you read this morning's newspaper?"],
     ["昼","昼 ひる Daytime<br>昼は、食事にショッピング。During the day, it's about eating and shopping.<br> 昼ご飯は何？ What's for lunch?<br>お昼寝の時間よ It's time for your afternoon nap."],
-    ["夜","夜 よる Night<br>夜です よるです It's night<br>夜だった よるだった It was night<br>徹夜した てつやした I stayed up all night"],
+    ["夜","夜 よる Night<br>夜です よるです It's night<br>夜だった よるだった It was night<br>徹夜した てつやした I stayed up all night<r>"],
     ["食事","食事 しょくじ Meal<br>食事に行く？ Want to go out to eat?"],
     ["(verb)飲む","(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?<br>何か飲むものある？ なにかのむものある？ Is there anything to drink?<br>牛乳はよく飲むの？ ぎゅうにゅうはよくのむの？ Do you often drink milk?"],
     ["持つ","持つ もつ Have<br>それ持つよ I'll hold that.<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>トムの肩ばっかり持つなよ トムのかたばっかりもつなよ Don't always side with Tom"],
