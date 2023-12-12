@@ -1,6 +1,6 @@
 const first_commit_date = new Date(`2022-07-04T22:37:00`);               // 2022-07-04T22:37:00 4th of July 2022 at 22:37 CEST is when I did my first commit to this blog 
 const darkeningElement = document.getElementById("page-darkener") as HTMLElement;
-const flashSquareKanaElement = document.getElementById("flash-square-kana") as HTMLElem.  ent;
+const flashSquareKanaElement = document.getElementById("flash-square-kana") as HTMLElement;
 const flashSquareAnswerElement = document.getElementById("flash-square-answer") as HTMLElement;
 const years_element = document.getElementById("years-number");
 const days_element = document.getElementById("days-number");
