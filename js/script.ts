@@ -176,6 +176,7 @@ const allN5Kanji:kanjiCard[] = [
 // based on this http://jlptstudy.net/N5/?kanji-list
 // Why does the Jisho 初 page have 始め?
 // Oni Giri Rendaku?? Rendaku rendaku rendakuuuu
+// Rendaku needs its own article
 const commonJapaneseWords:wordCard[] = [
     ["行く","行く いく Go<br> どこ行くの？ Where are you going?"],
     ["見る","見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
