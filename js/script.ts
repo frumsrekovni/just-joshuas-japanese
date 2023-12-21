@@ -443,7 +443,7 @@ const commonJapaneseWords:wordCard[] = [
     ["色々","色々 いろいろ various<br>色々な人 いろいろなひと Various people<br>色々な食べ物 いろいろなたべもの Various foods"],
     ["歌","歌 うた Song<br>歌を歌う うたをうたう Sing a song<br>鳥は歌います とりはうたいます The birds are singing<br>子守唄を歌って こもりうたをうたって Sing me a lullaby"],
     ["歌う","歌う うたう to sing<br>歌って うたって Sing<br>歌ってください うたってください Please sing"],
-    ["上","上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above"],
+    ["上","上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above<br>上の名前は何？うえのなまえなに？ What is your last name?"],
     ["映画","映画 えいが Movie<br>映画を見る えいがをみる Watch a movie<br>好きな映画は何？ すきなえいがはなに？ What are your favorite movies?<br>この映画はヒドイ！ このえいがはヒドイ！ This movie is terrible!"],
     ["円","円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"],
     ["左","左 ひだり Left<br>左に行く ひだりにいく Go left<br>左折して させつして Turn left<br>左足が痛みます ひだりあしはいたみます My left foot hurts"],
