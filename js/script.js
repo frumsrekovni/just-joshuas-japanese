@@ -165,6 +165,7 @@ const allN5Kanji = [
 // based on this http://jlptstudy.net/N5/?kanji-list
 // Why does the Jisho 初 page have 始め?
 // Oni Giri Rendaku?? Rendaku rendaku rendakuuuu
+// Rendaku needs its own article
 const commonJapaneseWords = [
     ["行く", "行く いく Go<br> どこ行くの？ Where are you going?"],
     ["見る", "見る みる Watch<br> テレビはよく見るの？ Do you watch a lot of TV?"],
@@ -223,12 +224,12 @@ const commonJapaneseWords = [
     ["朝", "朝 あさ Morning<br>もう朝なの？ Is it morning already?<br>(idiom)朝飯前だ あさめしまえだ Piece of cake / As easy as pie<br>今朝 けさ This morning"],
     ["今朝", "今朝 けさ This morning<br>今朝は何を食べた？ What did you eat this morning?<br>今朝の新聞読んだ？ Did you read this morning's newspaper?"],
     ["昼", "昼 ひる Daytime<br>昼は、食事にショッピング。During the day, it's about eating and shopping.<br> 昼ご飯は何？ What's for lunch?<br>お昼寝の時間よ It's time for your afternoon nap."],
-    ["夜", "夜 よる Night<br>夜です よるです It's night<br>夜だった よるだった It was night<br>徹夜した てつやした I stayed up all night"],
+    ["夜", "夜 よる Night<br>夜です よるです It's night<br>夜だった よるだった It was night<br>徹夜した てつやした I stayed up all night<r>"],
     ["食事", "食事 しょくじ Meal<br>食事に行く？ Want to go out to eat?"],
     ["(verb)飲む", "(verb)飲む のむ Drink<br>何か飲む？ Want to drink something?<br>何か飲むものある？ なにかのむものある？ Is there anything to drink?<br>牛乳はよく飲むの？ ぎゅうにゅうはよくのむの？ Do you often drink milk?"],
     ["持つ", "持つ もつ Have<br>それ持つよ I'll hold that.<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>トムの肩ばっかり持つなよ トムのかたばっかりもつなよ Don't always side with Tom"],
     ["袋", "袋 ふくろ Bag<br>袋は僕が持つよ ふくろはぼくがもつよ I'll carry the bag<br>袋を持ってください ふくろをもってください Please take this bag<br>椅子の下で一組の手袋を見つけました いすのしたでいっそうのてぶくろをみつけました I found a pair of gloves under the chair"],
-    ["白", "白 しろ White<br>白いの？ Is it white?<br>面白い おもしろい Interesting"],
+    ["白", "白 しろ White<br>白いの？ Is it white?<br>面白い おもしろい Interesting<br>真っ白です まっしろです It's pure white<br>白い犬 しろいいぬ White dog"],
     ["不味い", "不味い まずい unpalatable<br>魚は不味い The fish doesn't taste good.<br>"],
     ["高い", "高い たかい High/Expensive<br>高いですね High/Expensive, Isn't it?<br>高校 こうこう High school<br>高校生 こうこうせい High school student"],
     ["安い", "安い やすい Cheap<br>安いですね Cheap, isn't it?<br>安心 あんしん Relief<br>安心してください あんしんしてください Please be at ease"],
@@ -431,7 +432,7 @@ const commonJapaneseWords = [
     ["色々", "色々 いろいろ various<br>色々な人 いろいろなひと Various people<br>色々な食べ物 いろいろなたべもの Various foods"],
     ["歌", "歌 うた Song<br>歌を歌う うたをうたう Sing a song<br>鳥は歌います とりはうたいます The birds are singing<br>子守唄を歌って こもりうたをうたって Sing me a lullaby"],
     ["歌う", "歌う うたう to sing<br>歌って うたって Sing<br>歌ってください うたってください Please sing"],
-    ["上", "上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above"],
+    ["上", "上 うえ Up/Above<br>上に行く うえにいく Go up<br>上にある うえにある It's above<br>上の名前は何？うえのなまえなに？ What is your last name?"],
     ["映画", "映画 えいが Movie<br>映画を見る えいがをみる Watch a movie<br>好きな映画は何？ すきなえいがはなに？ What are your favorite movies?<br>この映画はヒドイ！ このえいがはヒドイ！ This movie is terrible!"],
     ["円", "円 えん Yen/Circle<br>円を描く えんをかく Draw a circle<br>円を書く えんをかく Draw a circle"],
     ["左", "左 ひだり Left<br>左に行く ひだりにいく Go left<br>左折して させつして Turn left<br>左足が痛みます ひだりあしはいたみます My left foot hurts"],
@@ -542,6 +543,7 @@ const commonJapaneseWords = [
     ["困る", "困る こまる to be troubled<br>今困っているんだ いまこまっているんだ I'm in trouble now<br>僕はしばしばお金に困る ぼくはしばしばおかねにこまる I'm always running into trouble with money."],
     ["冗談", "冗談 じょうだん Joke<br>冗談だよ じょうだんだよ It's a joke<br>冗談はやめて じょうだんはやめて Get serious<br>りんさんは私の冗談に笑った りんさんはわたしのじょうだんにわらった Rin laughed at my joke"],
     ["浴びる", "浴びる あびる to take a shower<br>シャワー浴びるの？ シャワーあびるの？ Are you going to take a shower?<br>彼女は、朝食前にシャワーを浴びることにしている かのじょは、ちょうしょくまえにシャワーをあびることにしている She takes a shower before breakfast"],
+    ["散漫", " 散漫  さんまん  Scattered<br>散漫な人 さんまんなひと Scattered person<br>散漫な人は嫌い さんまんなひとはきらい I don't like scattered people<br>散漫な人は嫌い さんまんなひとはきらい I don't like scattered people"],
     ["曇り", "曇り くもり Cloudy<br>今日は曇りです きょうはくもりです It's cloudy today<br>曇りの日は嫌い くもりのひはきらい I don't like cloudy days"],
     ["暖かい", "暖かい あたたかい Warm/having enough money<br>暖かい日でした あたたかいひでした It was a warm day<br>懐が暖かい ふところがあたたかい I have enough money<br>この冬は暖かい。 このふゆはあたたかい。 This winter is warm."],
     ["葉書", "葉書 はがき Postcard<br>葉書を送る はがきをおくる Send a postcard<br>葉書を買って はがきをかって Buy a postcard<br>葉書を書いて はがきをかいて Write a postcard"],
@@ -590,6 +592,7 @@ const commonJapaneseWords = [
     ["午後", "午後 ごご PM<br>午後八時です ごごはちじです It's 8 PM"],
     ["将来", "将来 しょうらい Future<br>将来に備えよ しょうらいにそなえよ Prepare for the future<br>将来何になりたいですか？ しょうらいなにになりたいですか？ What do you want to be in the future?"],
     ["蛙", "蛙 かえる Frog<br> 蛙が好き かえるがすき I like frogs<br>蛙は水の中で生きる かえるはみずのなかでいきる Frogs live in water"],
+    ["彼方", "彼方 あちら Over there<br>かしこまりました。サラダバーはあちらです。All right, sir. The salad bar is over there."]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
@@ -605,7 +608,7 @@ let kanaCoinflip = 0;
 function flashSquareAnswerClick() {
     if (useKatakanaInFlashSquare == false && useHiraganaInFlashSquare == false) {
         flashSquareKanaElement.innerText = "¯\_(ツ)_/ ¯";
-        flashSquareAnswerElement.innerText = "¯\_(ツ)_/¯ ";
+        flashSquareAnswerElement.innerText = "¯\_(ツ)_/¯ is thus shrug  used in jag Joann japan";
     }
     else {
         const randomKanaElementPosition = Math.floor(Math.random() * (allKanaTriples.length)); // Any random element from allkana array
@@ -756,7 +759,7 @@ function calculate_time_since_first_post() {
     days_element === null || days_element === void 0 ? void 0 : days_element.innerHTML = days;
     years_element === null || years_element === void 0 ? void 0 : years_element.innerHTML = years;
     // Doing cur_date == end_date doesnt actually work the way youd think it does
-    // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :) make it a popup and send out an email when.
+    // Celebrate all day. 31536000 seconds in a year. 86400 seconds in a day. So, stop celebrating when time to the next anniversary date is 31449600 seconds, otherwise celebrate since it IS the anniversary :) make it a popup and send out an email when. being in the lead and everybody needs large hands us such a fun position.
     if (time_to_anniversary_date_in_seconds > 31449600) {
         if (!addedTheFirework) {
             addedTheFirework = true;
