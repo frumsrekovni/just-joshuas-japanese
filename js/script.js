@@ -567,7 +567,7 @@ const commonJapaneseWords = [
     ["上着", "上着 うわぎ Jacket<br>上着を着る うわぎをきる Put on your jacket<br>それって新しい上着？ それってあたらしいうわぎ？ Is that a new jacket?<br>彼女は赤い上着に決めた かのじょはあかいうわぎにきめた She decided on a red jacket"],
     ["靴", "靴 くつ Shoes<br>靴を履いて くつをはいて Put on your shoes<br>この靴どう思う？ このくつどうおもう？ What do you think of these shoes?<br>この靴は少し緩い このくつはすこしゆるい These shoes are a little loose"],
     ["韓国", "韓国 かんこく South Korea<br>韓国人です かんこくじんです I'm Korean<br>韓国語を話せる かんこくごをはなせる I can speak Korean<br>韓国料理は一般的に辛い かんこくりょうりはいっぱんてきにからい Korean food is generally spicy"],
-    ["中国", "中国 ちゅうごく China<br>中国が好きだ ちゅうごくがすきだ I like China<br>中国語を話せる ちゅうごくごをはなせる I can speak Chinese<br>いつ中国に着いたの？ いつちゅうごくについたの？ When did you arrive in China?"],
+    ["中国", "中国 ちゅうごく China<br>中国が好きだ ちゅうごくがすきだ I like China<br>中国語を話せる ちゅうごくごをはなせる I can speak Chinese<br>いつ中国に着いたの？ いつちゅうごくについたの？ When did you arrive in China?<br>中国は日本の20倍大きい ちゅごくはににほんの２０ばいだいきい"],
     ["日本", "日本 にほん Japan<br>日本人ですか にほんじんですか Are you Japanese?<br>日本語を話せる にほんごをはなせる I can speak Japanese<br>日本語は難しい にほんごはむずかしい Japanese is difficult<br>日本は島国だ にほんはしまぐにだ Japan is an island country"],
     ["上げる", "上げる あげる to raise<br>手を上げて てをあげて Raise your hand<br>上げてもいい？ あげてもいい？ Can I raise it?"],
     ["言葉", "言葉 ことば Word<br>言葉を失った ことばをうしなった I was speechless.<br>昔の言葉だよ むかしのことばだよ It's an old word<br>言葉を慎みなさい ことばをつつしみなさい Watch your language"],
