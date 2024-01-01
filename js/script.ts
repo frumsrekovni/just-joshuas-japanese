@@ -428,7 +428,7 @@ const commonJapaneseWords:wordCard[] = [
     ["良く","良く よく often/well<br>よく行く  よくいく I often go<br>よく食べる よくたべる I often eat<br>良くなりました よくなりました I'm better now<br>傘が良く売れる かさがよくうれる Umbrellas sell well"],
     ["良い","良い よい good<br>良いですね It's good, isn't it?<br>良い一日を よいいちにちを Have a good day<br>良い質問です いいしつもんです That's a good question"],
     ["口","口 くち mouth<br>口が渇いた くちがかわいた I'm thirsty<br>口が臭い くちがくさい I have bad breath"],
-    ["お風呂","お風呂 おふろ Bath<br>お風呂に入る おふろにはいる Take a bath"],
+    ["お風呂","お風呂 おふろ Bath<br>お風呂に入る おふろにはいる Take a bath<br>お風呂空いてるよ おふろあいてるよ Bath is free"],
     ["入る","入る はいる to enter/to go in<br>入って はいって Enter<br>入ってください はいってください Please enter<br>お風呂に入る おふろにはいる Take a bath"],
     ["愛","愛 あい Love<br>愛してるよ あいしてるよ I love you<br>これが愛なのか？ これがあいなのか？ Is this love?<br>愛とは嘘である あいとはうそである Love is a lie"],
     ["したい","したい want to<br>何がしたい？ なにがしたい？ What do you want to do?<br>話したい？ はなしたい？ Do you want to talk?<br>もっと貢献したい もっとこうけんしたい I want to contribute more"],
