@@ -5,7 +5,7 @@ const flashSquareAnswerElement = document.getElementById("flash-square-answer");
 const years_element = document.getElementById("years-number");
 const days_element = document.getElementById("days-number");
 const hours_element = document.getElementById("hours-number");
-const minutes_element = document.getElementById("minutes-number");
+const minutes_element = document.getElementById("minutes-numbe r");
 const seconds_element = document.getElementById("seconds-number");
 const countdown_post = document.getElementById("post13");
 const all_blogposts = document.getElementsByClassName("blog-post");
@@ -417,7 +417,7 @@ const commonJapaneseWords = [
     ["良く", "良く よく often/well<br>よく行く  よくいく I often go<br>よく食べる よくたべる I often eat<br>良くなりました よくなりました I'm better now<br>傘が良く売れる かさがよくうれる Umbrellas sell well"],
     ["良い", "良い よい good<br>良いですね It's good, isn't it?<br>良い一日を よいいちにちを Have a good day<br>良い質問です いいしつもんです That's a good question"],
     ["口", "口 くち mouth<br>口が渇いた くちがかわいた I'm thirsty<br>口が臭い くちがくさい I have bad breath"],
-    ["お風呂", "お風呂 おふろ Bath<br>お風呂に入る おふろにはいる Take a bath"],
+    ["お風呂", "お風呂 おふろ Bath<br>お風呂に入る おふろにはいる Take a bath<br>お風呂空いてるよ おふろあいてるよ Bath is free"],
     ["入る", "入る はいる to enter/to go in<br>入って はいって Enter<br>入ってください はいってください Please enter<br>お風呂に入る おふろにはいる Take a bath"],
     ["愛", "愛 あい Love<br>愛してるよ あいしてるよ I love you<br>これが愛なのか？ これがあいなのか？ Is this love?<br>愛とは嘘である あいとはうそである Love is a lie"],
     ["したい", "したい want to<br>何がしたい？ なにがしたい？ What do you want to do?<br>話したい？ はなしたい？ Do you want to talk?<br>もっと貢献したい もっとこうけんしたい I want to contribute more"],
@@ -592,7 +592,7 @@ const commonJapaneseWords = [
     ["午後", "午後 ごご PM<br>午後八時です ごごはちじです It's 8 PM"],
     ["将来", "将来 しょうらい Future<br>将来に備えよ しょうらいにそなえよ Prepare for the future<br>将来何になりたいですか？ しょうらいなにになりたいですか？ What do you want to be in the future?"],
     ["蛙", "蛙 かえる Frog<br> 蛙が好き かえるがすき I like frogs<br>蛙は水の中で生きる かえるはみずのなかでいきる Frogs live in water"],
-    ["彼方", "彼方 あちら Over there<br>かしこまりました。サラダバーはあちらです。All right, sir. The salad bar is over there."]
+    ["彼方", "彼方 あちら Over there<br>かしこまりました。サラダバーはあちらです。All right, sir. The salad bar is over there. "]
 ];
 const flashSquareCommonWord = document.getElementById("flash-square-common-word");
 const flashSquareCommonWordAnswerElement = document.getElementById("flash-square-common-word-answer");
